@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
+<manifest xmlns="http://schemas.android.com/git-repo/manifest">
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <remote  name="github"
+           fetch="https://github.com" />
+  <default revision="refs/tags/android-4.0.1_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <project name="platform/build" path="build" revision="6d907b114d6819c8c8805d1e89b77cdcb1c4b151">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/abi/cpp" path="abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528" />
+  <project name="platform/bionic" path="bionic" revision="faa7c1d29f9ed0b3eb252bb0bd43e7596eed5d9c" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="411bb9df76e5b21affae73f076e5d292197b66be" />
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="441031dadc4f5e8c1487468229781702bc08fb14" />
+  <project name="platform/cts" path="cts" revision="0558876f5ad7f422b7261027dd3174dd64bf6b97" />
+  <project name="platform/dalvik" path="dalvik" revision="b1e2271b51cfb1f264b8966f1151652767259751" />
+  <project name="platform/development" path="development" revision="bc43ef4554c457c499af9e5f998f6f79a484f4a3" />
+  <project name="device/common" path="device/common" revision="bd147430f139105e1f6e15a50e8d0b18876d9905" />
+  <project name="device/sample" path="device/sample" revision="b7fe9ed2b2384ce568aab1af7bac83e96a06dff9" />
+  <project name="device/samsung/maguro" path="device/samsung/maguro" revision="91272404a09f186f31c92717be52fcf678ad77c0" />
+  <project name="device/samsung/tuna" path="device/samsung/tuna" revision="d9d590816eedc2f7a73ee65ca8861647e1cdee6e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project path="device/ti/panda" name="device/ti/panda" revision="bdb6f695bd8f93e5e8db97b3ee15b1992837e6bf" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="device/generic/goldfish" path="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/antlr" path="external/antlr" revision="939f4a47010d361698e8f81a67e2337e180fc086" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
+  <project name="platform/external/apache-http" path="external/apache-http" revision="6c9d8c58d3ed710f87c26820d903bb8aad81754f" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/apache-xml" path="external/apache-xml" revision="74b8044dcd1208a1fc11ee9638584be74663c5a3" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/astl" path="external/astl" revision="d13073fbb2bdb9a1bca751f103725a12de7ceafa" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/blktrace" path="external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="cfeb2e819959b28ce98f5a2358bf753a05839228" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="1143b9918eab068401b604eb11c3f651f4e38b25" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="7322661808c2006b7848e79e6bb72b37fbcf6710" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="120c7be3b96ad42d92b9db1a75e5e5845bf3a723" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/bsdiff" path="external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
+  <project name="platform/external/bzip2" path="external/bzip2" revision="048dacdca43eed1534689ececcf2781c63e1e4ba" />
+  <project name="platform/external/chromium" path="external/chromium" revision="c0c5e0fca18f5a0912fdba1bd5c5ca2ad0c2693c" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/clang" path="external/clang" revision="6fbdfec363f8c74e0a4fdb23fa3303cbf5b1fb49" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/collada" path="external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/dbus" path="external/dbus" revision="12a8f9246cc292e34c0c0fa20f2dbf8d738dc11e" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="0d3a47d979ac35a49b2a2da9e80e16bd37aab877" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="f621afad94df46204c25fc2593a19d704d2637f5" />
+  <project name="platform/external/doclava" path="external/doclava" revision="7ab64e63c47c4b13472f230d22265cd2cd50fef1" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/dropbear" path="external/dropbear" revision="f57594030e578089ecf52e29559f0703b1a8ea6b" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="d5f550bb2f556c5d287f7c8d2b77223654bcec37" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/easymock" path="external/easymock" revision="c9a234086537e5fd820b110bbd99e3cdc695004c" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/elfutils" path="external/elfutils" revision="84cf4183ba6f577ee01abe7f1f5a6d4b23df35a8" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/embunit" path="external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/emma" path="external/emma" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/esd" path="external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/expat" path="external/expat" revision="6df134250feab71edb5915ecaa6268210bca76c5" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/fdlibm" path="external/fdlibm" revision="988ffeb12a6e044ae3504838ef1fee3fe0716934" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/flac" path="external/flac" revision="5893fbe890f5dab8e4146d2baa4bd2691c0739e0" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/freetype" path="external/freetype" revision="aeb407daf3711a10a27f3bc2223c5eb05158076e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="8af338f520b04f8360a452875b9885374a1b7d29" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/giflib" path="external/giflib" revision="b2597268aef084202a8c349d1cc072c03c6e22eb" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/google-diff-match-patch" path="external/google-diff-match-patch" revision="cecbe12841337860291c2d6a5728b681ec5fca2a" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/grub" path="external/grub" revision="cd484b7fcd18d5f967cadbaeb6d27b62f015a5e2" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/gtest" path="external/gtest" revision="2ae00dcfeddad61a0df358a6f91b100f919cdb12" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/guava" path="external/guava" revision="436f221940e8b7757119b00031f61cdae085bc84" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="5deafc828f0892d6c75f12067bc366cc70475802" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/hyphenation" path="external/hyphenation" revision="2c8b0b3430ee6a9ee501e6cc7921f8790851c286" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/icu4c" path="external/icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/iproute2" path="external/iproute2" revision="132841c0d7e86fabcec443b3b54aee2699b301a4" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="3724e61c7fb7a792d36c4dbec826e06b1aabd039" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/iptables" path="external/iptables" revision="3b2deb17f065c5664bb25e1a28489e5792eb63ff" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/javasqlite" path="external/javasqlite" revision="0f1e79b33591d98a93678a8f8e93ebff20a061c3" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/javassist" path="external/javassist" revision="14b4d945586243192c8118f4f49be59ebbf561b8" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/jdiff" path="external/jdiff" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c" />
+  <project name="platform/external/jhead" path="external/jhead" revision="754078052c687f6721536009c816644c73e4f145" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/jpeg" path="external/jpeg" revision="d4fad7f50f79626455d88523207e05b868819cd8" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/jsilver" path="external/jsilver" revision="a618b151d54625078424bc5940f6bfd63344d11b" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/jsr305" path="external/jsr305" revision="100f99d625909fd17a722a0ed0148549afd55cf8" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/junit" path="external/junit" revision="b8ee2b059bd6a2fbb8618aa17b64fb921d6df00f" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/kernel-headers" path="external/kernel-headers" revision="e723352f19d4cb6efb790d210edd99228629e2db" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libffi" path="external/libffi" revision="5dea54fd57265ce037ac94055b9f94a45558b39e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libgsm" path="external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb" />
+  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="18985d0a5e5d8dd27494f845d072bb2abdc22af3" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a" />
+  <project name="platform/external/libphonenumber" path="external/libphonenumber" revision="1940212be2ff2ac5bf7d91eabbdb34e10d9b8e2e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libpng" path="external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libvpx" path="external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libxml2" path="external/libxml2" revision="f2da8ef9b4e7243c19e295fed847fa897e8230d3" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/libxslt" path="external/libxslt" revision="d9120218522dc5da663e78996d0f042c0a62bc5e" />
+  <project name="platform/external/llvm" path="external/llvm" revision="5270e6c7832a375c46ad7a7d820ffdd3431f5d8e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/markdown" path="external/markdown" revision="21ce115e566aa5af7fe8a971805af1daab12c754" />
+  <project name="platform/external/mesa3d" path="external/mesa3d" revision="080bf9b29aa356b6b40bb226501b0c2533a92203" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/mksh" path="external/mksh" revision="5155f1c7438ef540d7b25eb70aa1639579795b07" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="dcf52bd71fc3b0c07f9919b5d82064c425abcbdb" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/mtpd" path="external/mtpd" revision="0269612ac00a0700997dda333faf0a3c33a388b8" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/netcat" path="external/netcat" revision="3b92542cff3f53ab608c25e1f65c538e42dece1b" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/neven" path="external/neven" revision="7164d6ac08ab9fc1247aa29f1dafd0ef7808f0f2" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/nist-sip" path="external/nist-sip" revision="3ff4b4d623bfb41ec47eea0c87c9aa9bbb9843db" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/oauth" path="external/oauth" revision="bc170f58de82000ed6460f111686a850a1890c07" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/opencv" path="external/opencv" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/openssl" path="external/openssl" revision="ee7afb3c942c4eefef6ed06201eafaf8ec58e2e3" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/oprofile" path="external/oprofile" revision="a2e215abe628d95138749a4813575f8882c1efd0" />
+  <!-- 4.0 RTM commit dont change -->    
+  <project name="platform/external/pcre" path="external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
+  <!-- 4.0 RTM commit dont change -->    
+  <project name="platform/external/ping" path="external/ping" revision="e9640ed4c9c4441b512fd17344b8ca7ab507c176" />
+  <!-- 4.0 RTM commit dont change -->    
+  <project name="platform/external/ping6" path="external/ping6" revision="82aaae2089b39522da2d4f93a996d78930ec3382" />
+  <!-- 4.0 RTM commit dont change -->    
+  <project name="platform/external/ppp" path="external/ppp" revision="ab377ba41c51981a0fa4d5aaf350fe4ca540a610" />
+  <!-- 4.0 RTM commit dont change -->    
+  <project name="platform/external/proguard" path="external/proguard" revision="10aa7224f49abe49d123bde5d34346202d49aaca" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/protobuf" path="external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431" />
+  <project name="platform/external/qemu" path="external/qemu" revision="3cfc387ae5c0dfea3482771b27e84802c07d33f9" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="930baf66aeb08c8c72fb5ab3194014d41bb18f94" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/quake" path="external/quake" revision="72ba5ff08b2ee59f79ba674aa47542e44b9ff539" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/safe-iop" path="external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" />
+  <project name="platform/external/skia" path="external/skia" revision="643e66b71286d7b1f6fdb9c64f45b185d0700398" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/external/sonivox" path="external/sonivox" revision="5f9600971859fe072f31b38a51c38157f5f9b381" />
+  <!-- 4.0 RTM commit dont change -->   
+  <project name="platform/external/speex" path="external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/sqlite" path="external/sqlite" revision="488d783673190a2d9eece46eb0255587ebdfe6e5" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/external/srec" path="external/srec" revision="38d0f27b33c60b9be4c636af74bcbbae0bfb28b0" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/stlport" path="external/stlport" revision="a6734e0645fce81c9610de0488b729207bfa576e" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/external/strace" path="external/strace" revision="c9fd2e5ef7d002e12e7cf2512506c84a9414b0fd" />
+  <project name="platform/external/svox" path="external/svox" revision="a359cef5690df6c8220448f646390b9dd775a673" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/tagsoup" path="external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/tcpdump" path="external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c" />
+  <project name="platform/external/tinyalsa" path="external/tinyalsa" revision="73b9c679a656c7b0f5e265dae5a76664c7d03031" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/tinyxml" path="external/tinyxml" revision="d589f7e4a51e75bd5c98a3defd8ee84d7059e86e" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/tremolo" path="external/tremolo" revision="25bd78d2392dbdc879ae53382cde9d019f79cf6f" />
+  <project name="platform/external/v8" path="external/v8" revision="203a29f4f37141ddcebc5015e4d3ab2100f2ee45" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/valgrind" path="external/valgrind" revision="b85221e16a87238eb9d89776e19bc5c07d09efee" />
+  <project name="platform/external/webkit" path="external/webkit" revision="0d4258e78caa860491a4c9e6965e574dabc3ec63" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/webp" path="external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/external/webrtc" path="external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="648b7492d15bb4efaeebdfdd8bd261563a5f6227" />
+  <!-- 4.0 RTM commit dont change -->   
+  <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" />
+  <!-- 4.0 RTM commit dont change -->   
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7" />
+  <project name="platform/external/zlib" path="external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
+  <project name="platform/frameworks/base" path="frameworks/base" revision="98e044a6090fa239eca6736436d6a7efa8028066" />
+  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="df1bc78e24cf2b6a71f2b3809ffb46521e5521a8" />
+  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="f736d5a12269e7e74740b130cdca98d9839b31e6" />
+  <project name="platform/frameworks/ex" path="frameworks/ex" revision="8a04f95151972fa2467c5f028b2dfcfe3c33bd62" />
+  <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="f23f725773de1eb394655e657cd12f95f6250b3d" />
+  <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="52b519a2d1b0a29b8e76230ee7f9625fd25dda2a" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="0053119c0bc05aedaed9d55cef91806f4c95d535" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87" />
+  <!-- 4.0 RTM commit dont change -->  
+  <project name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" revision="f3320979f6d3b63686f15cedae65bba144643e25" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="d48018c1345a557221f2f2a36e8507ff891b8bf5" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5fffd2ba2d7fc22271251251f89043ab345acd74" />
+  <project name="platform/frameworks/support" path="frameworks/support" revision="d9ed2f88439b967a46f91681333bd627d9c64e57" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="cf209523884350a3ad6af5840f1b0ae2dde9b98b" />
+  <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="497fb4566204c88bd247aafc2412ddef8f85e480" />
+  <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"  revision="f6ad682cfc4444f0d7d31613d9fe76d8f05a3fa4" />
+  <project name="platform/hardware/invensense" path="hardware/invensense" revision="76c7c028ba3f0eeb17b7cf4709883ace0ffc83c5" />
+  <project name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="39ad5f81c0a0cb884fafdf66a24a9473c72b2c25" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/hardware/ril" path="hardware/ril" revision="fa8d584ca7984bf7d73ff37c7c2bc1e0dfa5fb71" />
+  <project name="platform/libcore" path="libcore" revision="04e25f30524dc7b51f280912d6ca97d991ae84b0" />
+  <project name="platform/ndk" path="ndk" revision="606f10d7a471111ca99c2595040322851ab4db49" />
+  <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="17b5fecebaa3b54d0cd818f61ac993af8fe8926b" />
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="90dbb7ad4c2f720d34cf35bdd9f5638a95cc84fa" />
+  <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="93e37c66afaefda56eb442b34c33002345a204ac" />
+  <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="cafabd80ba54204ae01eb574c03cf65e51140975" />
+  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="cf5c070eca7cb8af2484e996f9462d5974d8c593" />
+  <project name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="b7a98c9f0d7a839ef055ba5298d782252ceb6b7b" />
+  <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="f88de2b37383f138b3c7d876bdc3b6b6fae7b728" />
+  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="2d389665f8258aaaf2369217971da0eda3656102" />
+  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="75c3dd992b723da4ffb99dbbf1431d41eaa1703a" />
+  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="1278f2c89b7c4de2238e751ef078641da08e1b46" />
+  <project name="platform/packages/apps/Email" path="packages/apps/Email" revision="c972da438118d0a44c019b8eb40ab84ae9ff92b0" />
+  <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="8b4543adb2e1eda9b0c0d3d7d89e03bff9e9fe44" />
+  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="ddc6b07a72de3cbdc21e724bffc1c47ae49231ee" />
+  <project name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="8e10103fa8010a6756182a9a14c7504254dda36a" />
+  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="94d7e982124753e00d05a0bee4df20dcabafb839" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="dbfabf9856a86fbe0f072edddae70fda52e8a46d" />
+  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="9665a88792f2045e3b2f329ccb0c80e245efd0bd" />
+  <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="873eebda7277fa3ff7145cf21fb784048f6fb612" />
+  <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="7aa5fb3223802d41dc61c8e8dfa9869efb5f848f" />
+  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="ef7887d2308e0655237aaaddd52494d918d0eeef" />
+  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="4e290849ab6b16876cae8585d762075a3122bdfd" />
+  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="ad036bbf5d5866c4da2051a18f0e657ed24a6832" />
+  <project name="platform/packages/apps/Phone" path="packages/apps/Phone" revision="7d6fdd5ff6e53d80b7372579772a457423561fc4" />
+  <project name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="62f5cb3518c8cd26ee6472b3873c700f967ad348" />
+  <project name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5" />
+  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="658c29fff1cd8148130e5af7811a369902b82e00" />
+  <project name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="d9bf0d1afa7857ec3f678ac2aa041b42bcf2ef5a" />
+  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="a05957a18becc7de2ecb1b911182b69881a64c28" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d" />
+  <!-- 4.0 RTM commit dont change -->   
+  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce" />
+  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="885adf34b162728a8c9c04fc16abb6b5fba04395" />
+  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="7c74ecc6b316172221ca52ab770068b746f794fb" />
+  <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor" revision="c2b04697fc8facc0f096ec7bfe30cb82449696bb" />
+  <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="02fa41b5f4cdd024e1528cd7ca5a103de3212718" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/packages/experimental" path="packages/experimental" revision="7f589e5bfd36e4a8ca55597b4b484acc5d851018" />
+  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="f4c1cd7729eea7a48e084eaea0cb28013d9131ae" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="5a7493236fe08b352f8b975e841de4c5357caa08" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/packages/inputmethods/PinyinIME" path="packages/inputmethods/PinyinIME" revision="10419f95b930a96814d8fb69987d0baed36e2909" />
+  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="1b947559c67feb6fdb1fd09df50af41a10c77622" />
+  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="d0f9a05bd4544089ba268964a4a9f02abad5a63e" />
+  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="5dccfb059f5df0e9fdba026bcfbed677f44922cd" />
+  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="aed71cf0302154814ad969b798776e003524b0dc" />
+  <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider" revision="46170fd3d7f2e5d6e47a1b6eb83a0b7c97eae510" />
+  <!-- 4.0 RTM commit dont change - did not survive 4.1 --> 
+  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider" revision="4886c7a0cfba5df74b213b1fc8286c6e3f2ddaa2" />
+  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" revision="d1c0e40566d11c046f1820380fc6cad2775b8480" />
+  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="0506adaaf27fb951284300ae6e62325a05333a07" />
+  <!-- 4.0 RTM commit dont change --> 
+  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9" />
+  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic" revision="5954763d61edb93da19bc812c5c1e2fc27f5a887" />
+  <project name="platform/packages/wallpapers/Galaxy4" path="packages/wallpapers/Galaxy4" revision="536e9c842b63ad618936b758076edf18f9726d98" />
+  <project name="platform/packages/wallpapers/HoloSpiral" path="packages/wallpapers/HoloSpiral" revision="787a95a8c973facb890703159861bb332c2ae655" />
+  <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="dec52c7db31bdab5fcc5b7676c167638fe99bb92" />
+  <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="15ae8e5c5532e27a1fd5c909cc3a38a4df1d50b0" />
+  <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="1ba49956531c0d6788d9f867d5e1eaac1f82a1b5" />
+  <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" revision="a5fd2012726ae576fe317905ef190a7b3a7e8640" />
+  <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="5cc9b223bc9aa7c45bbb995ab1648286f8d04bbe" />
+  <project name="platform/prebuilt" path="prebuilt" revision="367f94c2760cdf7797f36e2658968401328bf598" />
+  <project name="platform/sdk" path="sdk" revision="bd1e21fefb54f4debdca6f399c96df49d2f4bcb1" />
+  <!-- 4.0 RTM commit dont change -->
+  <project name="platform/system/bluetooth" path="system/bluetooth" revision="5cd290f3284add3bda6085c16346bb37d6cc291e" />
+  <project name="platform/system/core" path="system/core" revision="604f52e31357a774ad49290e323976b1db5b9f38" />
+  <project name="platform/system/extras" path="system/extras" revision="8beb39758fe046fc19ebee7317949b9ba7ee97dd" />
+  <project name="platform/system/media" path="system/media" revision="d0b0722276aea9a06a118a64abfc8b3e9498e931" />
+  <project name="platform/system/netd" path="system/netd" revision="54b75b4e772ac77df141ab077be074bc1c098987" />
+  <project name="platform/system/vold" path="system/vold" revision="3ad9072a5d6f6bda32123b367545649364e3c11d" />
+</manifest>
