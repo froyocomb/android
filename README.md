@@ -14,7 +14,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 | [`i-scream-sandwich`]                    | Android 4.0      |       
 | [`jolly-all-the-beans`]                  | Android 4.1-4.3  |          
 | [`have-a-key-lime-pie`]                  | Android 4.4      |  
-| [`thou-shalt-be-L`]                      | Android 5.0      |           
+| [`thou-shalt-take-the-L`]                | Android 5.0      |           
 
 [`i-cant-believe-its-not-android`]:  https://github.com/froyocomb/android/tree/i-cant-believe-its-not-android
 [`cupcake-den`]:  https://github.com/froyocomb/android/tree/cupcake-den
@@ -25,7 +25,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 [`i-scream-sandwich`]: https://github.com/froyocomb/android/tree/i-scream-sandwich
 [`jolly-all-the-beans`]: https://github.com/froyocomb/android/tree/jolly-all-the-beans
 [`have-a-key-lime-pie`]:  https://github.com/froyocomb/android/tree/have-a-key-lime-pie
-[`thou-shalt-be-L`]: https://github.com/froyocomb/android/tree/thou-shalt-be-L
+[`thou-shalt-take-the-L`]: https://github.com/froyocomb/android/tree/thou-shalt-take-the-L
 
 
 
