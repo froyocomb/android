@@ -179,7 +179,7 @@
   <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke" revision="e67de792348028964f9bfbcd168e7b3945d31d67"/>
   <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="68aef7e5c9176f515e7c4b726213e168f8f2de73"/>
   <project name="platform/prebuilt" path="prebuilt" revision="d95c3ffbe5fcfef6b233078592e9d52f275e2c73"/>
-  <project name="platform/sdk" path="sdk" revision="542fc3bad140cb11fc8f366efd2215e4bd22d465"/>
+  <project name="platform/sdk" path="sdk" revision="87d9cd4aa2104f5365165150283276e5176cba5c"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="dad064dc614b7c582a011f0addbff2a9eb68c195"/>
   <project name="platform/system/core" path="system/core" revision="04e5232ac2b3fc87596c6d82c07c667e52e2d7c2"/>
   <project name="platform/system/extras" path="system/extras" revision="957010bef327f255cdb6909109a1f31b5ee8f443"/>
