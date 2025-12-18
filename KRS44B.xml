@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aosp"
+           fetch="https://android.googlesource.com" />
+  <default revision="refs/tags/android-4.4_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <remote name="chromium"
+           fetch="https://chromium.googlesource.com" />
+
+  <remote name="github"
+           fetch="https://github.com/froyocomb" />
+
+ <!-- Manifest of Android Key Lime Pie (KitKat) build KRS44B.-->
+  <project path="build" name="platform/build" groups="pdk" revision="43da5a76d696c57b4889de23d596e065b0024894" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <!-- RTM revision -->
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
+  <project path="art" name="platform/art" groups="pdk" revision="a4dc74ea8224ebdf76ef0e1772561b4756a7c638" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="f63a467cdde8b380b149e270265d74314f9ec003" />
+  <!-- RTM revision -->
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918"/>
+  <!-- RTM revision -->
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="60d078a5924284a452a8fe739247704f8b31c754" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="c0441d171914e59941ec4f815ae0aabf56d6504f" />
+  <project path="cts" name="platform/cts" groups="cts" revision="0ce747f24882d35900a68cce2747197955a16a08" />
+  <project path="dalvik" name="platform/dalvik" revision="a7769a777ded0c45c3b9ebd43e9b7cdf3fc85eef" />
+  <!-- RTM revision -->
+  <project path="developers/build" name="platform/developers/build" revision="2b1169e2095f5e30f118abd146a62007697cecc3" />
+  <!-- RTM revision -->
+  <project path="developers/demos" name="platform/developers/demos" revision="a7254542b06878f0c3b34a6c3d91b9e7d3990f74" />
+  <!-- RTM revision -->  
+  <project path="developers/docs" name="platform/developers/docs" revision="c0b835ddd9acc27176dc9a0f7d1aa2faf5d51806" />
+  <project path="developers/samples/android" name="platform/developers/samples/android" revision="645c606353b44c46216fdb5d8b9d8d5269f1c191" />
+  <project path="development" name="platform/development" revision="46d6ef5a3e8d42333deb30cfbd143349bd2e0e02" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="8cac44b2f4ed5f84428d9bdd330d3107adcbe8b3" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="b71960da07a8c841dd821572e0bfca2f831a49b3" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" revision="bbd7cb9141af5341b198f590a06ca3059b85782e" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="098bcb25b010780da96278655ea6e0edab2714ae" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" revision="e51c13c83ee5a59d74f7b76717fc11602591ff76" />
+  <!-- RTM revision -->
+  <project path="device/common" name="device/common" revision="7dc7cdf2ea8db46c7719bafbe077f25ead45d3ce" />
+  <!-- RTM revision -->
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="1340d2d5334961dfaf08b8d8c74ed76e7289b698" />
+  <!-- RTM revision -->
+  <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="3ad13188d4e7e873947040ec22a35d73efb76812" />
+  <!-- RTM revision -->
+  <project path="device/generic/mips" name="device/generic/misps" groups="pdk" revision="cba3ddadffd8f92b453b74ea1f2886df3be35314" />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="9494d18d2b95e5c6c7b990d8d8676301e2e19337" />
+  <!-- RTM revision -->
+  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" revision="2ff06dda649ba43507a911057f7854a3373ef7d6" />
+  <!-- RTM revision -->
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" revision="a2f05b8c5259c232be5b029b2d5e721ba3f70917" />
+  <!-- RTM revision -->
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" revision="8933282b14fbbd2f43ff2187174fcdd22bea0ee8" />
+  <!-- RTM revision -->
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" />
+  <!-- RTM revision -->  
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="7dfe7f89a3b174709c773fe319531006e46440d9" />
+  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" revision="efa1f18104fc466641b328d3e8f09229f7a74b67" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" revision="b72f878d7a5a83be1c4824007b9db629490b34e4" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="0dcd2a0023d4b3d51650b214bd9da6372e4dd086" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="ff0b66c9a08e98f70fff03d313c068fb85edd92a" />
+  <project path="device/sample" name="device/sample" groups="pdk" revision="60cba39311b7226f469b7a6d6f799e546a281ade" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="761c75d1402e6f2e8ccdc2ecde30f7c3d2173dfc" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="c1706863c1e84334a2c15b25d00931be2c7a525d" />
+  <project path="external/aac" name="platform/external/aac" revision="8bd0baee9e37c226c6e30593be90e8ecdb559f2e" />
+  <!-- RTM revision -->
+  <project path="external/android-clat" name="platform/external/android-clat" revision="b922c820c007b0227480117a29e7cc797cd650c8" />
+  <!-- RTM revision -->
+  <project path="external/android-mock" name="platform/external/android-mock" revision="1922306d33d16f143d5a01daebba4e2cb477d0f5" />
+  <!-- RTM revision -->
+  <project path="external/ant-glob" name="platform/external/ant-glob" revision="0f189400fd2a36bf11bfb058e7f3917eb7ed163a" />
+  <!-- RTM revision -->
+  <project path="external/antlr" name="platform/external/antlr" revision="47997265eeb7d954a32ece693bbe6dab740872dd" />
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="60c33f5dcc2b68bcc6004242176646529e5a2bd7" />
+  <!-- RTM revision -->
+  <project path="external/apache-http" name="platform/external/apache-http" revision="72017834153711733905dfcf4bfe7b802062692b" />
+  <!-- RTM revision -->
+  <project path="external/apache-qp" name="platform/external/apache-qp" revision="64ea622b23e6612eb8e7dcae6bfd4314beb022a8" />
+  <!-- RTM revision -->
+  <project path="external/apache-xml" name="platform/external/apache-xml" revision="2aee886cec3ee44b3df9fd3ab7ac6d01efd592c0" />
+  <!-- RTM revision -->  
+  <project path="external/arduino" name="platform/external/arduino" revision="d06daf9bbc46838400461eb8e15842974e38d82a" />
+  <!-- RTM revision -->
+  <project path="external/bison" name="platform/external/bison" groups="pdk" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e" />
+  <!-- RTM revision -->
+  <project path="external/blktrace" name="platform/external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="153767ee55e16c45235e590305bdbc0ba952da63" />
+  <!-- RTM revision -->
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="b1e4d28d756235ec33e45485994581f4590c37ff" />
+  <!-- RTM revision -->
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" />
+  <!-- RTM revision -->
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" revision="1cb636bd8e9e5cdfd5d5b2909a122f6e80db62de" />
+  <project path="external/ceres-solver" name="platform/external/ceres-solver" revision="1d2624a10e2c559f8ba9ef89eaa30832c0a83a96" />
+  <!-- RTM revision -->
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="0d73ef7049feee794f14cf1af88d05dae8139914" />
+  <!-- RTM revision -->
+  <project path="external/chromium" name="platform/external/chromium" revision="d8d0d5cef636d5456bf5f3645959409bdc5499aa" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" revision="f5cf6e34aa6c6b061eb6f33f2f82c95177e16648" />
+  <!-- RTM revision -->
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" revision="9af2cb2b822b72ff8c1cd20cf8ec3ad9b7bf3f95" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="e485ff1fb732be2dff497b6aed11d5c0d681de82" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="3b92be903ac01851c3205ce53f12145a8b3f6791" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="049a8989100b1a1a7f07ee41510d47e9271b50e1" />
+  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" revision="663b3925425a23852b2f18be032dd4601f9f479d" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" revision="bb4c72f1deb0b8b2b0468b0bf1050462ebcf6135" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" revision="9aac1d305ba74a14906a4a0dae65dad4ca419877" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" revision="300fc7edae6c3e8911f92aa3c05dbcd9b1860bf2" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" revision="f8f93bd1c752465317533bbcfeda6019041471ca" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" revision="2e17aa590d203253378c7885766090ba594f757e" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" revision="dbba40937755d507fc4ce0697065bcabadab803a" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" revision="f676e94142b04d9e5e30697f118e35d4ab66bfdf" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" revision="d7621cb4af1fda314f830e0e577e73b317f0a3ec" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" revision="7d72e372fd2a2358e3afb4f688110080186fc81d" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" revision="85681bca27e8939ac474bb1aa019f28c2b5fcb70" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="abd3ed63d28885df7631a51910a93680939276dd" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" revision="c9840ed6efc5e7f9cd6fddb5f8d72cf5f8ec5b6b" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" revision="f7e85779cfe91070c50796608761ced0b531c69a" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" revision="9d2f552775d70453d9aa5ef9738da55410a863aa" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" revision="262a4a0c4ba340e863c7e693672156ff2fee0715" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" revision="c580f3c787d8ad2dcccceb4438b7572d9713a296" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="646f47f4f3b103f878faabfa7f8a4cd2860822a5" />
+  <!-- RTM revision -->
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="1cf7b53d022d00310b738b24a51dc98d6ea3eb00" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="d801e3697c5ba9edbef7ebcd95a2906f972916bd" />
+  <!-- RTM revision -->
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="a902511dd22624b15cc61e36d167d1cf3549bc74" />
+  <!-- RTM revision -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="7cba5f1d950495b02bc8da53d27bdbb1b0d4f117" />
+  <!-- RTM revision -->
+  <project path="external/dexmaker" name="platform/external/dexmaker" revision="cbe1ad4109e95d88bce5b6641e83785fe05044ed" />
+  <!-- RTM revision -->
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="84b7252b0a9d0edc9a1db1e0c518771d26b23058" />
+  <!-- RTM revision -->
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="41d356427a632f5336384bfa45c8420ffc274f66" />
+  <project path="external/doclava" name="platform/external/doclava" revision="ca26d47d656052ca1012b42f24e5ab13f9349006" />
+  <!-- RTM revision -->
+  <project path="external/dropbear" name="platform/external/dropbear" revision="a34ddbe3819bc465968f3676c734b405e655f8b7" />
+  <!-- RTM revision -->
+  <project path="external/droiddriver" name="platform/external/droiddriver" revision="21a0001e2426644dd68e6140b5873ebaeafcc3dc" />
+  <!-- RTM revision -->
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="79bb471a35cc79c62966941755a066ddbfd76350" />
+  <!-- RTM revision -->
+  <project path="external/easymock" name="platform/external/easymock" revision="c9a234086537e5fd820b110bbd99e3cdc695004c" />
+  <!-- RTM revision -->
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="6134da6347cc997e0cf2921aaadfb46f21c05d85" />
+  <!-- RTM revision -->
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="a5f3ee137e94737538ec3bdf9b3716765d178c17" />
+  <!-- RTM revision -->  
+  <project path="external/eigen" name="platform/external/eigen" revision="c981c48f5bc9aefeffc0bcb0cc3934c2fae179dd" />
+  <!-- RTM revision -->
+  <project path="external/elfutils" name="platform/external/elfutils" revision="b23b2dfb354b3ccf5d1c5d39815f02e7048cf516" />
+  <!-- RTM revision -->  
+  <project path="external/embunit" name="platform/external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f" />
+  <!-- RTM revision -->  
+  <project path="external/emma" name="platform/external/emma" revision="77c73b8b1a0c9e33bf48ebc3212d439e46d3094d" />
+  <!-- RTM revision -->   
+  <project path="external/esd" name="platform/external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f" />
+  <!-- RTM revision -->
+  <project path="external/expat" name="platform/external/expat" groups="pdk" revision="0af0cb3bc7519e567bd9daff3dcd315ab0134a99" />
+  <!-- RTM revision -->  
+  <project path="external/eyes-free" name="platform/external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb" />
+  <!-- RTM revision -->
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="0da5f683c9ddc9442af3b389b4220e91ccffb320" />
+  <!-- RTM revision -->
+  <project path="external/flac" name="platform/external/flac" groups="pdk" revision="ab37b6247df0e8c4ec0ccaa870e667f62c74975b" />
+  <!-- RTM revision -->
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="899c67b6cfcd2010784fbf08c5415af16c526e0c" />
+  <!-- RTM revision -->
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="c0a43e474789a92f91930a1c875eb7ce48e335c8" />
+  <!-- RTM revision -->  
+  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" revision="d3724dabc1cfbacd105fe6c422b4dcba80e4fb2d" />
+  <!-- RTM revision -->  
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" revision="9241386b62c353302c2f9eccda0672685b252b4d" />
+  <!-- RTM revision -->
+  <project path="external/genext2fs" name="platform/external/genext2fs" revision="e11a9c7fe6f1cef99aad2f25afaea37b72fe9f93" />
+  <!-- RTM revision -->
+  <project path="external/giflib" name="platform/external/giflib" revision="9aef3ea079a57c98a9207f8c3b95a5dc08ee74b5" />
+  <!-- RTM revision -->
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" revision="cecbe12841337860291c2d6a5728b681ec5fca2a" />
+  <!-- RTM revision -->
+  <project path="external/grub" name="platform/external/grub" revision="5c3bee7defca81362e98cf8fbd6c20cf47dff00b" />
+  <!-- RTM revision -->
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="0f1ce3dd0b880b6ae0cf7f5413702b8ef542efb2" />
+  <!-- RTM revision --> 
+  <project path="external/guava" name="platform/external/guava" revision="515370823799decea74751ff3a78b80e44e71219" />
+  <!-- RTM revision -->
+  <project path="external/hamcrest" name="platform/external/hamcrest" revision="69985f92e2ce80184915655cd0d3dfea78a39900" />
+  <!-- RTM revision -->
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="858f2d28ac741ef139f74bdbdbcefa7560f17c91" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" revision="7025601d0815f37c67f879b82ae8878347f37fbc" />
+  <!-- RTM revision -->  
+  <project path="external/hyphenation" name="platform/external/hyphenation" revision="bfa84834dfeb7fe8d058c2e7e07b5981451ddf82" />
+  <project path="external/icu4c" name="platform/external/icu4c" groups="pdk" revision="d3f1891d98fdf6d4e9be85d3ed6cef2b439b55e5" />
+  <!-- RTM revision -->
+  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="157d428913c3d738be481f12e8cbf9267b3b2862" />
+  <!-- RTM revision -->  
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="f4cb1ee4b00abbfb6f968dc25818c23b4b47e584" />
+  <!-- RTM revision -->  
+  <project path="external/iptables" name="platform/external/iptables" revision="93e814c9b08136846335ce463192d90ba59766bb" />
+  <!-- RTM revision -->
+  <project path="external/iputils" name="platform/external/iputils" revision="acadef7a134ea68e65f017078f6c6af56d75dcbf" />
+  <!-- RTM revision -->
+  <project path="external/jack" name="platform/external/jack" revision="5ceb2025ac5d25ed48183ac2d3dac4691fe761fb" />
+  <!-- RTM revision -->
+  <project path="external/javasqlite" name="platform/external/javasqlite" revision="3b4db8854c911edfd02f5c6b8ef625084a0f5a93" />
+  <!-- RTM revision -->  
+  <project path="external/javassist" name="platform/external/javassist" revision="9566207cff5871c672fac1f0d4332d93292036d7" />
+  <!-- RTM revision -->  
+  <project path="external/jdiff" name="platform/external/jdiff" revision="e4694302d6a3786c64d954e0b3cf42786283bd3c" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="b788750e0d55f0986e5ee0aadc91ec340b9f1b63" />
+  <!-- RTM revision -->    
+  <project path="external/jmdns" name="platform/external/jmdns" revision="f4eb7466d5c09098f9dc54137ed3235e3c43fc9f" />
+  <!-- RTM revision -->  
+  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" revision="a6b44658eb1c55295f132a36233a11aa2bd8f9cf" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="6a3be8dfbb7c258e7fbbd11f1078bf11c9be89bd" />
+  <!-- RTM revision -->
+  <project path="external/jsilver" name="platform/external/jsilver" revision="601ffd7efb82f3dce1c1840b5f8e6c759414cdd1" />
+  <!-- RTM revision -->
+  <project path="external/jsr305" name="platform/external/jsr305" revision="a82868820d6350811b9ddfde4bf8ed5016084269" />
+  <!-- RTM revision -->
+  <project path="external/junit" name="platform/external/junit" revision="3abf41974d8aae44b3bbd15d83487894253d287d" />
+  <!-- RTM revision -->
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="908d3fd0e36f0ce4670003975da491b71c9401ff" />
+  <!-- RTM revision -->
+  <project path="external/libcap-ng" name="platform/external/libcap-ng" revision="1d1011a3c5049a7f9eef99d22f3704e4367579cc" />
+  <!-- RTM revision -->  
+  <project path="external/libffi" name="platform/external/libffi" revision="bcb9a592a47ec641d7cec89e10fcf556132713aa" />
+  <!-- RTM revision -->
+  <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" revision="50761abed8f4734970874165b386cfd4d9599db4" />
+  <!-- RTM revision -->
+  <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" revision="6946aa575b0949d045722794850896099d937cbb" />
+  <!-- RTM revision -->  
+  <project path="external/libmtp" name="platform/external/libmtp" revision="7075348937f6a8c9d9211942fcb6c376f4227776" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" revision="b4b1c46fa5346651a3554c83eb5005f942f1af0f" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" revision="42f5b41d22bbbad1b16b9cd3aba0512a399f32a6" />
+  <!-- RTM revision -->  
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" revision="6ccf7349d61f73ac26a0675d735d903ab919c658" />
+  <!-- RTM revision -->  
+  <project path="external/libogg" name="platform/external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde" />
+  <!-- RTM revision -->  
+  <project path="external/libpcap" name="platform/external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a" />
+  <!-- RTM revision -->
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="485e6d5c6e48a1fc43cc0a090e687c723dac056c" />
+  <!-- RTM revision -->
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="b5e7fb4c103b3898cb78e9f7615cf7893626a5e9" />
+  <!-- RTM revision -->
+  <project path="external/libppp" name="platform/external/libppp" revision="706e567fc5ff6b79738a5f470e5aa7b2cae76459" />
+  <!-- RTM revision -->
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="1e2cf2c4a2d15a9b1ca2d353b99fb6884413ffe1" />
+  <!-- RTM revision -->
+  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="b0e0162a246f2c051427154909c0ecd694cc4805" />
+  <!-- RTM revision -->
+  <project path="external/libusb" name="platform/external/libusb" revision="2801917fe150393d4f4a354165fe89550ae22613" />
+  <!-- RTM revision -->
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27" />
+  <!-- RTM revision -->
+  <project path="external/libvorbis" name="platform/external/libvorbis" revision="de559619fd4dd0d2d9608436696fd44bdf74eba8" />
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="f3bed9137f66ef693bd406e43b17e9a1114f1e14" />
+  <!-- RTM revision -->
+  <project path="external/libxml2" name="platform/external/libxml2" revision="a2bb4a267ee7c62c48bf6089e3da51d8283a97f3" />
+  <!-- RTM revision -->
+  <project path="external/libxslt" name="platform/external/libxslt" revision="98f5140c33273d3bd67ca03566f8417406001016" />
+  <!-- RTM revision -->
+  <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" revision="482a582884351288fb701532359652970b1ba7c0" />
+  <!-- RTM revision -->  
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="2db19c77b59c71eef27e9876d4c09ceb6966608d" />
+  <!-- RTM revision -->  
+  <project path="external/littlemock" name="platform/external/littlemock" revision="328b01eada8965cd38feea884d4080c31e3763b0" />
+  <!-- RTM revision -->
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="5d63c52424acc972d6370c50e1f3930d695790b7" />
+  <!-- RTM revision -->
+  <project path="external/marisa-trie" name="platform/external/marisa-trie" revision="629ed059b1e85cd8e4de363d8b3dc53c15c3e08a" />
+  <!-- RTM revision -->
+  <project path="external/markdown" name="platform/external/markdown" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6" />
+  <!-- RTM revision -->
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" revision="c46f53f5e072f23051c4eedef730386f7634dc11" />
+  <!-- RTM revision -->
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="b9ba3f4ef0bc010edf2999fe4ac1ac7883bc288a" />
+  <!-- RTM revision -->
+  <project path="external/mksh" name="platform/external/mksh" groups="pdk" revision="f8c396c4d446a038358106a301b329607a04633d" />
+  <!-- RTM revision -->  
+  <project path="external/mockito" name="platform/external/mockito" revision="34f80a94e45f7110ec3444c1d0ecfacc194d009a" />
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="26f6cb45a876d447c47dc7a413c76b2467341484" />
+  <!-- RTM revision -->
+  <project path="external/mp4parser" name="platform/external/mp4parser" revision="16051e950485c6b62127c0446a760111de1a0cb9" />
+  <!-- RTM revision -->   
+  <project path="external/mtpd" name="platform/external/mtpd" revision="141f77c33bb1f6e4e19b7baff08d963f341e9eb7" />
+  <!-- RTM revision -->
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" revision="9238a39d60763f81b98d96f02b087d52b9d4fd52" />
+  <!-- RTM revision -->
+  <project path="external/netcat" name="platform/external/netcat" revision="444644cfa9a2f3002863caa168fb2d6b34dfd1e8" />
+  <!-- RTM revision -->  
+  <project path="external/netperf" name="platform/external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362" />
+  <!-- RTM revision -->
+  <project path="external/neven" name="platform/external/neven" revision="a800c667ea0839a5b28931270cd78385533e6c9d" />
+  <!-- RTM revision -->
+  <project path="external/nist-pkits" name="platform/external/nist-pkits" revision="ad3f12ec91a6b419bbf4b24b619ed39bf04589ea" />
+  <!-- RTM revision -->  
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="b23dbfce7ea84c39cea75b612868a5832cb9af2b" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" revision="8dc3200465d4d2e25b6125bf4083783379255375" />
+  <!-- RTM revision -->
+  <project path="external/oauth" name="platform/external/oauth" revision="bc170f58de82000ed6460f111686a850a1890c07" />
+  <!-- RTM revision -->
+  <project path="external/objenesis" name="platform/external/objenesis" revision="e8740d2e04179cd15a85dd055cac90b5aeb52589" />
+  <project path="external/okhttp" name="platform/external/okhttp" revision="984b512ec00b6e4d8c7c02accd3077fece4b553c" />
+  <!-- RTM revision -->
+  <project path="external/open-vcdiff" name="platform/external/open-vcdiff" revision="6d29f2f083baf8250db94ed0b4807e513a84163d" />
+  <!-- RTM revision -->
+  <project path="external/opencv" name="platform/external/opencv" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe" />
+  <!-- RTM revision -->
+  <project path="external/openfst" name="platform/external/openfst" revision="5bf56ba7027cd5f22ff52d0138893f7a585135fb" />
+  <!-- RTM revision -->
+  <project path="external/openssh" name="platform/external/openssh" revision="47da33088eb8dc14f930f09ba0b5b4ff017b0002" />
+  <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="afd3666daae38a89eb3369a19dfd171fb82c2979" />
+  <!-- RTM revision -->
+  <project path="external/oprofile" name="platform/external/oprofile" revision="4886329fd53290061515485e7cf3ce497fc1b5b9" />
+  <!-- RTM revision -->
+  <project path="external/pixman" name="platform/external/pixman" revision="70005f9fa14753353faf0fe2e57359913ed3e75a" />
+  <!-- RTM revision -->
+  <project path="external/ppp" name="platform/external/ppp" revision="6c569d212164aa9334e27abac8884a3d13999420" />
+  <!-- RTM revision -->
+  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" revision="54f59ac04f3e21d5aecdd46bb1e7f4577924ab92" />
+  <!-- RTM revision -->
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="48ee66d295979372ed0234cefda42385daae8312" />
+  <!-- RTM revision -->
+  <project path="external/qemu" name="platform/external/qemu" revision="cff7bfa51fed5cfadae400bd81c1e7dde8f31945" />
+  <!-- RTM revision -->  
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" revision="20349dae98d7de09a7e390d4a706c64f1db6edc2" />
+  <!-- RTM revision -->   
+  <project path="external/regex-re2" name="platform/external/regex-re2" revision="0d4c52358a1af421705c54bd8a9fdd8a30558a2e" />
+  <!-- RTM revision -->
+  <project path="external/replicaisland" name="platform/external/replicaisland" revision="99e2e54c5d036048caf09bb05eea0969de093104" />
+  <!-- RTM revision -->
+  <project path="external/robolectric" name="platform/external/robolectric" revision="bd20b3c07ba0d63c0e62744eef3c90b69cd6b126" />
+  <!-- RTM revision -->
+  <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" revision="aa0725fb1da35e47676b6da30009322eb5ed59be" />
+  <!-- RTM revision -->
+  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" revision="eb05b73c3bba21fff55529813109de4bad5ddbd1" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="6db3c2d16e10da48569c090661dbb2149bcd9e6f" />
+  <project path="external/skia" name="platform/external/skia" revision="24330191f85778b7989c7528e801b55d66032793" />
+  <!-- RTM revision -->
+  <project path="external/smack" name="platform/external/smack" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
+  <!-- RTM revision -->  
+  <project path="external/smali" name="platform/external/smali" revision="f3d921d1f8eb52f20440a0e43f604a7aae972e94" />
+  <!-- RTM revision -->
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="2dbbd3bac0f0e819d196a80cc7855054148ef8b6" />
+  <!-- RTM revision -->
+  <project path="external/speex" name="platform/external/speex" groups="pdk" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="bde763528bf07086d010f3a89db0b9475bf7a7d3" />
+  <!-- RTM revision -->
+  <project path="external/srec" name="platform/external/srec" revision="2706e1ca0c118cb78fbbbc977e4e95e14fdedebc" />
+  <!-- RTM revision -->  
+  <project path="external/srtp" name="platform/external/srtp" revision="c9e44e6bd5503e1dcd0c19b02763a673664a17f2" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="631d26b2319aba053e72ebd63cea945e02e07ab2" />
+  <!-- RTM revision -->  
+  <project path="external/strace" name="platform/external/strace" revision="1a4e05d53dec658a061acb9869cb1eb1342cd09d" />
+  <!-- RTM revision -->    
+  <project path="external/stressapptest" name="platform/external/stressapptest" revision="0956427aa995561acb4471764158ae057a36dad5" />
+  <project path="external/svox" name="platform/external/svox" revision="800f5ef73a40d76c5dc457fda0e45be9b854fdea" />
+  <!-- RTM revision -->
+  <project path="external/tagsoup" name="platform/external/tagsoup" revision="68c2ec9e0acdb3214b7fb91dbab8c9fab8736817" />
+  <!-- RTM revision -->  
+  <project path="external/tcpdump" name="platform/external/tcpdump" revision="532b8f38c144da9a298260a5d8978ab9e8e3856c" />
+  <!-- RTM revision -->
+  <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" revision="36ea2d824e5d8af550c139da9da20e73f82a9ae1" />
+  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" revision="adad134c906042742a801fb66eb4271a7130af83" />
+  <!-- RTM revision -->   
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" revision="494e448824844d866e805831d1d5f5acb654065c" />
+  <!-- RTM revision -->   
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" revision="3eec17965b3e2974e120e864b351a916f59835ba" />
+  <!-- RTM revision -->
+  <project path="external/v8" name="platform/external/v8" revision="f53dc205fc8ac4f3e92cb554eb15ef0588667a4b" />
+  <!-- RTM revision -->  
+  <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" revision="99cfba5460bef5032a52e432ce0936b731e6d8e2" />
+  <project path="external/webp" name="platform/external/webp" revision="0406ce1417f76f2034833414dcecc9f56253640c" />
+  <!-- RTM revision -->  
+  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" revision="446452f84e9cc4c75d8e80f6f05e24793397a19d" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" revision="5393a0f77c5281735888bd9dcf8d8abeb5961461" />
+  <!-- RTM revision -->   
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5" />
+  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" revision="ded257d674927adb7c5058f470b33875b6c55ffc" />
+  <!-- RTM revision -->  
+  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="a2cff2275e1b501ff478b03757d6e4f05fddc2db" />
+  <!-- RTM revision -->
+  <project path="external/zlib" name="platform/external/zlib" groups="pdk" revision="f8216f042375c79640f7319964dcffbb2b39f66e" />
+  <!-- RTM revision -->
+  <project path="external/zxing" name="platform/external/zxing" revision="7620644768ffc235607b3a94671e49518c18686f" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="cd06d357ed4fcde991aa55dc97317d97cb287332" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="8fb569e86c353122d84bda9d985e418015248be3" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="f078c0a5311fa5bb1136e231b174fe21609b22fb" />
+  <!-- RTM revision -->
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="89a5648fcb366adb25b75aa69a7ad9a34842dd17" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="a1f95ee8df425089100148a42954cf61dc285015" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="6b425b5e4b7bb53a783ad3f07c78693a2cce551d" />
+  <!-- RTM revision -->
+  <project path="frameworks/mff" name="platform/frameworks/mff" revision="b9669b8540a1e5c953374d53b115514335e23c27" />
+  <!-- RTM revision -->
+  <project path="frameworks/ml" name="platform/frameworks/ml" revision="5072d507df1fd827ac7b15900c1f113949f76f12" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="c2e41222bf02a6579763974f82d65875cfa43481" />
+  <!-- RTM revision -->  
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="e017a53a1a90ac1c62c1de549d63138bd8237f7d" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" />
+  <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" revision="dcfdf31a3f57ef0fe0b475a89d4ac34accb3dd96" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" revision="a35f6b580aefd7bf1c7e92306e13dacd44316714" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="dbbe673145107e99883f62bafd70c5f43f11065c" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" revision="df9dd39c2047992a43b64e13bb0fc348a1630f3b" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="54d9ac6b3705f60d574dc7a82c8d4cb42587b19b" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="ee25d0e52b2d7e6f6604e1e16c7d98c406ca9f41" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" revision="b51ed34abbb70994da221c545678d9dc5fe88141" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="6e7a042765456b4d5faa95d591735abc06c274ae" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" revision="1e6f3f863613b6eeb7161444e77427443e9703a2" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" revision="cb36ce5cb0f940b2da055631f32de8fccaf7957e" />
+  <!-- RTM revision -->
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="5f55ee296e26d5278fd0d91657edddc92766459e" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" revision="c94dd6f5ce40f65372b388b8e5fb32bcde3d31e9" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="567dbb1c7f8a0cb3c4340ad607b6d833fc1b2270" />
+  <!--<project path="frameworks/testing" name="platform/frameworks/testing" revision="3bfb06f3c03fd9e58f50fda72eb2c69bd153b690" />-->
+  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" revision="acb842adfcb96b6064322fa90ec4bf1273bc2b56" />
+  <!-- RTM revision -->
+  <project path="frameworks/volley" name="platform/frameworks/volley" revision="bd04632e0c5b4a29889c1b70089ac2322229b5e6" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" revision="bc67697213d7982da70a12b666d6b33e56c58d35" />
+  <!-- RTM revision -->
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df" />
+  <!-- RTM revision -->
+  <project path="hardware/akm" name="platform/hardware/akm" revision="6d3be412647b0eab0adff8a2768736cf4eb68039" />
+  <!-- RTM revision -->
+  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="1c9185b44c6df2cdeb8eb27c12cb23465dd3aa2d" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="45e2cbacbf065d502a124bf36c86c10e4b54ba43" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="9b98ed996e18d6097c9976c9cfe9a0c9397998fe" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="6e548cf960faf18975138a1a6952684ecbee3ba3" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="0f330488afcfff031bc0ba88de826f998f7cfaf9" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" revision="2d5c4b75ef979fecd0c662180808e1854d65d9cc" />
+  <!-- RTM revision -->
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="b1d1265a05c7483d2ad71d32422e7d1591a43257" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" revision="a80e42523ad00fdca7e33a76a6cb78469042777b" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="cccc0043b30824caee7e2c5899c288e67d91411c" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="ef9f063d42b853c174d5012d4dcf18bec02fe48a" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="f4042dd8cccfd289813ccdf1fe0af5b6708004d3" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" revision="5bcf77c61c8a65d468f98e842cbe6010f2e38a06" />
+  <!-- RTM revision -->
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" />
+  <!-- RTM revision -->
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" revision="24357eae5b3738070707ff7974e310653386275c" />
+  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" revision="3ed1461d3589a38e162414e50371c621ea17e591" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" revision="de072ef49a53674af52c06b443f4ab4ef1d36b8a" />
+  <!-- RTM revision -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
+  <!-- RTM revision -->
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="2bfd180d5257d72f7c22c80741e6b03470f3aa60" />
+  <!-- RTM revision -->
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="495914562a315a5152780709ab622cd987561de5" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="b2b95168dce5a0330ffb5ae962db49b1697e92f7" />
+  <project path="libcore" name="platform/libcore" revision="d325d361c816ebaea63099f63c940b663de238f1" />
+  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" revision="52c2312b9e12d74068dff23e106be1af0f26251a" />
+  <!-- RTM revision -->
+  <project path="ndk" name="platform/ndk" revision="e58ef003be4306bb53a8c11331146f39e4eab31f" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="58b8a2b8822b7356f8da1d30f79cda6e775cef4c" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="e76ce140acd95cff140d9b01886ef6018e82e1b9" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="56b5495f6761d5800918682a5b6bdd282019f14b" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="c1d804ebb55bce2d29bb2c64f06f31492a50b654" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="f91fae5bccf507d7afead088fb371ca635ebb476" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="4d0e425ac21edd91b387f6a4f869abce6d802aae" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="28d20a4337869da254b18bea3b819d1c363173b9" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="9c254c5254846be2792f67d3a0e509f3477695be" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="ed8faea378f949148993092b785c6438418c14b4" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="3f3b8933ab6eeb04a2165c5fc190244dd7e307c5" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="77758faeaba05736e47835345965e45cc2f49ea1" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="6b0b55a28e3eb252d9b3664124eca8f3ae246d52" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="81d8b7d56109226a2231c480b63a9ca54d826668" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="66ac290b353302256e85d319c0ce623277dfdad3" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="730fa2e8c5b7ad97da60f3642b53a94e2851040f" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="7a06045562512f78e050ba7b01f8422b98c7db85" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="389e8c887489db88e9324c17e8d29363198e7221" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="5490ee5eeeb517c112e9584a5e9e42758113d2a6" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="0fc355385632a82bbf8de6cea89aedc303c66116" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="189b0c8d7a5041bdae4fcddc72348268788cf602" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="ca885613093630c495ed8a72a45685e21144c8d2" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="e6661950f54f1813aec69928cecb3e5d4446c7e7" />
+  <!-- RTM revision -->
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="470b311e82a9a9d9b8d9609b7c9763403bd33081" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="f546d84f1a68e275ba8d01d3a007fe11581482ea" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="7e2c5e49e2275407fcf3601bce54a49807724cf5" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="016bc867e4ed1c8af2835bdc0824597fc1edc15a" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="4358172f18871d58d5bc2050e4d9d0bf9bc2d5e5" />
+  <!-- RTM revision -->
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" revision="01e429c08e51291315890de9677151a7e0b6ad35" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="4196137c30528703b2dcbcf7e61e89693ef65616" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="310510ad4e563563fde6f5186984b84c58f5be55" />
+  <!-- RTM revision -->
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" revision="180de3514a800df7b9ca8f1c3da23287a709f61b" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="bed2715fefc7782fbc78a938d7dbf05e69195bbc" />
+  <!-- RTM revision -->
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="7c6002c0064a37f60cda25d3e87cac54b2a03e1c" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="d4434eae687e21f23efca0d4c9920a0bf97dfd18" />
+  <!-- RTM revision -->  
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="1659a06af0b865c70c5eb69b2fc71a28c31952bc" />
+  <!-- RTM revision -->
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91" />
+  <!-- RTM revision -->  
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="536aa74ff3a77186bef29dc9333a34688fa59d13" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="2d613a114407dd0e88f59ca00eac60888c1e7569" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="2c25801e7e818ff949a46e54d82539bf96c8ecae" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="5855205714f5917c8ed858f3b7d73508e858af42" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="c32266983578f20d036d9de78d764a7e1f3c8175" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="6a5eb396d695581d2a8b0e678a037b656ae3e37c" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="92ee8105683fe2c1483e8e2cb10e6be3e762f9f5" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="018ab17ef5bbd733348992b3c742bc75b3681baf" />
+  <!-- RTM revision -->
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="59aefa242169b7a51c2381daee58ff22fd1834ce" />
+  <!-- RTM revision -->
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="40056ae7c2757681d88d2e226c4681281bd07129" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="7f56189a43893f0b6374fff628e95c134eb85047" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="74dfe7de007563af5cab1c1bb458f4ebd4e4f66d" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="45b023e89d87b66e44c1b79c6e1444ec9db70a82" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="4bafe763c1374c41cd84cb2e0621ea16bfeddd10" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="9cd6e1522d2a8cdeaa93e34a2fdbfd41f48fed47" />
+  <!-- RTM revision -->
+  <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="a93ef7712877a1199a9186039fb9323f5b5306d9" />
+  <!-- RTM revision -->
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="361f35b7b1fe758d93e0952536a298b2ed045a89" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" revision="2862a275e02baca01663b5ba0f5043ff8208b3b6" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" revision="7170112b066301a1fc302a159aa8857a70f83883" />
+  <!-- RTM revision -->
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="eead6ec450160d3c96be2ec77a48401ac67171aa" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="36fec1d691a2db23a0a4b110b4db6c5742b29968" />
+  <!-- RTM revision -->
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="ca92fdc25da99afdfe33447aefb2cd270c5b5e4d" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="c4d91cf373851ddf872738838bcaca3b8ece8b2b" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="489e75f9ea66b3ab8ec89293ae94510d8fb66f37" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="1f5b356ab9509a634084945be95ba8d22cb5c637" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="01eb5fb6560cfa8ed0f6d193de5e4dc75b2ed3ea" />
+  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="074139c69e4635f5b38b5de1aff51de7f5c735e0" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="461c46ca306a1c2d5c068211adffd94d39a89f0f" />
+  <project path="pdk" name="platform/pdk" groups="pdk" revision="e4c2baaeff0796b43ca2d0b23fe7be2f6d8e9de7" />
+  <!-- darwin stuff was here but was removed - to compile this, use Linux. -->
+  <!-- RTM revision -->
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" revision="e95b4ce22c825da44d14299e1190ea39a5260bde" />
+  <!-- RTM revision -->
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" revision="471afab478649078ad7c75ec6b252481a59e19b8" />
+  <!-- RTM revision -->
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" revision="dfcc84d17a59383eb25fba209a0c38b74c1ea653" />
+  <!-- RTM revision -->
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" revision="76f99d69c6843137da55d1a28c81920ac453ec15" />
+  <!-- RTM revision -->
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" revision="14b478280f2f0ac757cd1fd5e6cc4b285daf7725" />
+  <!-- RTM revision -->
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" revision="8b7d8f6033ffe2d22905d10cf6d57d5bdcbe519b" />
+  <!-- darwin stuff was here but was removed - to compile this, use Linux. -->
+  <!-- RTM revision -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb" />
+  <!-- RTM revision -->  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e" />
+  <!-- RTM revision -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" revision="71c99ec3db1503a2124d5e287097d58b964deef7" />
+  <!-- RTM revision -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" revision="a1e239a0bb5cd1d69680bf1075883aa9a7bf2429" />
+  <!-- RTM revision -->
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" revision="10191e2f442c5409cb70783508658d474612a97e" />
+  <!-- RTM revision --> 
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" revision="95bb5b66b3ec5769c3de8d3f25d681787418e7d2" />
+  <!-- RTM revision -->  
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0" />
+  <!-- RTM revision -->    
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="pdk,linux,mips" revision="90fc0bd53f2d07ef2383bfad53671f76801c740e" />
+  <!-- RTM revision -->
+  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" revision="e5c0976a142054784f7b695018448f7288c4fe58" />
+  <!-- RTM revision -->   
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc" />
+  <!-- RTM revision -->   
+  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" revision="c7931763d41be602407ed9d71e2c0292c6597e00" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" revision="1342a6c0c6c145dcdfbf0c265e3c096aeb52d63f" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="93e151224c1b078e8c83818675951a249338aea0" />
+  <!-- darwin stuff was here but was removed - to compile this, use Linux. -->  
+  <!-- RTM revision -->
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" revision="21a68e06a104be3f98d776a5bb34ec98643c5bc9" />
+  <!-- RTM revision -->
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" revision="cf91192a5e0014fe7b98827abbf6daf9337c472e" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="79bb43f8978303822c21fadba83395f5648b80f5" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="cbcb71c219474be74da89d8b918b7aa3b102fdf6" />
+  <project path="sdk" name="platform/sdk" revision="c243ad8b781e1a268383a1158bcbc41c2b9ecbc8" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="a41611f638f82cb8066f83b32f2610f0d00dafc6" />
+  <!-- RTM revision -->
+  <project path="system/extras" name="platform/system/extras" groups="pdk" revision="991bcd464d67c3cff76477140331619ff138aafc" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="5250aa1d42dea0773ab98fc0b2cd3f172067c050" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" revision="9b3cd7635caf5948d7d4b11f8f588c9d2811d58e" />
+  <project path="system/security" name="platform/system/security" groups="pdk" revision="48772e0fe92c75e02a5ea92a6fbfdd0203c910ae" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="c49f0f2f9098bb2c6c43570868b4e090c14a7d23" />
+  <!-- RTM revision -->
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" revision="ede2ed86419bb4c78428f1ac09825b1a247d8e24" />
+  <!-- RTM revision -->
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="c8a54a8ffd114264861a6080ea5dfe843c6b6968" />
+  <!-- RTM revision -->
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" revision="aca3dbe3fc617175bfb715bc573048ab2e14c18d" />
+  <!-- RTM revision -->
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" revision="aff5662bbceb8d742988a63732abf04ae8ffd830" />
+  <!-- RTM revision -->
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" revision="c427e5d5227ba9413307670a5d758d9ced394a7e" />
+  <!-- RTM revision -->
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" revision="5b54b0e25a4b55fa6a180d225f8f1790fb63287b" />
+  <!-- RTM revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="8ff4a755637a21ac7b5918d86302e22ba3f7fa37" />
+  <!-- RTM revision -->
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" revision="312afa6e7bbaf769c1c99b9911c3d3d2310bbf72" />
+  <!-- RTM revision -->
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" revision="69989786cefbde82527960a1e100ec9afba46a98" />
+  <!-- RTM revision -->
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,motodev" revision="269cc3d98ef1680d33ff467435504653e1bd1bfa" />
+  <!-- RTM revision -->
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" revision="fe30ee3a716015332e696d34d19bc27146a92cb6" />
+
+</manifest>
