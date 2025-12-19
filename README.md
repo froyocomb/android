@@ -14,9 +14,9 @@ Preparing a Build Environment
 
 For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
 
-It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 14.04 ("Trusty Tahr"), which can be downloaded from [here](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso).
+It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.5-desktop-amd64.iso). 
 
-For very early builds, gcc-4.7 and g++-4.7 are required. Ubuntu 14.04 bundles gcc-4.8 and g++-4.8 by default.
+For the repositories to work, it is needed to replace any `archive.ubuntu.com` and `security.ubuntu.com` mentions in your repository list (which is under /etc/apt/sources.list) with `old-releases.ubuntu.com`. Then, it will be possible to install required dependencies.
 
 Downloading Source
 ------------------
