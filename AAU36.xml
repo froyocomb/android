@@ -13,25 +13,25 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L (referred here as KKWT) build AAU35. -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" revision="523928e1fed190f98e6e77466100c80a746b6444" >
+<!-- Manifest of Android L (referred here as KKWT) build AAU36. -->
+  <project path="build" name="platform/build" groups="pdk,tradefed" revision="a39f8b52b5d114cf3ff328613f96a504ef2dff1d" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- RTM -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" />
-  <project path="art" name="platform/art" groups="pdk" revision="b4a33fe7b9828a4bbbf5f5bf1e27a1a4ce12cc9d" />
-  <project path="bionic" name="platform/bionic" groups="pdk" revision="e01c404575f0c3ad568d1c072a2c54428197641a" />
+  <project path="art" name="platform/art" groups="pdk" revision="74238c71e408a6751eefac3b30e1077e11670da6" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="689348175a43f96f6863016f5f3b5d298a9478c4" />
   <!-- RTM, if you removed it, why still include in the manifest??? -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4068f6aff2f898c55e6f8f3e2c92eefbb9189524" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="c3b780109f2c9121998e0461c37eae84fe294fe8" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="45443cd364cad184c542790f064011b426cab05e" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="f1ef02652f20e99ac90e46b966cdc69792eae77b" />
+  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="409b573c9d84fe7d77f20dcc71e36cde0bfcc89a" />
   <project path="developers/build" name="platform/developers/build" revision="d3b06796b40000c3a17b9d1f9cf584044ece304d" />
   <project path="developers/demos" name="platform/developers/demos" revision="a7254542b06878f0c3b34a6c3d91b9e7d3990f74" />
   <!-- RTM -->
   <project path="developers/docs" name="platform/developers/docs" revision="c0b835ddd9acc27176dc9a0f7d1aa2faf5d51806" />
   <project path="developers/samples/android" name="platform/developers/samples/android" revision="32c6412e1cee10267989a0efe40cfa6d749e3867" />
-  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="4618dc6c2a0f5cf5a10f33d855a2c04b92b5f328" />
+  <project path="development" name="platform/development" groups="pdk-cw-fs" revision="d3b6cc1c8cee4c162a64ac31780aa61bb0cff51e" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" revision="c658dcda5abaa4187c7cc655de6deb565fc37302" />
   <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" revision="cbb7be9eafbf6a6c74127f195e842931ef48832e" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" revision="dacee3fa2e447dccb891bcacb87fb600f5249bd9" />
@@ -359,7 +359,7 @@
   <!-- RTM -->
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="b6e9fcc70dff2510cf84f6fc67202dc8380fe64b" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="2393fc00b8e952a3db0fef2b93620302f76800ba" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="9d7b32cb64f13d7d8935ba49a48323f6f660a05b" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="68e7d72e4e953b7bd8450fc5c41319c139b03af3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="f507a540d8afe1c4b42ea3c296a0b52329fed233" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="3980e7d4e2ea24386c2f80e20f7d741935048541" />
@@ -369,7 +369,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="5adafc0d84d238948b5d257ec5311030ca04271c" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" revision="44abbf76afcfffd51c5344ba66cce40856979a06" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" revision="87fb57481c4a7204096482d5db0cecd8e880a9cc" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="64104942a170d5ea4f4af0ebb54283c4448f3e99" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="22518dbe2313a8fc33b1dc595e7caf93d879fbb5" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" revision="f19fbf57153edb48f001bf8e01da8a714947cfe1" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" revision="6d420592e1cc06422be9369ed01ac9027b2a1101" />
   <!-- RTM -->
@@ -447,7 +447,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" revision="3bbaa29066a684d01df42ddf0365266e59f2dc44" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" revision="13b8d4e6626607d870d694fb0078fc0e654f553e" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="443a3ea42f360368cd113f7463d28beb1ba0cd3e" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="d37c459826c86501e1a55ca159cb247c730f350b" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="5068e43ccb3d5b78fbe08516714b8b7a63b97ef7" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="27a36833f7a76df99728cb5b8e5e2916fe29bd8e" />
   <project path="ndk" name="platform/ndk" revision="ca2462fb269d91160182352da4d18fe2273b3b7c" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
@@ -471,7 +471,7 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="104f596339b304a33a2e03e6f3acb980bd9a790a" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="88f26aa679ee4a37fe83de3ba2636561f58c3547" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="cf1317ddd1bda72d847607c39c03df06be90faed" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="022025a9a17def7b95db5f138cc7338350327f98" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="06e2c385e4c1eb37c20b98b14259d3c7fbd7167a" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="7810002ad7e5ed895cb94ae7509198a7db35413a" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="fe18f4574f5029775ce242656d22b67660891595" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="6dde5aa83bd6771b282f730468eaa588c181a6f5" />
