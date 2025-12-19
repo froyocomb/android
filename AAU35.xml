@@ -424,7 +424,7 @@
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
   <!-- RTM -->
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" revision="77d1e2a4bb07d97a7f140f0fa8ddb8b6d52327f6" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="daa827d53a1ee952188b90c0dc8ea51bc87cb27d" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="d919cadbcaabc6295c1096c0fa7fa33207fb13d2" />
   <!-- RTM -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="8070a62962b11e85426510de47440b81155fe3bb" />
