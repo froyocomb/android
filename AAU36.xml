@@ -262,7 +262,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" revision="a3ea6bf9e6fcf63b69f5635b2ecc1fbd9a9a4dfc" />
   <!-- RTM -->
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="8d2ad1afa84d73cabd94d5eeaca8069eb49621c9" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="5d63c52424acc972d6370c50e1f3930d695790b7" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" revision="94773bf0b1adbe60e8fe05c85cfcec7aa4941a13" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" revision="cb346346b19d836e13f2fb372be3d3703eadc114" />
   <!-- RTM -->
@@ -541,7 +541,6 @@
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" revision="471afab478649078ad7c75ec6b252481a59e19b8" />
   <!-- RTM -->
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" revision="2f6d2db9e2af3507d132cf5d286a42fe1d47f7bc" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="51a0ffb7bd343a1eedfb30798ec5364f7c5b7e4e" />
   <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="51a0ffb7bd343a1eedfb30798ec5364f7c5b7e4e" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="97969328fda99181aae248f500c5170d27169f39" />
   <!-- RTM -->
