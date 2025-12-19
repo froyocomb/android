@@ -19,7 +19,7 @@
   </project>
   <!-- RTM -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" />
-  <project path="art" name="platform/art" groups="pdk" revision="74238c71e408a6751eefac3b30e1077e11670da6" />
+  <project path="art" name="platform/art" groups="pdk" revision="37a9876bf9ff26a451841722a3e3ab9ad4c1e584" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="689348175a43f96f6863016f5f3b5d298a9478c4" />
   <!-- RTM, if you removed it, why still include in the manifest??? -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
