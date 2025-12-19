@@ -100,8 +100,9 @@
   <!-- RTM -->
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="6d634da5463d9bc5fc88f86aec1d2ac4fe6f612e" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="95b9854df47a9f1bdcca4e8364477972b2082dda" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="daa4ebbc8af264094cb3caf7aa82173a1f4f3a29" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="5724c7df915eb741361b685fc719dd5643e4cc0b" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="3a17632f5d88390fc4685db73601d58c1ccadd29" />
+  <!-- RTM, did not survive 5.0. -->
   <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" revision="71499417239cde5fcdb7afecb021f4addd850a3e" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="8cba613a0b71e71abcab87aa2478cdddf5bef1ef" />
   <!-- RTM -->
