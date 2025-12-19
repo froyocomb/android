@@ -189,7 +189,7 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="3c10ffe30ea8b76cdea46a08338345cc40d266c5" />
   <!-- Did not survive 5.0. -->
   <project path="external/harfbuzz" name="platform/external/harfbuzz" groups="pdk-cw-fs,qcom_msm8x26" revision="858f2d28ac741ef139f74bdbdbcefa7560f17c91" />
-  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="189bf23bfc90405d8bdc70bf3d6d3ffec38b470c" />
+  <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="3309edccdbc2a92eb03a285abb27c1c1c4a88e43" />
   <!-- WEE WOO WEE WOO EARLY BUILD PATCH FIX THIS LATER-->
   <project path="external/icu4c" name="platform/external/icu" groups="pdk" revision="4edaaa98d71ed588de62a62410f342ab913a854d" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="fb95963728278dd174f7e2104f267bced6c74d82" />
