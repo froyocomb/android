@@ -2,13 +2,16 @@
 <manifest>
   <remote name="aosp"
            fetch="https://android.googlesource.com" />
-  
-  <remote name="github"
-          fetch="https://github.com/froyocomb" />
-		  
   <default revision="refs/tags/android-5.0.0_r1"
            remote="aosp"
            sync-j="4" />
+ 
+  <remote name="github"
+           fetch="https://github.com/froyocomb" />
+
+  <remote name="chromium"
+           fetch="https://chromium.googlesource.com" />
+		   
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="7692975bcea6dd056e668ed79822c5ad89913ec1" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
