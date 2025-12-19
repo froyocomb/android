@@ -393,7 +393,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="f5877c41c731d8bf7fe451e34fff41f533a847bc" />
-  <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />
+  <!--<project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />-->
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="0fb1d516cf0b8a6efd29e3fc2f8556a555044c32" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
@@ -436,7 +436,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="85b3c7729234afc4f2199abee2b3c4f58bd80761" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="e96873af8e248f5853f345a1b1e81aa0c9c8bc69" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="b7cfdd89b197ea9440bef558987202f5411ef762" />
-  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="1fa9b89899b9af8b53446d9d63a73b4e4316e77" />
+  <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="51fa9b89899b9af8b53446d9d63a73b4e4316e77" />
   <project path="pdk" name="platform/pdk" groups="pdk" revision="5345b93fd44823f695794ab4a7cceb23a82d8f17" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
