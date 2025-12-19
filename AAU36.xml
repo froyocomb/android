@@ -187,6 +187,8 @@
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="d0d0008f894d419ee24cea8a2c17f420f498e111" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" revision="87ffc45d2619a0c178a058de887e3050bb577efe" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="3c10ffe30ea8b76cdea46a08338345cc40d266c5" />
+  <!-- Did not survive 5.0. -->
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" groups="pdk-cw-fs,qcom_msm8x26" revision="858f2d28ac741ef139f74bdbdbcefa7560f17c91" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="189bf23bfc90405d8bdc70bf3d6d3ffec38b470c" />
   <!-- WEE WOO WEE WOO EARLY BUILD PATCH FIX THIS LATER-->
   <project path="external/icu4c" name="platform/external/icu" groups="pdk" revision="4edaaa98d71ed588de62a62410f342ab913a854d" />
@@ -323,7 +325,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" revision="4a84ed0ef35dcf9136d168174d0bb1b5f2b35775" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="3d2a692dff6c35454192e46fc745e76929475d68" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="02cbf1040766291d72a6570ceadc6c845fcd80cc" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="f397b21b691b7ea535dc764590704946cfff7899" />
   <!-- RTM -->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" revision="7cf2b33cbdd81c1661e8b59356999cf98116595f" />
