@@ -376,7 +376,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" />
   <!-- RTM -->
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="41e93fbe82cd4d802e3f1fbe265038f7a0521ddd" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="7ee4764c585660fc25515daeb05f190998270ebd" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" revision="5f857ae7deb85aa8b9e3d254da0d3260504bab01" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" revision="0d0fd685111eb6e5a31f3e42f2119a59b300b221" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" revision="dbbe673145107e99883f62bafd70c5f43f11065c" />
@@ -463,7 +463,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="d454f1cc9dedeb6f6940a24f38481c69d0bd9252" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="b93140b6b7f35c0f5406e8ac13fdefbb4869d1d0" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="45ed3b5932ed590b45235d7b2befa736a95e7f75" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="c63b878b5837424a6d51e1603887948f7635e086" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="94456929ff0d421a245891bfe5337a422316d34f" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="e89ec9216167fa7246ae268f2b2062e0a93621bf" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="4d9c173f1830bb56285ab1681dab73a5bddab5eb" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="c95b8f9dfe34367870b358d2b6bcc0dbe4f08781" />
@@ -488,7 +488,7 @@
   <!-- RTM -->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="f3e25293ddd104b25d95b2e496a95d6d680145b7" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="a4407777d8968e2aca2f04bc329f2f7d14b8b85e" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="2fc8a3648613d61e4ef958ae30f38fccf4e4083d" />
   <!-- RTM -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="c517422543865bc5a8ee31f30e29f50b8a0eaf7a" />
@@ -577,7 +577,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" revision="4dcb5cb6294c9bc5ca67d0abe0979bd1419dd363" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="f49f8600aac10a2ab42826a42d009ea239c2f9ba" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="33f3c75fea27d9262727bd35c76065e68a86ce82" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="07ff3544fa02dcb34d12225b9829f59ae4b389c1" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="df4195067512eb06fe8b139522d0d066ca62b686" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="1a0e4be401776f2e3a9522dca7bfa15e1b03d863" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
   <project path="system/media" name="platform/system/media" groups="pdk" revision="74a97c610144792ad5174161058a434cf714026e" />
