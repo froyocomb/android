@@ -188,7 +188,8 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" revision="87ffc45d2619a0c178a058de887e3050bb577efe" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" revision="3c10ffe30ea8b76cdea46a08338345cc40d266c5" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" revision="189bf23bfc90405d8bdc70bf3d6d3ffec38b470c" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="4edaaa98d71ed588de62a62410f342ab913a854d" />
+  <!-- WEE WOO WEE WOO EARLY BUILD PATCH FIX THIS LATER-->
+  <project path="external/icu4c" name="platform/external/icu" groups="pdk" revision="4edaaa98d71ed588de62a62410f342ab913a854d" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="fb95963728278dd174f7e2104f267bced6c74d82" />
   <!-- RTM -->
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" revision="f4cb1ee4b00abbfb6f968dc25818c23b4b47e584" />
@@ -544,6 +545,7 @@
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" revision="2f6d2db9e2af3507d132cf5d286a42fe1d47f7bc" />
   <!-- WEE WOO WEE WOO WEE WOO EARLY ASS BUILD FIX WEE WOO WEE WOO -->
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="51a0ffb7bd343a1eedfb30798ec5364f7c5b7e4e" />
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" revision="64bc8869cf95c6781c0b47dc71f69a8ae8a17b18" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" revision="97969328fda99181aae248f500c5170d27169f39" />
   <!-- RTM -->
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" revision="51f8e2760628588fe268438d612d942c30d13fb2" />
