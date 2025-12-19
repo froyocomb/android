@@ -12,7 +12,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 		   
-  <project path="build" name="platform/build" groups="pdk,tradefed" revision="7692975bcea6dd056e668ed79822c5ad89913ec1" />
+  <project path="build" name="platform/build" groups="pdk,tradefed" revision="7692975bcea6dd056e668ed79822c5ad89913ec1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
