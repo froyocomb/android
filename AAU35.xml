@@ -174,7 +174,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" revision="e11a9c7fe6f1cef99aad2f25afaea37b72fe9f93" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" revision="63317bdfd17684345b041e689b332abdd87d48e1" />
   <!-- RTM -->
-  <project path="external/glide" name="platform/external/glide" revision="d5ddd93ac507c52f316b094a6740ddb5f122125f" revision="d5ddd93ac507c52f316b094a6740ddb5f122125f" />
+  <project path="external/glide" name="platform/external/glide" revision="d5ddd93ac507c52f316b094a6740ddb5f122125f" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" revision="cecbe12841337860291c2d6a5728b681ec5fca2a" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" revision="38cf8916661253e61aa5e75d0cf010bd774471a3" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs" revision="970ef90ef3458b9609309e8b460b28522a76eed6" />
@@ -430,7 +430,7 @@
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="8070a62962b11e85426510de47440b81155fe3bb" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="1fdba83aa599f3905ba7632c7008299a8d2747b5" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="c9a7bd20d3891b002f6b0285692adb9d246036ae" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" revision="4e0f671b2c86f5aa01502bea53c2e09fba1f8019" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" revision="088607b68d5102ff1049c30a1cd7db37ba7e399a" />
   <!-- RTM -->

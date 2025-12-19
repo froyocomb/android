@@ -74,7 +74,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="e5ba8841cd39e17c05aeb4ab65b5b761d41577da" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="787f8544399b98a105648229e0b964da43d88aed" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -285,7 +285,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="ef28532ffcc5bef44301f0c63d5abf3c2feb4921" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="e2a8c53f3fdc5c31b58491c7212f8a294db8dbc6" />
+ <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="c4489f990f3eaa5d11eb2c08db2af4a7b3818fe7" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="c43e1ba9cf40277dd496fe503e777906d2755251" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="d56a92fc2b1d417ce53d9550548fe1661fa37d40" />
