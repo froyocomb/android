@@ -16,7 +16,7 @@ For installing dependencies, refer to the article ["Initializing a Build Environ
 
 It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 14.04 ("Trusty Tahr"), which can be downloaded from [here](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso).
 
-For very early builds, gcc-4.7 and g++-4.7 are required.
+For very early builds, gcc-4.7 and g++-4.7 are required. Ubuntu 14.04 bundles gcc-4.8 and g++-4.8 by default.
 
 Downloading Source
 ------------------
