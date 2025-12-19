@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch=".." />
+  <remote name="aosp"
+           fetch="https://android.googlesource.com" />
+  
+  <remote name="github"
+          fetch="https://github.com/froyocomb" />
+		  
   <default revision="refs/tags/android-5.0.0_r1"
            remote="aosp"
            sync-j="4" />
   <project path="build" name="platform/build" groups="pdk,tradefed" revision="7692975bcea6dd056e668ed79822c5ad89913ec1" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" revision="aa9d1c19e510a828ccaeb6c3d5a024614c0ea0c4" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="6b9b454d553306a4aab0f9fe6c2d03e869502514" />
