@@ -139,7 +139,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="db58423a76618bf8ee4dc1f5b5c9ee1ba1f3d4c9" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="ca2b1e9ca5bc396a767554764287ae3dc2c557b5" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="e3a775e0cbdc82ee7d9a82b47ddd53c1b7e7bd44" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="d24a7fae47c7232102e4610a9a73c8883a58df75" />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" revision="a902511dd22624b15cc61e36d167d1cf3549bc74" />
   <!-- RTM -->
   <project path="external/cmockery" name="platform/external/cmockery" revision="bdd62c531bbdea115a3a7e71bba91c19dd319cc4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="383a2067ad012143ebd6a0e847cec21d76c092f5" />
@@ -268,7 +268,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" revision="a3ea6bf9e6fcf63b69f5635b2ecc1fbd9a9a4dfc" />
   <!-- RTM -->
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="cfe73f379d20f50874bc523fab59c2db43388a32" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="5d63c52424acc972d6370c50e1f3930d695790b7" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" revision="94773bf0b1adbe60e8fe05c85cfcec7aa4941a13" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" revision="cb346346b19d836e13f2fb372be3d3703eadc114" />
   <!-- RTM -->
@@ -370,9 +370,9 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="39315c990c82a6bd2e20baa7d7eff8a37b0fcdd5" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="9d7b32cb64f13d7d8935ba49a48323f6f660a05b" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="d724d097437f40a5689464429f948ec41e4a2415" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="68e7d72e4e953b7bd8450fc5c41319c139b03af3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="f507a540d8afe1c4b42ea3c296a0b52329fed233" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="6103e43f4fc7fcaa455b33b76dd8e636ab1425c8" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="3980e7d4e2ea24386c2f80e20f7d741935048541" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" revision="a75fa12d54e386392adc0d4b54284a89ec191347" />
   <!-- RTM -->
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" revision="b9669b8540a1e5c953374d53b115514335e23c27" />
