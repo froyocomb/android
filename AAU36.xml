@@ -368,7 +368,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <!-- RTM -->
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="b6e9fcc70dff2510cf84f6fc67202dc8380fe64b" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="39315c990c82a6bd2e20baa7d7eff8a37b0fcdd5" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="9d7b32cb64f13d7d8935ba49a48323f6f660a05b" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="68e7d72e4e953b7bd8450fc5c41319c139b03af3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="f507a540d8afe1c4b42ea3c296a0b52329fed233" />
@@ -408,7 +408,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="9a137c9dc219f35fcf46da5dd6e3113f2f8750ac" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="a0ef298f8d5230af62eb21a9cf65fca85c3a45b5" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="4a4e55409b32f638e45fd8ab1ba8de512400c4f9" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="fb8035480852914d326eb4c2074060df32382926" />
   <project path="hardware/akm" name="platform/hardware/akm" revision="909d71580966697ffe67f015932891833a112b6e" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="4966cddfc30a82c2c5129fa042ec0934bfc759d8" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="f3319a12024e154b2db505875f597362b0416c49" />
