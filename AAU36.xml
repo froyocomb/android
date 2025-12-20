@@ -428,7 +428,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="4ac61726e5be65561fd0740a0cc68cb086c3dad2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="bc33edadffe5cc2cc6d3526bba46c0c24e616e55" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="402afcc3ee635a8cc7f04331c74d2f0c08f8af50" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="093e8e8b9b8d28880b0edacd10ad982fab353115" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="aea8c156649c16347514741eb084858cdb458b75" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="1150598d80543c7c31a40c9db8040a8ae9cbdb1c" />
   <!-- RTM -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
@@ -594,7 +594,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" revision="df4195067512eb06fe8b139522d0d066ca62b686" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="1a0e4be401776f2e3a9522dca7bfa15e1b03d863" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="7391bb65cca0843cb9ac6c0f474f08a3d8441b6c" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="74a97c610144792ad5174161058a434cf714026e" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="62b5751781523a7535d72d14a1bf420fa869be8c" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="8f7f96213c1fc273fbf02731e1362978ad7ec08a" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="c938df25c8352b1bc5cf7f5a7a7ea63c14ec237c" />
