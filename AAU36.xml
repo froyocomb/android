@@ -327,7 +327,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" revision="4a84ed0ef35dcf9136d168174d0bb1b5f2b35775" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="3d2a692dff6c35454192e46fc745e76929475d68" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="ebc83e2a22d5ef84f54df37b840baea58379bea7" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="c63d5ac0ba65cd4d96a9159459e7b776cab91fed" />
   <!-- RTM -->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" revision="7cf2b33cbdd81c1661e8b59356999cf98116595f" />
@@ -368,7 +368,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <!-- RTM -->
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="b6e9fcc70dff2510cf84f6fc67202dc8380fe64b" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="39315c990c82a6bd2e20baa7d7eff8a37b0fcdd5" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="9d7b32cb64f13d7d8935ba49a48323f6f660a05b" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="68e7d72e4e953b7bd8450fc5c41319c139b03af3" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="f507a540d8afe1c4b42ea3c296a0b52329fed233" />
@@ -428,7 +428,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="4ac61726e5be65561fd0740a0cc68cb086c3dad2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="bc33edadffe5cc2cc6d3526bba46c0c24e616e55" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="402afcc3ee635a8cc7f04331c74d2f0c08f8af50" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="80df5b529fd6b3cfaccfb2e97e5ebdaf989771ea" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="aea8c156649c16347514741eb084858cdb458b75" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="1150598d80543c7c31a40c9db8040a8ae9cbdb1c" />
   <!-- RTM -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
