@@ -327,7 +327,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" revision="4a84ed0ef35dcf9136d168174d0bb1b5f2b35775" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" revision="3d2a692dff6c35454192e46fc745e76929475d68" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" revision="fa7aae3642754610576328469c6afc68740cec5e" />
-  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="ebc83e2a22d5ef84f54df37b840baea58379bea7" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" revision="c63d5ac0ba65cd4d96a9159459e7b776cab91fed" />
   <!-- RTM -->
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" revision="d7955ce24d294fb2014c59d11fca184471056f44" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" revision="7cf2b33cbdd81c1661e8b59356999cf98116595f" />
@@ -408,7 +408,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" revision="9a137c9dc219f35fcf46da5dd6e3113f2f8750ac" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" revision="a0ef298f8d5230af62eb21a9cf65fca85c3a45b5" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" revision="4a4e55409b32f638e45fd8ab1ba8de512400c4f9" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="fb8035480852914d326eb4c2074060df32382926" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" revision="f0c3b4edf597c40aae4ea311575f39c8bcf203df" />
   <project path="hardware/akm" name="platform/hardware/akm" revision="909d71580966697ffe67f015932891833a112b6e" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" revision="4966cddfc30a82c2c5129fa042ec0934bfc759d8" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="f3319a12024e154b2db505875f597362b0416c49" />
@@ -428,7 +428,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="4ac61726e5be65561fd0740a0cc68cb086c3dad2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="bc33edadffe5cc2cc6d3526bba46c0c24e616e55" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="402afcc3ee635a8cc7f04331c74d2f0c08f8af50" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="80df5b529fd6b3cfaccfb2e97e5ebdaf989771ea" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="aea8c156649c16347514741eb084858cdb458b75" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="1150598d80543c7c31a40c9db8040a8ae9cbdb1c" />
   <!-- RTM -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
