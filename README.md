@@ -27,7 +27,7 @@ To initialize a repository tree using one of the manifests provided by this proj
 
 Then to download the respective code, execute:
 
-    repo sync
+    repo sync --no-tags --no-clone-bundle
 
 Compiling
 ---------
