@@ -12,6 +12,7 @@ Following pre-release builds were reconstructed:
 
 Preparing a Build Environment
 -----------------
+**All of this must only be done once! Once a proper installation is set up, builds can be switched using just `repo init`. Make sure to erase the previous build's folders and files (with the exception of the hidden `.repo` folder, do not remove it) before changing.**
 
 For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
 
