@@ -74,7 +74,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="62a54c5b374c1eb9d3664da2717f82fdeea8bb7e" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="787f8544399b98a105648229e0b964da43d88aed" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -339,7 +339,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="301c46eab7003f0bce2ca43e0b362c183cc573ee" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="53a98849b5284c80989f039a3972bdcf2b38a080" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="424ca7d41df7b1ea0df51c90d6cb84ef5800ef80" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="6ca86fbe169726ef38d9fad23f190009520a7d9c" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="005b123e41f3fe91344b475d4a3218d2c0171b3e" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="a311a983eb4035b272033105119cb44d814fb2db" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -366,7 +366,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bca5932019d2be9a70437694cd2dad372b8a4c08" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="3ae9ef82bcfd59c89939dce20088a8f6f8882b94" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="f206ddd8115bdcb66ecee0c6feac35b3dc8d4da2" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="0d8f1ae3e070d7a13f8e482895bcab428a6c8381" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="4b9f51307eb0d65063728ab7ae2d52e9dc5bd2ab" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="bf3ad49a16d027b7e584789e444d6b0b73945a2d" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="0f117c6ad12a4afe300da4e0815800c2de77e3d9" />
