@@ -271,7 +271,7 @@
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" revision="a3ea6bf9e6fcf63b69f5635b2ecc1fbd9a9a4dfc" />
   <!-- RTM -->
   <project path="external/lldb" name="platform/external/lldb" groups="pdk-cw-fs" revision="8aaa52329ade20107fe28af7085b0a1f395816a8" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="b7325c318ecf01d4c82391c1f0a63090c8de0144" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" revision="5d63c52424acc972d6370c50e1f3930d695790b7" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" revision="0bb3f397f7e2cb9bafec4e37623d3b11bcb6a411" />
   <!-- RTM -->
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" revision="b473eaa2840cccf2fef15d53f00bccf92c41b615" />
@@ -596,7 +596,7 @@
   <!-- RTM -->
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" revision="6fbc8802b3b68d24a4ee83f164b22490cf702ff2" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="21a68e06a104be3f98d776a5bb34ec98643c5bc9" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="789730f2f198e5f67f9b6d91706e931a18e7fbe8" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="cfcef469537869947abb9aa1d656774cc2678d4c" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="f49f8600aac10a2ab42826a42d009ea239c2f9ba" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="fd902f36b762ee7f5eced4a49b40b331f98cac37" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="7d05a4b7271a12412fd6dbf04273323a3e7f0c39" />
