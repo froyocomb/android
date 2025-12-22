@@ -89,6 +89,8 @@ Then to download the respective code, execute:
 
     repo sync --no-tags --no-clone-bundle
 
+Optionally optionally, run the above command with `-c` to shorten the size and download time even more.
+
 Compiling
 ---------
 
