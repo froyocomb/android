@@ -8,6 +8,7 @@ Following pre-release builds were reconstructed:
 | Build number         | Status           |
 | :---:                |   :---:          |
 | AAU36                |  Done            |
+| AAU42                |  WIP             |
 | LRW38                |  WIP             |
 
 Preparing a Build Environment
