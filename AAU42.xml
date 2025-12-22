@@ -392,7 +392,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" />
   <!-- RTM -->
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="d2ddd392ebd8d2f0c47091f59f11d4c02b201a3a" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="7ee4764c585660fc25515daeb05f190998270ebd" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" revision="5f857ae7deb85aa8b9e3d254da0d3260504bab01" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" revision="0d0fd685111eb6e5a31f3e42f2119a59b300b221" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" revision="dbbe673145107e99883f62bafd70c5f43f11065c" />
@@ -596,7 +596,7 @@
   <!-- RTM -->
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" revision="6fbc8802b3b68d24a4ee83f164b22490cf702ff2" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="21a68e06a104be3f98d776a5bb34ec98643c5bc9" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="789730f2f198e5f67f9b6d91706e931a18e7fbe8" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="ba4948a463fd0e97edaa2769888f75bb6f251c31" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="f49f8600aac10a2ab42826a42d009ea239c2f9ba" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="fd902f36b762ee7f5eced4a49b40b331f98cac37" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="7d05a4b7271a12412fd6dbf04273323a3e7f0c39" />
