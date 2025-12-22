@@ -17,7 +17,7 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="platform/art" groups="pdk" revision="47ba978e95896c932300fb3236ce5eb4b438d971" />
+  <project path="art" name="platform/art" groups="pdk" revision="6b932180c768d2150386e4e6c8e415d935b25471" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="6b9b454d553306a4aab0f9fe6c2d03e869502514" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="adad8ec045e118215b1745c2ba86031c7f2c73d2"/>
