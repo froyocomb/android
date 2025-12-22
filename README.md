@@ -106,7 +106,7 @@ To compile Android, type:
 
     make -jX (replace X with the amount of cores in your VM/PC)
 
-Please make sure to remember that certain builds may require exclusive patches that are mentioned on their respective BetaWiki page.
+Please make sure to remember that certain builds may require exclusive patches that are mentioned on their respective BetaWiki page. If you face any issues during the compile, ask in the Discord server or on the "Issues" page on GitHub.
 
 Running
 -------
