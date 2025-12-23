@@ -24,7 +24,7 @@ It is recommended to use an older Linux distribution. All builds have been teste
 ------------------
 First, install all the needed dependencies needed for building AOSP:
 
-```sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils openjdk-7-jdk xsltproc unzip$```
+```sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils openjdk-7-jdk xsltproc unzip```
 
 Afterwards, install Sun Java 1.6.0. The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
 
