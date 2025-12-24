@@ -362,11 +362,11 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="0f118ef3bee8ae2fee588318e24f955c55467914" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="20a22a935032594938f6c576a779b792d28e6baa" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="bca5932019d2be9a70437694cd2dad372b8a4c08" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="3ae9ef82bcfd59c89939dce20088a8f6f8882b94" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="c43ce5118eab93469e31d56ee30043e5e011fa89" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="LRW38-fix" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="4b9f51307eb0d65063728ab7ae2d52e9dc5bd2ab" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="bf3ad49a16d027b7e584789e444d6b0b73945a2d" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="0f117c6ad12a4afe300da4e0815800c2de77e3d9" />
@@ -386,14 +386,14 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="35d3222e05f84f98171a9dfc47f0b558963f654c" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="087077bf2f484efa86c78326ccf8e76e9ddff4ed" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="610ded21c79ae3da4c105c2d1921a30732468a69" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="f07af7b77de0319355e228e8630824d924522d78" />
+  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="6075170b838bfe7a040bbff25c2c22859b7d6ee5" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="df3eebaabed813ffc38143696856c0c9a344a28a" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="2cd3077911f77975125da01c0f92d0210683346a" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="d11b0f9ecca8b9f28d5a211eb9af299d53f54350" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="5b58854084fcb259ca746d5334506ffa77c3a6f6" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ed432bd44603377c31f59c8886e972a2fbeeb886" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="f5877c41c731d8bf7fe451e34fff41f533a847bc" />
-  <!--<project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />-->
+  <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="4e996e3c8c95f038ebf089697f4441c837b01c58" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="0fb1d516cf0b8a6efd29e3fc2f8556a555044c32" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
