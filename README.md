@@ -47,7 +47,7 @@ Install latest `git`:
 ```
 sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
-sudo apt-get install git
+sudo apt-get upgrade
 ```
 
 Note: This requires Python 3.4, do this before the next step.
