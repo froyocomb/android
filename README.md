@@ -46,7 +46,7 @@ If the build uses OpenJDK 7 instead, switch to it appropiately.
 To get modern `repo` working, install Python 3.6 in place of the standard Python 3.4. The commands for this are:
 
 ```
-sudo apt-get install build-essential checkinstallsudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+sudo apt-get install build-essential libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 cd ~
 sudo wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
 sudo tar xzf Python-3.6.15.tgz
