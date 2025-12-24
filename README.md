@@ -33,10 +33,10 @@ After acquiring the package, run the following (this assumes the package is on t
 chmod +x jdk-6u45-linux-x64.bin
 ./jdk-6u45-linux-x64.bin
 sudo mkdir -p /usr/lib/jvm/jdk1.6.0_45
-sudo mv ~/jdk1.6.0_45/* -f /usr/lib/jvm/jdk1.6.0_45/
+sudo mv jdk1.6.0_45/* -f /usr/lib/jvm/jdk1.6.0_45/
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.6.0_45/bin/java" 1
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.6.0_45/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.6.0_45/bin/javaws" 1```
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.6.0_45/bin/javaws" 1
 ```
 
 Once done, run `sudo update-alternatives --config java` and switch the system over to `jdk1.6.0_45`. Do the same for `javac` and `javaws`, by replacing `java` with `javac` or `javaws`. `javaws` will likely not have an alternative, if so, skip it.
