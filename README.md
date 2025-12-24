@@ -43,6 +43,15 @@ Once done, run `sudo update-alternatives --config java` and switch the system ov
 
 If the build uses OpenJDK 7 instead, switch to it appropiately.
 
+Install latest `git`:
+```
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+```
+
+Note: This requires Python 3.4, do this before the next step.
+
 To get modern `repo` working, install Python 3.6 in place of the standard Python 3.4. The commands for this are:
 
 ```
