@@ -8,7 +8,8 @@ Following pre-release builds were reconstructed:
 | Build number         | Status           |
 | :---:                |   :---:          |
 | AAU36                |  Done            |
-| AAU42                |  WIP             |
+| AAU42                |  Done            |
+| AAU55D               |  WIP             |
 | LRW38                |  WIP             |
 
 Preparing a Build Environment
@@ -23,7 +24,7 @@ It is recommended to use an older Linux distribution. All builds have been teste
 ------------------
 First, install all the needed dependencies needed for building AOSP:
 
-```sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils openjdk-7-jdk xsltproc unzip$```
+```sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils openjdk-7-jdk xsltproc unzip lib32stdc++6```
 
 Afterwards, install Sun Java 1.6.0. The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
 
@@ -32,20 +33,29 @@ After acquiring the package, run the following (this assumes the package is on t
 chmod +x jdk-6u45-linux-x64.bin
 ./jdk-6u45-linux-x64.bin
 sudo mkdir -p /usr/lib/jvm/jdk1.6.0_45
-sudo mv ~/jdk1.6.0_45/* -f /usr/lib/jvm/jdk1.6.0_45/
+sudo mv jdk1.6.0_45/* -f /usr/lib/jvm/jdk1.6.0_45/
 sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.6.0_45/bin/java" 1
 sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.6.0_45/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.6.0_45/bin/javaws" 1```
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.6.0_45/bin/javaws" 1
 ```
 
 Once done, run `sudo update-alternatives --config java` and switch the system over to `jdk1.6.0_45`. Do the same for `javac` and `javaws`, by replacing `java` with `javac` or `javaws`. `javaws` will likely not have an alternative, if so, skip it.
 
 If the build uses OpenJDK 7 instead, switch to it appropiately.
 
+Install latest `git`:
+```
+sudo apt-add-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get upgrade
+```
+
+Note: This requires Python 3.4, do this before the next step.
+
 To get modern `repo` working, install Python 3.6 in place of the standard Python 3.4. The commands for this are:
 
 ```
-sudo apt-get install build-essential checkinstallsudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+sudo apt-get install build-essential libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
 cd ~
 sudo wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
 sudo tar xzf Python-3.6.15.tgz
@@ -83,7 +93,7 @@ To initialize a repository tree using one of the manifests provided by this proj
 
     repo init -u https://github.com/froyocomb/android.git -b thou-shalt-take-the-L -m <build>.xml
 
-Optionally, run the command with `--depth=1` to shorten the source code size and download time from ~500GB to ~40GB. After the source code is finished checking out, proceed with the guide.
+If `git` asks you to set your email and username, do so appropiately. Your actual username and email don't have to be used of course, just anything. Optionally, run the command with `--depth=1` to shorten the source code size and download time from ~500GB to ~40GB. After the source code is finished checking out, proceed with the guide.
 
 Then to download the respective code, execute:
 
@@ -106,7 +116,7 @@ To compile for specific devices, download and extract their driver binaries from
 
 To compile Android, type:
 
-    make -jX (replace X with the amount of cores in your VM/PC)
+    make -j$(nproc)
 
 Please make sure to remember that certain builds may require exclusive patches that are mentioned on their respective BetaWiki page. If you face any issues during the compile, ask in the Discord server or on the "Issues" page on GitHub.
 
