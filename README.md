@@ -10,7 +10,7 @@ Following pre-release builds were reconstructed:
 | AAU36                |  Done            |
 | AAU42                |  Done            |
 | AAU55D               |  WIP             |
-| LRW38                |  WIP             |
+| LRW38                |  Done            |
 
 Preparing a Build Environment
 -----------------
@@ -75,6 +75,18 @@ sudo update-alternatives --config python3
 
 On the last command, check if `python3.6` is already selected.  
 
+For builds like LRW38, an older kernel is required due to a bug in ART that causes a segmentation fault when trying to make art caches.
+Mainline kernel 3.13.11 is recommended
+
+```
+wget https://kernel.ubuntu.com/mainline/v3.13.11.11-trusty/linux-image-3.13.11-03131111-generic_3.13.11-03131111.201411111336_amd64.deb
+wget https://kernel.ubuntu.com/mainline/v3.13.11.11-trusty/linux-headers-3.13.11-03131111-generic_3.13.11-03131111.201411111336_amd64.deb
+wget https://kernel.ubuntu.com/mainline/v3.13.11.11-trusty/linux-image-3.13.11-03131111-generic_3.13.11-03131111.201411111336_amd64.deb
+sudo dpkg -i linux*.deb
+```
+After everything is done, restart. When blank grub screen appears (which might be different color depending on what Ubuntu 14.04 flavour you're using)
+Scroll down to Advanced Options for Ubuntu and press enter. you should see a list of kernels you can boot from. Scroll all the way to the kernel you just installed	and press enter to boot it (make sure you haven't selected recovery mode)
+ 
 Downloading Source
 ------------------
 
