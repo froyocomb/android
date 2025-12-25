@@ -122,7 +122,7 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" revision="6d48ae9171111a550475454e196927ab2ba836f6" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" revision="23aa870c9ceb79d1ea99e9c5a348b43d5e02c1b5" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" revision="0349a5549a2ad49d03bef9742a77f62f72ece1ed" />
-  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" revision="9b09fd8d530e17e59b2938fa264b35065a7b4dd5" />
+  <project path="external/chromium_org/third_party/openssl" name="platform/external/chromium_org/third_party/openssl" revision="36062193c54de7352dd68fe29027485f6844155a" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" revision="2e9d78360501420fdfa0a69b879770aeb081de2c" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" revision="b471362917834b3a2576dcff760906ac79135b6d" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" revision="58f132533b4126b00bc71fd9aed69ecf568cdf39" />
