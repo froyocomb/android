@@ -101,7 +101,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="6d634da5463d9bc5fc88f86aec1d2ac4fe6f612e" />
   <!-- RTM -->
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="65df883d09205766c521f2e6c126f4070a423141" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="a55aa4b6a77e9a79f088da508d82f617c0378707" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="09380295ba73501a205346becac22c6978e4671d" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="216941a74ee1b274587379f4ad44130d3d1f142a" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" revision="2237d30d6e68c2c67c5877094de2dce4f9441765" />
   <!-- RTM -->
