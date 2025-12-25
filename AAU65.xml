@@ -87,7 +87,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e" />
   <!-- RTM -->
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="a90d343e16e19e25ea6a813f4a9f6cd922989b01" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="bac0e60f37d577e5b1a47ff52c8f2a96142ee4e7" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" revision="d41730de557429a3d9d039b46b2846bb1ccd85dc" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" />
   <!-- RTM -->
@@ -482,7 +482,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="946a9c6a9c2d00a5630543ab4a5253240ac1098a" />
   <project path="ndk" name="platform/ndk" revision="d83a8270590632c700804de43ea7f05c8dff810f" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="873b8064cca4d0f32808842a39e54e305dd5b410" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="448965010ed4fbaf546cc355d1766198f70c21fb" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="6e2d7aa3d15dda7e3516a53411fef7c219419702" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="7387add6feefeb9be1d99b7da0b5848996c9b45a" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="581cf9133907f86b900d78fbd7d323f28ac47f3b" />
