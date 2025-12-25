@@ -510,7 +510,7 @@
   <!-- RTM -->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="f3e25293ddd104b25d95b2e496a95d6d680145b7" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="3c73af873ce5a3f2ece21a6a4d7dd2fd0ce02a9b" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="ff5c674255dd2b70edc1177fbcd9938e218774ae" />
   <!-- RTM -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="c517422543865bc5a8ee31f30e29f50b8a0eaf7a" />
