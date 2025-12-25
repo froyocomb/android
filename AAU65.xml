@@ -254,7 +254,7 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="fa6268cfac65636ae5aa8740ca9b3e5c4b77e1ca" />
   <!-- RTM -->
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" revision="e87019943a8b5a7cd0880910f671c37b240d5754" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="b6de6b4194b8a60f07e9a318f949e837160cdd3b" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="1a2f1a207027d9ff1606d33918c903de61545708" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="c71644b06ebd417ef060f3f07472125516f86c41" />
   <!-- RTM -->
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" revision="2bb40f2445cab3ba588efb29e1835cdba2b27248" />
