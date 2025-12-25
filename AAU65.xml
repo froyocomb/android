@@ -87,7 +87,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e" />
   <!-- RTM -->
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="0798eb9cf9259bcfa3b8583d1de2c73456649cf3" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="8dfc3e2992456539ee6c740199f543cdb0d5a9d3" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" revision="d41730de557429a3d9d039b46b2846bb1ccd85dc" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee" />
   <!-- RTM -->
