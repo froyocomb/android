@@ -389,7 +389,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <!-- RTM -->
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="bb7f14ac2235473d541c980b43dba4a05de65024" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="f2e55f1f42180f61f2bac90cc60f23f3509ce95d" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="002e02dbcd2375942ff0c2d4214523f114fb5dbb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="b296858ac93e747d580c3faf9d042c63721a87ca" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="b7e382706e5e4dd84c6ee1bd57cdd6e539ff0888" />
@@ -616,7 +616,7 @@
   <project path="system/core" name="platform/system/core" groups="pdk" revision="2289b2848e07e9ea860d16b261a7f5952ea40834" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="3f372e3620389d71bfddc14247a585e98cb89adc" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="30bf0cc133ecab46b7999ac791ebe95d0c51d746" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="c92a3882c5f3521e858072656ee6792403dc41c7" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="9ea6f522386c8d3751aa6fe6894eae23fc811bab" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="db1b8f1b4d37e69bafd495f799d37c160b26f52f" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="684dbdf316a02cf6a7694018f7c3a4bcd65142cc" />
