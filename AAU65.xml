@@ -96,7 +96,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="968aed00ed981987cf96dcfd7640e6dcde5c03a0" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" revision="d917798ab30ff39fb0ee831143c5525658277a0d" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" revision="e59035f6c67d799b8ccb94cd820516f913ec19f6" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" revision="5d1f7b1de12d16ceb2c938c56701a3e8bfa558f7" />
   <!-- RTM -->
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="6d634da5463d9bc5fc88f86aec1d2ac4fe6f612e" />
   <!-- RTM -->
@@ -407,7 +407,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" revision="03b18577f8f8f799e87a62b8e03889ddacf6daa2" />
   <!-- RTM -->
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" revision="f08aa2df132dd8dc32a0013d3750137d9dd9280a" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="f75ea4af96ee32517ce18c3cf223ce06a14d5365" />
+  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" revision="7ee4764c585660fc25515daeb05f190998270ebd" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" revision="5f857ae7deb85aa8b9e3d254da0d3260504bab01" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" revision="34e5aa730f18817eee55392bbf9bc38327656b9f" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" revision="dbbe673145107e99883f62bafd70c5f43f11065c" />
