@@ -449,7 +449,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="4ac61726e5be65561fd0740a0cc68cb086c3dad2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="bc33edadffe5cc2cc6d3526bba46c0c24e616e55" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="a18a4ce64ccf29e6ca2f83b3b658d745175dfd0e" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="f5811ba2dfb9bc9abf754b2e87b1568ef5ee3356" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="631785fbcb9c6790f62f31fa068117db64c5d93f" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="316222fcd60a429e53aa6205278697bb2df8ef32" />
   <!-- RTM -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
