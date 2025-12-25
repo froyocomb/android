@@ -610,7 +610,7 @@
   <!-- RTM -->
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" revision="6fbc8802b3b68d24a4ee83f164b22490cf702ff2" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" revision="21a68e06a104be3f98d776a5bb34ec98643c5bc9" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="eb05dbe400454a8eabc953f462235a5f71520185" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="f4b3be8bebd2f8f264c86630827a2923c1fb6424" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="bdb334a19ac9fa6a85821c271d531954ebfc0509" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="3fb0383762af0fbe001910f494bcb354b8894ba1" />
   <project path="system/core" name="platform/system/core" groups="pdk" revision="2289b2848e07e9ea860d16b261a7f5952ea40834" />
