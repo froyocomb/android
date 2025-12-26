@@ -619,7 +619,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" revision="905c04ddba7e6e2ceb7ff455550990656693e6ff" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="9ea6f522386c8d3751aa6fe6894eae23fc811bab" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="db1b8f1b4d37e69bafd495f799d37c160b26f52f" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="684dbdf316a02cf6a7694018f7c3a4bcd65142cc" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" revision="15c3e01e05359fb11ce5e63934d7c3d54d0d6e93" />
   <!-- RTM -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" revision="ede2ed86419bb4c78428f1ac09825b1a247d8e24" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="3f3d4e80c444eb98cc79cafaec177135ebdb8c5d" />
