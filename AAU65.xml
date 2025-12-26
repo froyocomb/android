@@ -250,7 +250,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" revision="7d3252c995c3210dd20ace61b9d9c27b19f0e7e7" />
   <!-- RTM -->
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" revision="9dab0cd7430a4d23e0a7752fb13b941692171c3d" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" revision="f9768eb3c8f303725fb4f899598481cbc4fb76a3" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" revision="b03a14984ad9b0d8b88337ca714cb831233b99c3" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="fa6268cfac65636ae5aa8740ca9b3e5c4b77e1ca" />
   <!-- RTM -->
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" revision="e87019943a8b5a7cd0880910f671c37b240d5754" />
@@ -490,11 +490,11 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" revision="81187939d5390e7fe1c0121e4bf902a6a20a1764" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="bcf82f4c67fce794cf4f7925118a721a25b33360" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="1469bf5b7b2405510151463ad463c560e5b9762a" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="8a0cd5a47ea358e4fd37d6d2e2d05815b6042427" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="2c1c8dcbe6a7e023c68200c96016a92618e44dde" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="59c448bcdc0565ef6ed105b4c3effed2268c1bd0" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="4c0566a1eb4e94db3bf2e2dddeb5e3c47b9720a6" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="936e3c79eb6d3c28e4507f67926db7c9ec7e1075" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="f67276bd50417158cceda9eb0d87ad4c4462a61e" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="44020f5e402774ecafae67badc217ab0ef0a0585" />
+  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="5883866e45bf4b091f555275a55b4dda41b4f138" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="4633ca209f142000a8b42bbfd7f505afde27d503" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="36fa2e58cd03a2f2bda55a9fcd8780f153d0c611" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f49076acaab56785d00aebca55c887bb6c475bbc" />
