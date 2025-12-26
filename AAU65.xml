@@ -499,7 +499,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f49076acaab56785d00aebca55c887bb6c475bbc" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="7498890092c388dc59ca932e09ec79dd568b1a19" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="3b933341546792ba171eab92a35451a6f994fc7b" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="022d0e9d10e02c2b71564d83ec56c952978f2831" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="88f26aa679ee4a37fe83de3ba2636561f58c3547" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="ecd2edbe77c9c3fc6f69d0d4e72a942e3179a72d" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="c5357ade72ad6b8e5a03d68d9ca72a7e8ecdeb7a" />
