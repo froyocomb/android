@@ -180,7 +180,7 @@
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" revision="63317bdfd17684345b041e689b332abdd87d48e1" />
   <!-- RTM -->
   <project path="external/glide" name="platform/external/glide" revision="d5ddd93ac507c52f316b094a6740ddb5f122125f" />
-  <project path="external/google-common" name="google_common" remote="github" revision="84de0ccc166d0576f380743c59139f7161157c9a" />
+  <project path="external/google-common" name="google-common" remote="github" revision="84de0ccc166d0576f380743c59139f7161157c9a" />
   <!-- RTM -->
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" groups="pdk-cw-fs" revision="cecbe12841337860291c2d6a5728b681ec5fca2a" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" revision="38cf8916661253e61aa5e75d0cf010bd774471a3" />
