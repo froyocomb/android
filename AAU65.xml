@@ -93,7 +93,7 @@
   <!-- RTM -->
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" revision="1cb636bd8e9e5cdfd5d5b2909a122f6e80db62de" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" revision="399f7d09e0c45af54b77b4ab9508d6f23759b927" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="968aed00ed981987cf96dcfd7640e6dcde5c03a0" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" revision="6c07e1e9cf7e7b15cca1766a6c4eb7a702e0c52e" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" revision="d917798ab30ff39fb0ee831143c5525658277a0d" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f" />
   <project path="external/chromium_org" name="platform/external/chromium_org" revision="5d1f7b1de12d16ceb2c938c56701a3e8bfa558f7" />
