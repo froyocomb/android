@@ -497,7 +497,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="936e3c79eb6d3c28e4507f67926db7c9ec7e1075" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="8567cd5af9b7cc6426e9ee89ba240e2a2efa2522" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="1b6292e2ab35867928624a807394d9d4cfc1e001" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="3e6f73096734f0ae4d836ebe3fa16c6129f47f74" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="1a3827bae5f5e32a2145dff60956bd9f288227f0" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f49076acaab56785d00aebca55c887bb6c475bbc" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="7498890092c388dc59ca932e09ec79dd568b1a19" />
