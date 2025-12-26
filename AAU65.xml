@@ -491,7 +491,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="bcf82f4c67fce794cf4f7925118a721a25b33360" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="1469bf5b7b2405510151463ad463c560e5b9762a" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="59c448bcdc0565ef6ed105b4c3effed2268c1bd0" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="4c0566a1eb4e94db3bf2e2dddeb5e3c47b9720a6" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="2c1c8dcbe6a7e023c68200c96016a92618e44dde" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="936e3c79eb6d3c28e4507f67926db7c9ec7e1075" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="5883866e45bf4b091f555275a55b4dda41b4f138" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="44020f5e402774ecafae67badc217ab0ef0a0585" />
@@ -499,7 +499,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f49076acaab56785d00aebca55c887bb6c475bbc" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="7498890092c388dc59ca932e09ec79dd568b1a19" />
-  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="022d0e9d10e02c2b71564d83ec56c952978f2831" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" revision="1824b2e2a2640675f88ca048bda8fea489e6d81f" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="88f26aa679ee4a37fe83de3ba2636561f58c3547" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="ecd2edbe77c9c3fc6f69d0d4e72a942e3179a72d" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="c5357ade72ad6b8e5a03d68d9ca72a7e8ecdeb7a" />
