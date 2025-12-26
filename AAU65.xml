@@ -358,7 +358,7 @@
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" revision="0956427aa995561acb4471764158ae057a36dad5" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" revision="973e282c082f12dce0b633179c8b4642db64ef58" />
   <!-- Did not survive 5.0 RTM, did survive to L-preview -->
-  <project path="external/syspatch" name="platform/external/syspatch" groups="pdk-cw-fs" revision="d92658ddf89ca3525412bf3becb7e98bedb6fc8b" />
+  <project path="external/syspatch" name="platform/external/syspatch" groups="pdk-cw-fs" revision="3b79731deb35a1e035634188e64a62e3f6c1d358" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" revision="2f47cfc4f63f8b67829c17ca9378be7e2fc3f01d" />
   <!-- RTM -->
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" revision="de49cdcfddf36f2b41ef3278e98a8a550a189952" />
