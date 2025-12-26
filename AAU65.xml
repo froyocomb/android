@@ -394,7 +394,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="b296858ac93e747d580c3faf9d042c63721a87ca" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="b7e382706e5e4dd84c6ee1bd57cdd6e539ff0888" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="df1cf12af6c6feb5fe8500ed719bf75ebe5267f1" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" revision="427a1270d2ac5fd53d34aa0f860c9505e2ce4cbe" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" revision="8502b724a9fdc104e7b4a3aba1641e101b4c7be9" />
   <!-- RTM -->
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" revision="b9669b8540a1e5c953374d53b115514335e23c27" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="5adafc0d84d238948b5d257ec5311030ca04271c" />
