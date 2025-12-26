@@ -458,7 +458,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="daa827d53a1ee952188b90c0dc8ea51bc87cb27d" />
   <!-- RTM -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="647dabc2044f4829d666133913c0b95ff81d8570" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="bec6017f76872b4ef63e8afeafcdad137519cd03" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="8d6406d114239bdf95311ce3b880b8d85ea355d6" />
