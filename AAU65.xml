@@ -63,7 +63,7 @@
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" revision="af14f3e02df1c34fc8e29001d64abe7f1ce7c2c1" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" revision="88cce11780faa97237c560a9a85133cf0a9b7c9d" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" revision="c0aa7288851999e72737192d17d5190e6a6191ca" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="09efce0553f930051b05742b3c67306a11332ecf" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="37e60923dc3f49a65c5d57376f43871f8a3a70ed" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" revision="61b0b7c7ec74a622f5966b0d236ffa2b33dedac8" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" revision="94f6946ab3b757f8c1f06c4e99168e4536ada0db" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="a11243d2b3db979937eae45c91a4175b78b8a94c" />
