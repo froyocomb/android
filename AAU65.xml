@@ -458,7 +458,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="daa827d53a1ee952188b90c0dc8ea51bc87cb27d" />
   <!-- RTM -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="c6918a50fd246dee6255625f9b36fd066d529931" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="github" revision="AAU65-fix" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="8d6406d114239bdf95311ce3b880b8d85ea355d6" />
@@ -495,7 +495,7 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="936e3c79eb6d3c28e4507f67926db7c9ec7e1075" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="7146ee819bf80e217b460f3b890df1a49b233109" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="05f946e6cfea23305d86656f40b22f518b853504" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="ae0fe1ceffe605941203ba9f7d304dcb32ede680" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="e89ec9216167fa7246ae268f2b2062e0a93621bf" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="2089b8cb56644baddea64096d1465860a90bba8d" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f49076acaab56785d00aebca55c887bb6c475bbc" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="7498890092c388dc59ca932e09ec79dd568b1a19" />
