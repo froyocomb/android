@@ -491,7 +491,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="bcf82f4c67fce794cf4f7925118a721a25b33360" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" revision="1469bf5b7b2405510151463ad463c560e5b9762a" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="f773a7ee1b225d34499a3dfbb24b6a45e2edf305" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="18cfd4bd42097c572300c318bdc8e18135ff2809" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" revision="4c0566a1eb4e94db3bf2e2dddeb5e3c47b9720a6" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="936e3c79eb6d3c28e4507f67926db7c9ec7e1075" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" revision="8567cd5af9b7cc6426e9ee89ba240e2a2efa2522" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="05f946e6cfea23305d86656f40b22f518b853504" />
