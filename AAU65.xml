@@ -250,7 +250,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" revision="7d3252c995c3210dd20ace61b9d9c27b19f0e7e7" />
   <!-- RTM -->
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" revision="9dab0cd7430a4d23e0a7752fb13b941692171c3d" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" revision="485e6d5c6e48a1fc43cc0a090e687c723dac056c" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" revision="f9768eb3c8f303725fb4f899598481cbc4fb76a3" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="fa6268cfac65636ae5aa8740ca9b3e5c4b77e1ca" />
   <!-- RTM -->
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" revision="e87019943a8b5a7cd0880910f671c37b240d5754" />
