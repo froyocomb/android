@@ -458,7 +458,7 @@
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="daa827d53a1ee952188b90c0dc8ea51bc87cb27d" />
   <!-- RTM -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="0e1d61720fdb8c762d3071e2a28a782a73aeec4b" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="c6918a50fd246dee6255625f9b36fd066d529931" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="8d6406d114239bdf95311ce3b880b8d85ea355d6" />
@@ -613,7 +613,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="f4b3be8bebd2f8f264c86630827a2923c1fb6424" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="bdb334a19ac9fa6a85821c271d531954ebfc0509" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="3fb0383762af0fbe001910f494bcb354b8894ba1" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="173f4995b075e67abdb1874da9f6e83fd7324a5e" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="2289b2848e07e9ea860d16b261a7f5952ea40834" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="3f372e3620389d71bfddc14247a585e98cb89adc" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
   <project path="system/media" name="platform/system/media" groups="pdk" revision="905c04ddba7e6e2ceb7ff455550990656693e6ff" />
