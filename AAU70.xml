@@ -315,7 +315,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" revision="2a7655c0d503fcf5989098f65bf89eae78c32e5a" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" revision="9bee9632028efd2f446dadddf073f87bda9c684d" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="2f9436c7297adf0214e3a419d9558528a513bb2c" />
+  <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="a191263c413efb5a92edfafec1978e47d1ba1fa1" />
   <!-- RTM -->
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" revision="3722f1053f4cab90c4daf61451713a2d61d79c71" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" revision="c8c80c512a678b9f18c7897de28b7f13db149cc1" />
