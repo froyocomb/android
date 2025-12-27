@@ -556,7 +556,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="b081c10139e1e596015df7c99e6ce2cfd1158b77" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="9ddfdde1f1e3d972f24703e81a2ab889d0902d22"/>
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="20bfdeb12dd13c9a96da9bafbfb130f8ba338b46" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="7dd117ea79e1fd4542ba81df35627a9c822ab4b5" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="56db6652e76f311985d569c3d4db924ef33206cb" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="ca92fdc25da99afdfe33447aefb2cd270c5b5e4d" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="5ce45e9187d25a89dc5af01813bdd4d6d88ed119" />
