@@ -13,13 +13,13 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build AAU70. -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" revision="668dd5b4264be8e000937fa7dbe92580fa02dd05" >
+<!-- Manifest of Android L build AAU70. SHA2 of build: 668dd5b4264be8e000937fa7dbe92580fa02dd05 -->
+  <project path="build" name="platform_build" remote="github" revision="AAU70-fix" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- RTM -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" />
-  <project path="art" name="platform/art" groups="pdk" revision="9296152d75e7ba78d466057a5c4154d8d44b198d" />
+  <project path="art" name="android_art" remote="github" revision="AAU70-fix" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="36fc0fd5c412c26de3224ba41af8d9a3134923d2" />
   <!-- RTM, if you removed it, why still include in the manifest??? -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
