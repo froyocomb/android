@@ -23,7 +23,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="36fc0fd5c412c26de3224ba41af8d9a3134923d2" />
   <!-- RTM, if you removed it, why still include in the manifest??? -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" revision="3c491d6efb8ff2534a6934702760a6273f197918" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="7f1f286f45c7dd01f1056389690dbd8ab527855d" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="eac881c952fc6be0beeb5f719e3a70e651f3610e" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" revision="061f8ed4b1b0d0b7f49c7856b9712d856e522cf3" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" revision="f60e91f137e65fd65e5e2e6182b8f7604dfdf650" />
   <project path="developers/build" name="platform/developers/build" revision="ffb88a95f23bef4b5c1e34f0fa324fd71b1765f3" />
