@@ -225,7 +225,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" revision="a82868820d6350811b9ddfde4bf8ed5016084269" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" revision="c5c1c319f76bb2fa50b0c51bd2ef163b9281f116" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" revision="895b9b972a578dc105165a81f7d062424418b0ec" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" revision="0bce518ab9e569504bdeefeb3e5e2d86d3382d2b" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" revision="01e05108e7881bd61ca8da381bfb715d6ba6f85e" />
   <!-- RTM -->
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" revision="1d1011a3c5049a7f9eef99d22f3704e4367579cc" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" revision="3ebf26f90df8d8d5e30c8c877a8491c4c839c69f" />
