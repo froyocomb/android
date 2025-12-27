@@ -482,7 +482,7 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" revision="ce711bd57caf8e9d06941d00cc75e216bb24fd9b" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" revision="c32caab84ff9edc1489ed6c8079c7d252caafc4d" />
   <project path="libcore" name="platform/libcore" groups="pdk" revision="970a54f357186603fbb4f7854b27a12fff3e8de1" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="45099d327f4ca479ffa84f4f6f8ee78873b2b2a5" />
+  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="946a9c6a9c2d00a5630543ab4a5253240ac1098a" />
   <project path="ndk" name="platform/ndk" revision="2917aa88f16df9f3fe0336646a8b6cb1440728fd" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="74a11bc45df74cc966c3e8364d90fbce51322aad" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" revision="f89cb15152c4d19db35462583d79eda669c0c87d" />
