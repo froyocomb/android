@@ -44,7 +44,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="0a1ce725f5c1521f35ec53262a7d9aa2438dc4e2" />
   <!-- RTM -->
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="9dba558f4621d3d70a05c0a3d8e2c34b3883f866" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="2566b71f211657ff10783968111fda6aff3afb4d" />
   <project path="device/generic/mips" name="device/generic/mips" groups="pdk" revision="84486871216ff428bb6f0066a25b41c9f3d76653" />
   <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" revision="713f7aeca26c4654cd8200c3fbe5975835c5c617" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" revision="2a7ade61377b7906187ab46b5859c896baa0ab0e" />
