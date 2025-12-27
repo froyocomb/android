@@ -147,7 +147,7 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="883b3dc12e2c09e50ed7e63b2cb1ffac7cb36aef" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" revision="dda7bc2000ee9df014ecdadb20e9df6abd5716e4" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="41d356427a632f5336384bfa45c8420ffc274f66" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="5118ffe3bf77ec4efa070f36a7a62fd5d1bf16bf" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="7a7d95e5601a7c8ab80784455b77f5883c32c7ce" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" revision="1d0f3c02fc3673159f2b6496823fd7b9228b7891" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="893d0a0f84a0a9dc7cc37507f974f6a695af465f" />
   <!-- RTM -->
