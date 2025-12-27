@@ -544,7 +544,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" revision="4a50e88d7917e6b81d364439d634251ae74a74b3" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs" revision="19dba503d42c6d693da019b920c929ea3c0b2c31" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs" revision="f5d88b498c309782f9bf71650d972f8bbb784d98" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="bcbcb91c4cac69658faebd6e45ca6490d944778a" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs" revision="095b7ed0330d0b0aedb692a03aa7f8f9115cd4af" />
   <!-- RTM -->
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="96d0a80af45923767baf449fc8c735c2f71d64ae" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="3ad9da40b96f27bd441dae1e78a3b7061d4999e3" />
