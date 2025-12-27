@@ -71,7 +71,7 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="f5d2f7a857324d0507796435ec092e6116ac8b67" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" revision="6321bd4fa696c9e48587d414906228f8e0836c7a" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" revision="f2f96fb86d42396716b3e556da7a930956e712fb" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="0d0917b5305225aafa5ef8a4d7cbdcdccd4cd8eb" />
+  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" revision="1600eb0c6dd258e4be4d3107c2ed36ea8683ff66" />
   <!-- RTM -->
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" revision="0f189400fd2a36bf11bfb058e7f3917eb7ed163a" />
   <!-- RTM -->
