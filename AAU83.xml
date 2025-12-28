@@ -376,7 +376,7 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" revision="ca3b63b662e690a350ed6e2faa8c0c15cacb6384" />
   <!-- was not in 5.0 for some reason -->
-  <!--<project path="external/v8" name="platform/external/v8" groups="pdk" revision="b7a971bd8c35b5952b1f25fca56de6113506d3da" />-->
+  <project path="external/v8" name="platform/external/v8" groups="pdk" revision="b7a971bd8c35b5952b1f25fca56de6113506d3da" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" revision="52bc53f236ab4d6d3f64728a72faff5601b3ab7d" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" revision="d8734ee0b5b7ffba16e99791aa0c491401f433fd" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" revision="0db01fc3411621bec473d50db0071fd2a225962e" />
