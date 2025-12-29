@@ -88,7 +88,7 @@ sudo make -j6 && sudo make install
 
 I would also recommend setting a root password because of the next step.
 
-If you somehow manage to screw up the X11 install on 12.04 LTS, which is for some reason super common, access a terminal (via any method, e.g. switching TTY modes or such), then run `sudo apt-get install --reinstall xserver-xorg`, and reboot.
+If you somehow manage to screw up the X11 install on 12.04 LTS (for example being stuck on the boot screen with all 5 dots lit orange), which is for some reason super common, access a terminal (via any method, e.g. switching TTY modes, recovery mode...), then run `sudo apt-get install --reinstall xserver-xorg`, and reboot.
  
 Downloading Source
 ------------------
