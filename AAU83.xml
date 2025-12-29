@@ -511,7 +511,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" revision="0bfccebc9b276b857c992790232cc8477a8a3504" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="7810002ad7e5ed895cb94ae7509198a7db35413a" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" revision="c775738a923c5cb9db3ad558b4cba85ee84b0e4d" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="ca37af714f54365dfdee4c6ba8c1bc4d9fed11cf" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="02d3841bfb09f17ce8ba6150423181e09311ffe6" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="1d34c786827ea433d578aee1fd17b0e06ab4f862" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="3cbf37e31378fdc29cc87860356707e4a217855d" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="2eb3da0d03799ecdc30165fe230760b80a575b73" />
