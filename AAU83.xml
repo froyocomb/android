@@ -139,7 +139,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" revision="502819df4bb6aba2350c60c5abd7b0d113c84ba9" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" revision="c89599c46bec104c82dbf0eb9b700599c3b3e5df" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" revision="116b16709dcf5e472203b51f1433eb83b4dcdddf" />
-  <project path="external/clang" name="platform/external/clang" revision="4d56250efa5424e8a31afef33bef3a4921706e21" />
+  <project path="external/clang" name="platform/external/clang" revision="b13bdd639a54fe2ced27de4782ee24b711c7d196" />
   <!-- RTM -->
   <project path="external/cmockery" name="platform/external/cmockery" revision="bdd62c531bbdea115a3a7e71bba91c19dd319cc4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="4daeb0017aca1f23592cfafc329c1c21f8531909" />
