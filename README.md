@@ -112,7 +112,7 @@ Compiling
 
 To initialize the build environment, execute the following command:
 
-   `. build/envsetup.sh`
+   ```. build/envsetup.sh```
 
 Then pick from one of the available build targets by executing the command:
 
