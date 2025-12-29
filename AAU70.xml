@@ -14,7 +14,7 @@
            fetch="https://chromium.googlesource.com" />
 
 <!-- Manifest of Android L build AAU70. SHA2 of build: 668dd5b4264be8e000937fa7dbe92580fa02dd05 -->
-  <project path="build" name="platform_build" remote="github" revision="AAU70-fix" >
+  <project path="build" name="platform/build" groups="pdk" revision="668dd5b4264be8e000937fa7dbe92580fa02dd05" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- RTM -->
