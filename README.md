@@ -12,7 +12,8 @@ Following pre-release builds were reconstructed:
 | AAU55D               |  Done            |
 | AAU65                |  Done            |
 | AAU65C               |  Done            |
-| AAU70                |  WIP             |
+| AAU70                |  Done            |
+| AAU83                |  WIP             |
 | LRW38                |  Done            |
 
 Preparing a Build Environment
