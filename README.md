@@ -20,15 +20,32 @@ Preparing a Build Environment
 -----------------
 **All of this must only be done once! Once a proper installation is set up, builds can be switched using just `repo init`. Make sure to erase the previous build's folders and files (with the exception of the hidden `.repo` folder, do not remove it) before changing.**
 
-For installing dependencies, refer to the article ["Initializing a Build Environment"](https://web.archive.org/web/20140208084633/http://source.android.com/source/initializing.html) from the AOSP documentation.
+It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.4-desktop-amd64.iso). Do not use anything newer, like Ubuntu 14.04.
 
-It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 14.04 ("Trusty Tahr"), which can be downloaded from [here](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso). 
+Once Ubuntu 12.04 LTS is installed, as it is now a legacy edition of Ubuntu, the default repositories have to be changed to "old-releases.ubuntu.com". To do this, open Terminal and type in `sudo gedit /etc/apt/sources.list`. Change all references of the URLs from e.g. `http://archive.ubuntu.com` to `http://old-releases.ubuntu.com`. Do the same for `http://security.ubuntu.com`, but don't touch the two bottom-most URLs. Make sure to only change the beginning of the aforementioned URLs.
+
+If running in a virtual machine, install VMware Tools now, or else its features won't work properly (press enter on all questions given by `./vmware-install.pl`), then reboot.
+
+Update the machine:
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install duplicity linux-headers-generic-lts-saucy linux-image-generic-lts-saucy ubuntu-minimal
+sudo reboot
+```
+You can now proceed with the rest of the guide.
 
 **Prerequisites**
 ------------------
 First, install all the needed dependencies needed for building AOSP:
 
-```sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils openjdk-7-jdk xsltproc unzip lib32stdc++6```
+
+```sudo apt-get install git gnupg flex bison gperf build-essential zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libglapi-mesa libgl1-mesa-dev mingw32 openjdk-7-jdk tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386```
+
+Additionally run:
+```sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so```
+
+Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
 
 Afterwards, install Sun Java 1.6.0. The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
 
@@ -47,39 +64,22 @@ Once done, run `sudo update-alternatives --config java` and switch the system ov
 
 If the build uses OpenJDK 7 instead, switch to it appropiately.
 
-Install latest `git`:
+Install newer `git`:
 ```
 sudo apt-add-repository ppa:git-core/ppa
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Note: This requires Python 3.4, do this before the next step.
-
-To get modern `repo` working, install Python 3.6 in place of the standard Python 3.4. The commands for this are:
+To get modern `repo` working, install Python 3.6:
 
 ```
-sudo apt-get install build-essential libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-cd ~
-sudo wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
-sudo tar xzf Python-3.6.15.tgz
-
-cd Python-3.6.15
+sudo apt-get build-dep python3.2
+wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
+tar -xvf Python-3.6.15.tgz && cd Python-3.6.15
 sudo ./configure --enable-optimizations
-sudo make altinstall
-
-sudo ln -s /usr/local/bin/python3.6 /usr/bin/python3.6
-
-sudo -H pip3.6 install --upgrade pip
-
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.4 10
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 20
-sudo update-alternatives --config python3
+sudo make -j6 && sudo make install
 ```
-
-On the last command, check if `python3.6` is already selected.  
-
-For certain builds, an older kernel is required due to a bug in ART that causes a segmentation fault. This can be done by installing Ubuntu 12.04 LTS instead of 14.04. The guide however requires alterations which will not be yet explained.
  
 Downloading Source
 ------------------
