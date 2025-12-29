@@ -31,8 +31,6 @@ Update the machine:
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install duplicity linux-headers-generic-lts-saucy linux-image-generic-lts-saucy ubuntu-minimal
-sudo apt-get update
-sudo apt-get autoremove
 sudo reboot
 ```
 You can now proceed with the rest of the guide.
