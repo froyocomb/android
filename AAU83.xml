@@ -148,7 +148,7 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" revision="883b3dc12e2c09e50ed7e63b2cb1ffac7cb36aef" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" revision="dda7bc2000ee9df014ecdadb20e9df6abd5716e4" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="41d356427a632f5336384bfa45c8420ffc274f66" />
-  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="cc2fcff04cafc7c402aaa8522be42eb7cf146187" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" revision="7d280fe4ee3ce2fe8c3ab2740fc67768e19871b4" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" revision="ee3341953708d72191689add5beaa11b3ca7ccab" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="35bc958f2aa77bc1ed70a247bb0ecbe74fed9520" />
   <!-- RTM -->
@@ -559,7 +559,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" revision="6e0a80f6faed6191acc8ce1b6c79eada09e9e042" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="b081c10139e1e596015df7c99e6ce2cfd1158b77" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="9e45c73acab65460bfff2d8322a7d1766363cc7b"/>
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="805a72e527e74b6ca6a4bd64f0df3e19f0ae2a72" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="e9a7dd4f97a0a662af03d5a8ee18db95f157d8cd" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="cfc93a9c84adea60441476a59a6f1c2bb30a1cc7" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="ca92fdc25da99afdfe33447aefb2cd270c5b5e4d" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="5ce45e9187d25a89dc5af01813bdd4d6d88ed119" />
