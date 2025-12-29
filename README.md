@@ -40,10 +40,14 @@ You can now proceed with the rest of the guide.
 First, install all the needed dependencies needed for building AOSP:
 
 
-```sudo apt-get install git gnupg flex bison gperf build-essential zip curl g++-4.6-multilib libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libglapi-mesa libgl1-mesa-dev mingw32 openjdk-7-jdk tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386```
+```
+sudo apt-get install git gnupg flex bison gperf build-essential zip curl g++-4.6-multilib libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libglapi-mesa libgl1-mesa-dev mingw32 openjdk-7-jdk tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386
+```
 
 Additionally run:
-```sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so```
+```
+sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
+```
 
 Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
 
