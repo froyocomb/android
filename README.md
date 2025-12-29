@@ -47,6 +47,7 @@ sudo apt-get install git gnupg flex bison gperf build-essential zip curl g++-4.6
 Additionally run:
 ```
 sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
+sudo apt-get autoremove
 ```
 
 Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
