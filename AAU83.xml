@@ -394,8 +394,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" revision="c54dc204ef4278f949a965dc90e693799b6aae41" />
   <!-- RTM -->
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" revision="2b56cc1c1442ba598ed1ee9c23e8e9eade076e77" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="7b1524d4e866b53ab0d02a59cc6ccb133bd98f77" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="02eb6bfd66d0afc4b1d81824558e136649a5a4df" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="69a374897392c8bd70f441b7284f6f578c651ec9" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk" revision="f2fc35feffaf75f61cc3ca518d39c0065078fe3c" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="8f7345d68d2595ddf3d7c2aae01a29d0530afb92" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="9111aee2eff3d221b38972af65327b22bf06bdc1" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="50cab07b24f9d85899e697cac88a05cb8347fe74" />
@@ -405,7 +405,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" revision="5adafc0d84d238948b5d257ec5311030ca04271c" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" revision="44abbf76afcfffd51c5344ba66cce40856979a06" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" revision="5516c9ffbddd16c90f17c45caea3f4b59ab360d8" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="1fcecf56be7f66d43c184a78d8cc1f95a77dd52b" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="dac0baa00b8b855955f9a0ea663b0850e786c62b" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" revision="5b46c679794d2f4362e8064b0291c578835d75e0" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" revision="6d420592e1cc06422be9369ed01ac9027b2a1101" />
   <!-- RTM -->
@@ -454,7 +454,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" revision="4ac61726e5be65561fd0740a0cc68cb086c3dad2" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" revision="bc33edadffe5cc2cc6d3526bba46c0c24e616e55" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="a18a4ce64ccf29e6ca2f83b3b658d745175dfd0e" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="f404dc42d6677a1aee88d1ce996a7e8e4afe55bb" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="0b78afb191aa3c8748bf4837e4693801f3ee762e" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" revision="67d562280d6bc3caa6435020c756d5d65a00549c" />
   <!-- RTM -->
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" revision="3134b055c05e3681c1f71eed23bd0bd8e57ddfa7" />
@@ -622,10 +622,10 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="c4ebeea301dddb334279c0b5fe6e3b3063ced584" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="ac099a90c36aedf4faf621177b276f15e1a2351a" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" revision="d696035ae7c3b206c3be17faa30ac75376d1c62a" />
-  <project path="system/core" name="platform/system/core" groups="pdk" revision="a63a9ec8085f43a9eb49ada8d50cac1431944b18" />
+  <project path="system/core" name="platform/system/core" groups="pdk" revision="366f96bd89bd377c6e625bd61224fb28768cda30" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" revision="014cf80b5040ed443142b2a8b2f348330f720db4" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" revision="77996a7f4d2b8b7dbf22c8e227a2c68571f94c7d" />
-  <project path="system/media" name="platform/system/media" groups="pdk" revision="1c37de9cd89dbb0b13b2b66ff5c7b4111e113f9f" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="a3b6e6a90a5821fde37c8618a8438595ffab8ce4" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" revision="294f66f5582b0456f5c2ba20b9170644363b46a7" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="a7700b7300b4c136c34ecdacfe6bd581357ede88" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" revision="cc215381dd5003b1d6c6b32c1745f8c06fb8a499" />
