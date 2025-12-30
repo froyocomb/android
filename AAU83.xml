@@ -464,7 +464,7 @@
   <!-- RTM -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97" />
   <!-- Did not survive 5.0, survived to L-preview. -->
-  <project path="hardware/qcom/camera" name="platform/hardware/camera" groups="qcom" revision="fbf72e519ec5fe2f2720b1a3d119e2d69e172e34" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" revision="fbf72e519ec5fe2f2720b1a3d119e2d69e172e34" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="github" revision="AAU70-fix" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="07bee4d85b552fcfde126a00c70731707a2e9e65" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" revision="d2ae6c44f8fb2cd6f007b7289b01e391c9298956" />
