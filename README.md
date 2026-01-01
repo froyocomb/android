@@ -108,13 +108,13 @@ To initialize a repository tree using one of the manifests provided by this proj
 
     repo init -u https://github.com/froyocomb/android.git -b thou-shalt-take-the-L -m <build>.xml
 
-If `git` asks you to set your email and username, do so appropiately. Your actual username and email don't have to be used of course, just anything. Optionally, run the command with `--depth=1` to shorten the source code size and download time from ~500GB to ~40GB. After the source code is finished checking out, proceed with the guide.
+If `git` asks you to set your email and username, do so appropiately. Your actual username and email don't have to be used of course, just anything.
 
 Then to download the respective code, execute:
 
     repo sync --no-tags --no-clone-bundle
 
-Optionally optionally, run the above command with `-c` to shorten the size and download time even more.
+Optionally, run the above command with `-c` to shorten the size and download time from ~500GB to ~20-30GB.
 
 Compiling
 ---------
