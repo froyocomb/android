@@ -13,6 +13,7 @@
   
   <project name="device/common" revision="923fa910b497abcd1685875b9dea66118fd85590"/>
   <project name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
+  <project name="device_moto_stingray" path="device/moto/stingray" remote="github" revision="HRG85C" />
   <project name="platform/bionic" path="bionic" revision="d285151df65f94daa01086ab9134463692c4327e"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="0589d96bbe85069577f00de0b75a8031f2457c01"/>
@@ -27,15 +28,15 @@
   <project name="platform/external/astl" path="external/astl" revision="c3c760978c34d5eeea1205c0bf7f27444e192a98"/>
   <project name="platform/external/bison" path="external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d"/>
   <project name="platform/external/blktrace" path="external/blktrace" revision="ac4461c3b3e7bcbafe5336b9478657d0fa3e08aa"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="793dbc5b057d1b5ffc4f6e1bbdbbde3845addc59"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="dfed588f90c76df95a8ea941c67991f6606ecb00"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="757b7f7d8917b43c77e43b5653e7674417ba298f"/>
-  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="652ae93351acf4510956eaa034283ce2d951eea8"/>
+  <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="c17020b4896833f03d4b40da48ee87a99b10bc6d"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="f2f9cd54598d633a9895f741629bd26c2a5ecc05"/>
   <project name="platform/external/bsdiff" path="external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68"/>
   <project name="platform/external/bzip2" path="external/bzip2" revision="9ac1ec23f7a9ad61bec16960ec33635f78097441"/>
   <project name="platform/external/chromium" path="external/chromium" revision="41ceee06e6bcadea31b9810184ee0734389c58ea"/>
   <project name="platform/external/clang" path="external/clang" revision="726dc5a18bbe6cb8b2cca9db9ece0a3f99e308b5"/>
-  <project name="platform/external/dbus" path="external/dbus" revision="ade5c7ad33484a8b8f7c11591d4e80a83e7ff369"/>
+  <project name="platform/external/dbus" path="external/dbus" revision="ebae2d2163e05e972807c2e2481b227615475345"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="6bcc301d166624837871fd601b4d3b5d43551e6b"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq" revision="1b25960ebe33754410ba3c663c1c45662c779381"/>
   <project name="platform/external/doclava" path="external/doclava" revision="7a6456cec94b5d3107f36b61e9c9f303c68e9392"/>
