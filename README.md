@@ -1,4 +1,4 @@
-no-you-cant-do-marshmallow: Marshmallow Restoration Project
+marshmallow-smores: Marshmallow Restoration Project
 =========================================================
 
 This repository contains reconstructed `repo` manifests of pre-release Android 6.0 ("Marshmallow") builds.
@@ -22,7 +22,7 @@ Downloading Source
 ------------------
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
-    repo init -u https://github.com/froyocomb/android.git -b no-you-cant-do-marshmallow -m <build>.xml --depth=1
+    repo init -u https://github.com/froyocomb/android.git -b marshmallow-smores -m <build>.xml --depth=1
 
 Then to download the respective code, execute:
 
