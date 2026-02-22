@@ -7,105 +7,26 @@ Only one build has been reconstructed at the moment.
 
 Preparing a Build Environment
 -----------------
-**DO NOT USE THIS GUIDE! It has been copy pasted from Android 5.0's repository as a placeholder.**
 
-**All of this must only be done once! Once a proper installation is set up, builds can be switched using just `repo init`. Make sure to erase the previous build's folders and files (with the exception of the hidden `.repo` folder, do not remove it) before changing.**
+It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 14.04 LTS ("Trusty Tahr"), which can be downloaded from [here](https://releases.ubuntu.com/14.04/ubuntu-14.04.6-desktop-amd64.iso). 
 
-It is recommended to use an older Linux distribution. All builds have been tested on Ubuntu 12.04 ("Precise Pangolin"), which can be downloaded from [here](https://old-releases.ubuntu.com/releases/12.04/ubuntu-12.04.4-desktop-amd64.iso). Do not use anything newer, like Ubuntu 14.04.
+To prepare a build environment, you can use our own Bash script, which you can obtain [here](https://raw.githubusercontent.com/froyocomb/tools/refs/heads/main/envsetup.sh). Download it in your compiling environment and use chmod (or GUI interface) to give it executing permissions. 
 
-Once Ubuntu 12.04 LTS is installed, as it is now a legacy edition of Ubuntu, the default repositories have to be changed to "old-releases.ubuntu.com". To do this, open Terminal and type in `sudo gedit /etc/apt/sources.list`. Change all references of the URLs from e.g. `http://archive.ubuntu.com` to `http://old-releases.ubuntu.com`. Do the same for `http://security.ubuntu.com`, but don't touch the two bottom-most URLs. Make sure to only change the beginning of the aforementioned URLs.
+After you execute the script, select the first option by typing in 1 and pressing Enter. It should automatically update the system and install required dependencies, including the repo script. After the option is done, restart the computer.
 
-If running in a virtual machine, install VMware Tools now, or else its features won't work properly (press enter on all questions given by `./vmware-install.pl`), then reboot.
+After the machine restarts, run the script again to install Java. To install either of them, select the 2nd option in the main menu and select option 3 (for JDK 7). The script can also change the default Java version, which can be useful if compiling different builds.
 
-Update the machine:
-```
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install duplicity linux-headers-generic-lts-saucy linux-image-generic-lts-saucy ubuntu-minimal
-sudo reboot
-```
-You can now proceed with the rest of the guide.
+After the script is finished, create a folder in which the build files will be kept in, such as "android", then move on to the next step.
 
-**Prerequisites**
-------------------
-First, install all the needed dependencies needed for building AOSP:
-
-
-```
-sudo apt-get install git gnupg flex bison gperf build-essential zip curl g++-4.6-multilib libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 libglapi-mesa libgl1-mesa-dev mingw32 openjdk-7-jdk tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386
-```
-
-Additionally run:
-```
-sudo ln -s /usr/lib/i386-linux-gnu/mesa/libGL.so.1 /usr/lib/i386-linux-gnu/libGL.so
-sudo apt-get autoremove
-```
-
-Certain builds of Lollipop require Sun Java 1.6, while certain ones require OpenJDK 7. OpenJDK 7 is installed in the above command. For builds requiring Sun Java 1.6.0, do the following:
-
-Afterwards, install Sun Java 1.6.0. The package for this is named `jdk-6u45-linux-x64.bin` - mirrors or the official download can be found by searching it up.
-
-After acquiring the package, run the following (this assumes the package is on the Desktop and the terminal is on the same path where the file is):
-```
-chmod +x jdk-6u45-linux-x64.bin
-./jdk-6u45-linux-x64.bin
-sudo mkdir -p /usr/lib/jvm/jdk1.6.0_45
-sudo mv jdk1.6.0_45/* -f /usr/lib/jvm/jdk1.6.0_45/
-sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.6.0_45/bin/java" 1
-sudo update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.6.0_45/bin/javac" 1
-sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/lib/jvm/jdk1.6.0_45/bin/javaws" 1
-```
-
-Once done, run `sudo update-alternatives --config java` and switch the system over to `jdk1.6.0_45`. Do the same for `javac` and `javaws`, by replacing `java` with `javac` or `javaws`. `javaws` will likely not have an alternative, if so, skip it.
-
-If the build uses OpenJDK 7 instead, switch to it appropiately.
-
-Install newer `git`:
-```
-sudo apt-add-repository ppa:git-core/ppa
-sudo apt-get update
-sudo apt-get upgrade
-```
-
-To get modern `repo` working, install Python 3.6:
-
-```
-sudo apt-get build-dep python3.2
-wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
-tar -xvf Python-3.6.15.tgz && cd Python-3.6.15
-sudo ./configure --enable-optimizations
-sudo make -j6 && sudo make install
-```
-
-I would also recommend setting a root password because of the next step.
-
-If you somehow manage to screw up the X11 install on 12.04 LTS (for example being stuck on the boot screen with all 5 dots lit orange), which is for some reason super common, access a terminal (via any method, e.g. switching TTY modes, recovery mode...), then run `sudo apt-get install --reinstall xserver-xorg`, and reboot.
- 
 Downloading Source
 ------------------
+To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
-To get started with downloading the source code, experience with Git and [`repo`](https://source.android.com/docs/setup/reference/repo) is needed.
-
-To set up repo, do the following:
-```
-mkdir -p ~/bin
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-chmod a+x ~/bin/repo
-```
-
-Run `gedit ~/.bashrc`, navigate to the bottom and paste in the line `export PATH=${PATH}:~/bin`. Restart the terminal and then create the `android/system` folders in the directory you wish to download and compile Android in. Navigate to the `system` folder and then proceed with the rest of the guide.
-
-To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the table above for available `<build>`s):
-
-    repo init -u https://github.com/froyocomb/android.git -b thou-shalt-take-the-L -m <build>.xml
-
-If `git` asks you to set your email and username, do so appropiately. Your actual username and email don't have to be used of course, just anything. Optionally, add `--depth=1` to shorten the download time and size.
+    repo init -u https://github.com/froyocomb/android.git -b no-funny-name-for-marshmallow -m <build>.xml --depth=1
 
 Then to download the respective code, execute:
 
-    repo sync --no-tags --no-clone-bundle
-
-Optionally optionally, run the above command with `-c` to shorten the size and download time even more.
+    repo sync --no-tags --no-clone-bundle -c
 
 Compiling
 ---------
@@ -120,7 +41,7 @@ Then pick from one of the available build targets by executing the command:
 
     lunch
 
-To compile for specific devices, download and extract their driver binaries from Google's official website (https://developers.google.com/android/drivers).
+To compile for specific devices, download and extract their driver binaries from Google's official website (https://developers.google.com/android/drivers), or use our "proprietary-vendor" repository.
 
 To compile Android, type:
 
@@ -132,17 +53,3 @@ Running
 -------
 
 You can run the compiled build with the Android Emulator.
-
-In the Ubuntu build environment, you may run the currently compiled build with the in-tree emulator by executing the command:
-
-    emulator
-
-To set a custom resolution, type `-skin 1920x1080`, replacing 1920x1080 with your desired resolution. Certain builds can also work with GPU acceleration, this can be enabled using `-gpu on`.
-
-Useful Links
-------------
-
-* GitHub search filter for non-SVN (i.e. Android) commits from the LineageOS LLVM & Clang mirrors, ordered by commit date
-  * [LLVM](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_llvm+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
-  * [Clang](https://github.com/search?q=repo%3ALineageOS%2Fandroid_external_clang+NOT+%22git-svn-id%3A%22&type=commits&s=committer-date&o=asc)
-* [Froyocomb Helper](https://gist.github.com/Dobby233Liu/c55c1e9c816facd153eeb19e386f53fd): userscript to assist finding commits before a certain time 
