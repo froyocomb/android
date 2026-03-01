@@ -14,6 +14,7 @@
   <project name="platform/bionic" path="bionic" revision="a27d2baa0c1a2ec70f47ea9199b1dd6762c8a349"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="4205b865141ff2e255fe1d3bd16de18e217ef06a"/>
   <project name="platform/bootable/recovery" path="recovery" revision="23580ca27a0a8109312fdd36cc363ad1f4719889"/>
+  <!-- Original commit is b6c1cf6de79035f58b512f4400db458c8401379a -->
   <project name="platform_build" path="build" remote="github" revision="android-1.0_fix">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -59,6 +60,7 @@
   <project name="platform/external/skia" path="external/skia" revision="262917823441f183fa67aa63b9c0ec4e52cce4c3"/>
   <project name="platform/external/sonivox" path="external/sonivox" revision="e442bb7cd6a085b33a4dd52c0e20a157ada7feb1"/>
   <project name="platform/external/sqlite" path="external/sqlite" revision="6005ac625aa553fe461b363385a8ed4a3c217a1f"/>
+  <!-- Original commit is 8fc5a7f51e62cb4ae44a27bdf4176d04adc80ede -->
   <project name="platform_external_srec" path="external/srec" remote="github" revision="android-1.0_fix"/>
   <project name="platform/external/strace" path="external/strace" revision="4a3ec90c3aa1cecc489f6fd19d785c6473ee8164"/>
   <project name="platform/external/tagsoup" path="external/tagsoup" revision="926d907a2fb69573f1c6337f064645dde18b1e5e"/>
