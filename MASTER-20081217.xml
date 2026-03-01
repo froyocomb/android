@@ -83,7 +83,8 @@
   <project name="platform/frameworks/opt/com.google.android.googlelogin" path="frameworks/opt/com.google.android.googlelogin" revision="d15a610b87be3b4d12a692489d6c94468944e48e"/>
   <project name="platform/frameworks/policies/base" path="frameworks/policies/base" revision="983983871f46d55634858287c25352cc95523790"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="51704bed795b5b0e5e3c7b792dcdc2bf2d96a9e9"/>
-  <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="040da078eb98745efe4b3f05ad72e61c66ba70b5"/>
+  <!-- Does not compile -->
+  <!--<project name="platform/hardware/msm7k" path="hardware/msm7k" revision="040da078eb98745efe4b3f05ad72e61c66ba70b5"/>-->
   <project name="platform/hardware/ril" path="hardware/ril" revision="a8657f8726ba81b72eb532c884545b4ad52ff471"/>
   <project name="platform/packages/apps/AlarmClock" path="packages/apps/AlarmClock" revision="10aba5b72f92f925bdb56cc717489e2825587cd5"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="ed217d91fb3f1a8f4e75ab36ef81d72ef9f4e6d6"/>
