@@ -45,6 +45,8 @@ To compile the build, run:
 
     make CC=gcc-4.2 CXX=g++-4.2 -j$(nproc)
 
+If the compile fails in the middle, replace gcc-4.2 and g++-4.2 with 4.4 and run make again. Do not run make clean.
+
 Running
 -------
 
