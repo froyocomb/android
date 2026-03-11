@@ -64,7 +64,8 @@
   <project path="external/clang" name="platform/external/clang" revision="19b6e7b1b8c221e12efe9886ff7cc6ae51fec3fc" />
   <!-- Required for compile at this time -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="91354d7be8b43a5008f8bc5bb53b8e396afb3d20" />
+  <!-- Empty until March 08 2012 -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="7c044cc362b6590485a11d3b0351e09f4e123c85" />
   <project path="external/dbus" name="platform/external/dbus" revision="12a8f9246cc292e34c0c0fa20f2dbf8d738dc11e" />
   <!--<project path="external/dexmaker" name="platform/external/dexmaker" />-->
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="733caa815709ef629b67fbf33ddba7c553930cdb" />
