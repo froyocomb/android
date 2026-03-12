@@ -210,7 +210,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" revision="f3320979f6d3b63686f15cedae65bba144643e25" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="8c9cdad36e0c1e73b637fdee4b5209d9d3dbbf69" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="5fffd2ba2d7fc22271251251f89043ab345acd74" />
-  <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="1f5ddeafd712f219129f7493e96ea42336867f65" />-->
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="d2432b9691869b5b40a5b49c682c40d917ea9dcb" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="9636a303b86e14118d608352a76c6face9b76df2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="25d6bcb2fa8c9583dc5e3f6b53956a4f2631ae52" />-->
