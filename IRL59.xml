@@ -276,10 +276,10 @@
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="d81b00a73068b46263bd6fb683a0cf893a2a8c52" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="f87ca1e67983782b9b1386a9ced89626a5520b0a" />
-  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="730f65142632e212e30c28fe2b89e84d55fb5bc9" />
+  <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="a5a0fb88861b6ada41bad777f42421cbebd193fd" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="076e2d40435df6e089e38583ea41550eb9c4c27c" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="9f13850b5295a9855ac4784c0595b2f908d8609a" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="9c9e7c3d6e70c0326cb05e0656fccb1a5f07f1c6" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="2fffdd3089ba8895f5aa2f5adc9d003f493b68d8" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="45f7052444625ba1701197286abd989bb803205e" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="bba215a1f4387c66db758755d79b4574d2649794" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="bb84caeb637dea9d89e9087d1089c303a2a1048a" />
