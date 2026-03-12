@@ -194,7 +194,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="6232e2d5ab34a40d710e4b05ab0ec6e3727804e7" />
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-  <project path="frameworks/av" name="platform/frameworks/av" revision="1dcfc417ce7c031f5c039ef89f5312b643908956" />
+  <!-- Seemed to point to frameworks/media at this point instead of platform/frameworks/av -->
+  <project path="frameworks/media" name="platform/frameworks/av" revision="1dcfc417ce7c031f5c039ef89f5312b643908956" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="9027470739ba43c7d43a223959cb876176c72af0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="e1bff14dce0fbf231323c0849f3f03da7ba0ee2d" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="9f4c28af2b830f6400c32d1f481e680346bbf33f" />
