@@ -213,7 +213,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="d2432b9691869b5b40a5b49c682c40d917ea9dcb" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="9636a303b86e14118d608352a76c6face9b76df2" />
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
-  <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="25d6bcb2fa8c9583dc5e3f6b53956a4f2631ae52" />-->
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="86d4c6adc589ad73ff38e480151e65e755a7071a" />
   <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="84b445e2d5d3cd94e12db420e7d2ab28aca84a8c" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="7291b77f00cfda5ea7321c89644b05b2329e6ff2" />
