@@ -195,7 +195,7 @@
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
   <!-- Seemed to point to frameworks/media at this point instead of platform/frameworks/av -->
-  <project path="frameworks/media" name="platform/frameworks/av" revision="2db767137112a619751b70b9947aaa064030a210" />
+  <project path="frameworks/media" name="platform/frameworks/av" revision="6f26d10ee6c337112ee5f968a436ac0ee9c6352f" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="9027470739ba43c7d43a223959cb876176c72af0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="e1bff14dce0fbf231323c0849f3f03da7ba0ee2d" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="9f4c28af2b830f6400c32d1f481e680346bbf33f" />
