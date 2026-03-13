@@ -208,9 +208,11 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="5e51a731de32c1d41c542b61fad35fc253f12451" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <!-- Moved from frameworks/base in late-March 2012 -->
   <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="1415ca46b289604fd727310e4f6ae3c8c68276c9" />-->
   <project path="frameworks/support" name="platform/frameworks/support" revision="c0740e5de0d1f0dc41fb9f379a5d35afe14d1305" />
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
+  <!-- Moved from system/media in late-March 2012 -->
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="8ed5993c605b62423d63e63092a4aaf0c855aa0f" />-->
   <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="f4caa722abd2e1798bcde68ceccf2286c12493b0" />
@@ -226,6 +228,7 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4adf0a82f66de9379c5e37d5dd0831a70cb6f236" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
   <project path="libcore" name="platform/libcore" revision="ccde60e2ceda36fe10a872542038d4402148e0bd" />
+  <!-- Moved from platform/dalvik in May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="8325e215273e755afd9e97d4efb2781fd01df0e4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -245,6 +248,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="a09041adad23eec43df69941d9e98d9aefc99554" />
+  <!-- Renamed to LegacyCamera in June 2012 -->
   <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="7c881ad57ef6e4e1a2ced01eefedbc6d5ecc4418" />-->
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e91cde5dd6f8ad2a14edb4bf5bb7806a8c7050c7" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="6f7ba24c65de07a29c0ceea06c3324912007e47b" />
