@@ -62,7 +62,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="19b6e7b1b8c221e12efe9886ff7cc6ae51fec3fc" />
-  <!-- Required for compile at this time -->
+  <!-- Required for compile by development/tools/a3dconvert at this time (and until April 19 2012) -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
   <!-- Empty until March 08 2012 -->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="7c044cc362b6590485a11d3b0351e09f4e123c85" />
@@ -150,7 +150,7 @@
   <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="50bef863032f6b6980bea59d7d30dec6aeb081f9" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="07c74c1f62f3250d4b0cf69d4d6bbba5598edcb6" />
-  <!-- Required for compile at this time -->
+  <!-- Required by collada for compile at this time (and until collada's removal) -->
   <project path="external/pcre" name="platform/external/pcre" revision="0c84e04724db3a5c658be99847eb196edce6009f" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
@@ -185,7 +185,7 @@
   <project path="external/webkit" name="platform/external/webkit" revision="24a74a6a3162a65b04cffdf6660803d73f9f440e" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
-  <!-- Required for compile at this time -->
+  <!-- Required for compile by libhardware_legacy at this time -->
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="3d8fdea07212e99beb0ef9b1ef1e9e2c3d48482d" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="a4d23b8131874ba2380817014f9190b737ce785d" />
