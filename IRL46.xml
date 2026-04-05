@@ -59,7 +59,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="048dacdca43eed1534689ececcf2781c63e1e4ba" />
   <!-- Imported on January 24 2012 -->
-  <!--<project path="external/checkpolicy" name="platform/external/checkpolicy" />-->
+  <!--<project path="external/checkpolicy" name="platform/external/checkpolicy" revision="8c48de15b1afeb1cd01a753195a29b1a7811dbfe" />-->
   <project path="external/chromium" name="platform/external/chromium" revision="2c4085b2006233b5e3a3fe507d62642377b5dc2e" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
