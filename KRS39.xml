@@ -19,7 +19,7 @@
   </project>
   <!-- RTM revision -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
-  <project path="art" name="android_art" remote="github" revision="KRS39-fix" />
+  <project path="art" name="platform_art" remote="github" revision="KRS39-fix" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="840a114eb12773c5af39c0c97675b27aa6dee78c" />
   <!-- RTM revision -->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="3c491d6efb8ff2534a6934702760a6273f197918"/>
