@@ -104,6 +104,7 @@
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" revision="e485ff1fb732be2dff497b6aed11d5c0d681de82" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" revision="3b92be903ac01851c3205ce53f12145a8b3f6791" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" revision="c57d2c45a38b38ff6c51b220cbf24a639867ab8a" />
+  <!-- Not used by chromium_org at this time, used since 13 Dec 2013 -->
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" revision="016c99759bd7bd1f2ad6d792bcb57245295e27d2" />
   <!-- Required by external/chromium_org at this time -->
   <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" revision="91168be80f65fe7221127437a9db3b22c60e86eb" />
