@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
-<manifest xmlns="http://schemas.android.com/git-repo/manifest">
+<manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
@@ -11,8 +9,8 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- Manifest of IRJ32. Tagged date is 02 May 2011, commit is d79b75eb4a51b2bc2eaf779a235876821e93537e, manifest reconstructed on 18 January 2026. No revision = RTM commit. -->
-  <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ32-fix">
+  <!-- Manifest of Android 4.0 build IRJ32. Build tagged on 02 May 2011. Manifest made on 18 January 2026. -->
+  <project name="platform/build" path="build" revision="d79b75eb4a51b2bc2eaf779a235876821e93537e">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
-<manifest xmlns="http://schemas.android.com/git-repo/manifest">
+<manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
@@ -11,8 +9,8 @@
            remote="aosp"
            sync-j="4" />
   
-  <!-- Manifest of IRJ40. Reconstructed prior to 2026. Original build commit is b4f5a64b6cc4105c2edf00e6799201da12da429d No revision = RTM commit. -->
-  <project name="platform_build" remote="github" path="build" revision="i-scream-sandwich_IRJ40-fix">
+  <!-- Manifest of Android 4.0 build IRJ40. Build tagged on 10 May 2011. Manifest made prior to 2026. -->
+  <project name="platform/build" path="build" revision="b4f5a64b6cc4105c2edf00e6799201da12da429d">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
   <project name="platform/abi/cpp" path="abi/cpp" revision="7efaedecf216fce967a8d9147f3a053fd6a2b9d7"/>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="styles/git-repo-manifest.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-stylesheet type="text/xsl" href="styles/styles.xsl"?>
-<manifest xmlns="http://schemas.android.com/git-repo/manifest">
+<manifest>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
@@ -11,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <!-- Manifest of IRJ60. Reconstructed prior to 2026. No revision = RTM commit. -->
+  <!-- Manifest of Android 4.0 build IRJ60. Build tagged on 30 May 2011. Manifest made prior to 2026. -->
   <project name="platform/build" path="build" revision="d4c3d5baf89aaa22fbf1bfbd11ef6cf1e028985c">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
