@@ -47,7 +47,7 @@
   <project name="platform/external/antlr" path="external/antlr" revision="b87cccb1bb91d78fa2479e6e4b9de45fb320b4a5" />
   <!-- Not created/empty until 27 Apr 2011 -->
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="76ff2976759558e412aa06e3d77e88101dac7f9d" />
-  <project name="platform/external/apache-http" path="external/apache-http" revision="177cd647c9fa02329fb9800f71282b233170f986" />
+  <project name="platform/external/apache-http" path="external/apache-http" revision="403f11d92b25f7c3060b1a973d4076c5d6585ccf" />
   <project name="platform/external/apache-xml" path="external/apache-xml" revision="9fb03df8f04136e01e1c54ce55b5f14f19e6af98" />
   <project name="platform/external/astl" path="external/astl" />
   <project name="platform/external/bison" path="external/bison" />
