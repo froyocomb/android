@@ -55,7 +55,7 @@
   <project path="external/expat" name="platform/external/expat" revision="204e2ef0e1a2c2da0087cccb0c9b618d52f1d584" />
   <project path="external/fdlibm" name="platform/external/fdlibm" revision="980942a285dffed1cfe323d46444e40074868dff" />
   <project path="external/freetype" name="platform/external/freetype" revision="7f08cbd7d6dcf19b8d8e4328e33032aee342e3b4" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="b6ee08aadb580341a4d80943741b80de16a88b5d" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="477904934945ff04029cfa26a9030a908fbdb2d2" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
@@ -86,7 +86,7 @@
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/llvm" name="platform/external/llvm" revision="8ea78d0cd2da9020b3f93e573aeaee8c08a3cb87" />
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
-  <project path="external/netcat" name="platform/external/netcat" revision="3b923003c7c5a13b4ff2e2091acd307e9d1304b2" />
+  <project path="external/netcat" name="platform/external/netcat" revision="2b3431e2762434dff96ff279069e3796ef2d4333" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="ee4818b89e806fb1ef6d241cb8199716b2d0ca85" />

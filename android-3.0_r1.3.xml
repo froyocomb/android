@@ -9,22 +9,24 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android 3.0 build HRI39 - reconstruction of "android-3.0_r1" tag. HRI39 is actually a revision of HRI35F - as such, i am treating this build as if it was a revision build. Build tagged on 08 February 2011, manifest made on 24 May 2026. -->
-  <!-- HRI39 -->
-  <project path="build" name="platform/build" revision="a15b6c53a8bde45fb6e87e9dc9ebeefc643aec55">
+<!-- Manifest of Android 3.0 build HRI83 - reconstruction of "android-3.0_r1.3" tag. HRI83 is actually a revision - as such, i am treating this build as if it was one.  Build tagged on 24 March 2011, manifest made on 27 May 2026. -->
+  <!-- HRI83 -->
+  <project path="build" name="platform/build" revision="49b469343e08113070dcfdee93d8fa4eff34a130">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" revision="c4dff905d430d9e313efe013dbc03b6388ce351a" />
+  <!-- HRI60 -->
+  <project path="bionic" name="platform/bionic" revision="d38157387661181e383e211ed745bb17381a5674" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="b984d51b0eabdcaf138741a43724c84b7847b05b" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="5cae445e43c5928daba0a76745b0dd2657274eda" />
+  <!-- HRI55 -->
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="ee458bbf9b68c70cad80323bb4e1c816e88e36ec" />
   <project path="cts" name="platform/cts" revision="72264cf810ede4c98a3de4270bc285529ad92344" />
   <project path="dalvik" name="platform/dalvik" revision="e502b66edd734e8265bc2bd8f1c2addb64b63e73" />
   <project path="development" name="platform/development" revision="edd0e0ffc6b856b75a7d47a98457a07e7b687174" />
   <project path="device/common" name="device/common" revision="b76ffcccfc230016ff968bd38dcf9e4f03f0a16a" />
   <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
-  <!-- HRI39 x2, original commit is 491a8f940a4c3ead028dc0716913d5e846b0f395. Have to ask it to copy over the vendor blobs. -->
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRI39-vendorblobs" />
+  <!-- HRI39 x2, HRI55 x2, HRI82B, HRI82C, HRI83, original commit is f20118c78a4619a2d404255faa821a7d2550d433. Have to ask it to copy over the vendor blobs. -->
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRI83-vendorblobs" />
   <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="403f11d92b25f7c3060b1a973d4076c5d6585ccf" />
   <project path="external/astl" name="platform/external/astl" />
@@ -111,17 +113,20 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" revision="ef03ae17fcbd7474f839cc2fee27a58369cf41dd" />
   <project path="external/v8" name="platform/external/v8" revision="a05c99b4227a01c34c5645e44bbc8c07105e1f94" />
-  <project path="external/webkit" name="platform/external/webkit" revision="56463a52c19062aae422f8b66ab866ec36d7712d" />
+  <!-- HRI39 x2, HRI53 x8, HRI55 x2, HRI59, HRI60, HRI61, HRI62 -->
+  <project path="external/webkit" name="platform/external/webkit" revision="e70222ba5aafd13d88b64d27a2ea4d5dbcd7ade6" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="92202cf7a2e615b65e892aa8f633b469ddcb522e" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="a12fdfe7081a569335ae45c9c679ab144d85e3b3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" revision="96c70b1df1629d7f0eb8f666045bfd5eb062cebf" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="a8cae7df1def85dbcda70444e969e784e37237ed" />
+  <!-- HRI59 x6, HRI60 x3, HRI66 -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="913d9ae818b95a288089507d92b5121695ee774b" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="9365a3da8796df17a50862a829582a8f7fe5d158" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="fad7d2f04d10dd6069ddb163456812cca560acbb" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="cfc6219e3a3d83952197504067bdb7173a10977c" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="ca3e96f4583eb7f1f20213bf3322e4dcb2691ecc" />
+  <!-- HRI59, HRI60 -->
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="c3dfe35efa5ca02db73c9c6658259b24f4f6a8d7" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="da2f6ef422b360827f2c5231552d8c9fad0ed8b1" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="74908cd3639fb033c9acbb8d42584346a4466a0a" />
@@ -143,7 +148,8 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="617fd344778e60de065abc9fb1ece50680c9cc87" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="c01da13c688f0d416c6e6d403dbaf33524bc2583" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="946e9a0570374f3dffbb5aacabdbddd91bd25b24" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="af09e8a8df01f3918eae9ed767d44d1b4bdf676c" />
+  <!-- HRI59 -->
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="1efbcec0a71056adc0421a26b2f269561183b9a2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="009cb89c9ea1c17a0756162c144d72ff0e87d78d" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="746e5a650b0114bdcef1419090cbdf26b44766ec" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="40379b21d8f16d8dd346ec291b3c24f84c62d291" />
@@ -173,7 +179,8 @@
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="8762420a96014f3cb0f2aecdc9cd2045d9da1b96" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="cedee1e6ad05048d871807f1f537da7ce9107002" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="2b1a53fe6c2e95197d0228ecd5268c91ee438f94" />
+  <!-- HRI59 -->
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="567e401571c83759de8b35ce23dd66b5e9fd0a58" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="3919a2797e37d1b39ea54fef31b017153e34201c" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="71ec723536899a5aa5f2ac207b04af4818b31ace" />
@@ -181,11 +188,13 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="9de3ed863ce015c0b378861073efa6487cd46839" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="b0c126436af7945dae45524a8e16671dd1473789" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="ab65378dfb6a232de9c0bd64c780eb31ce3e8da7" />
-  <project path="prebuilt" name="platform/prebuilt" revision="ffba3a0f52c19a7f4d33ab092100ae4d6e955ba7" />
+  <!-- HRI60B -->
+  <project path="prebuilt" name="platform/prebuilt" revision="9a0c3fc50babeab159984e8399a155393d8b1d1a" />
   <project path="sdk" name="platform/sdk" revision="a1dc6ef5ee332303c75a5c5c592fd27ef5a518db" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="dad064dc614b7c582a011f0addbff2a9eb68c195" />
   <project path="system/core" name="platform/system/core" revision="15b9c9c9802d63264714b7e56779d78d8b0e6d52" />
-  <project path="system/extras" name="platform/system/extras" revision="7f44798d3b28572e14eda7896784f8b223ad80e9" />
+  <!-- HRI82 -->
+  <project path="system/extras" name="platform/system/extras" revision="fe1eb68519f08da12434500156e72a6ff54b2c66" />
   <project path="system/media" name="platform/system/media" revision="dfb9bbca73306374cf50eb51a835d1ffb26fcaa9" />
   <project path="system/netd" name="platform/system/netd" revision="5c140d71edf861f8c6c47dc9a18c3b54aac7dea1" />
   <project path="system/vold" name="platform/system/vold" revision="4dd1cbf09b3cfc0f60fbd73a834dd581f16a084d" />
