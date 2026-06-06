@@ -145,7 +145,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="721744541c4d471be243eeb48287d0d1de109cc5" />
   <project path="libcore" name="platform/libcore" revision="eebf863ca5c8a7497f92602fe9ea3d1282c8bded" />
   <project path="ndk" name="platform/ndk" revision="2d3f9177e88c9bb8f292c7bfc01b5ea1f042a29c" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="12de25a6f806848952d8c334a90c5884aba4690f" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="554a2a603c5479bb1d1f7107b04852b4baa38546" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="d994533643ae793ef983155b3ede633d219d1237" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="1214af3f8651d9a936b182b52d5f07734e28828b" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="d719cc957296be4c41a147c68df5d188938ba705" />
