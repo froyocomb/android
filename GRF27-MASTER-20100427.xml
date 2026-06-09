@@ -60,7 +60,7 @@
   <project path="external/grub" name="platform/external/grub" revision="121d6447b523906e9ce57482b1d204df790d3557" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" revision="ca9d5e7643b8720950ece7ecdc10cba9e566cc01" />
-  <project path="external/icu4c" name="platform/external/icu4c" revision="e8aab5e9f14e1c3a670fbea64057a2a5f5c35245" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="48b4965f21b876425372e873214bdc2496d02c3e" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="c688c922a1060eb0efc53d5ed4d4b59d65840c4a" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="4fe3597dce855ea199afa239498c9c1833a6fe48" />
   <project path="external/iptables" name="platform/external/iptables" revision="278d26e1424418cff04742f4c5a841da05a0ab08" />
