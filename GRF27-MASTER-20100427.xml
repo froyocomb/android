@@ -10,7 +10,7 @@
   <remote name="github"
            fetch="https://github.com/froyocomb" />
 
-  <!-- Manifest of Android "Kraken" build "GRF27". Not actually GRF27, MASTER. Build tagged on 27 April 2010, manifest made on 7 June 2026. -->
+<!-- Manifest of Android "Kraken" build "GRF27". Not actually GRF27, MASTER. Build tagged on 27 April 2010, manifest made on 7 June 2026. -->
   <project path="build" name="platform/build" revision="1053592f91184b47bdab9f4a9d5ab55c0b5880fa" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
