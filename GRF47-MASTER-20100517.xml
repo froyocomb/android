@@ -96,27 +96,27 @@
   <project path="external/protobuf" name="platform/external/protobuf" revision="3e6833eec60b81e825555d5a3bfc91a08c6e9df3" />
   <project path="external/qemu" name="platform/external/qemu" revision="63e644f0869fe9ab49867daba736cc45e2f85329" />
   <project path="external/quake" name="platform/external/quake" revision="0b098acc31bcd0f40288fc0b31466509ed5df2ee" />
-
   <project path="external/safe-iop" name="platform/external/safe-iop" revision="084f46f834a5327a301984a0d72404551cd2cb6f" />
-  <project path="external/skia" name="platform/external/skia" revision="4b9b073d4cc3ada977b28803bb5471005ba7e250" />
+  <project path="external/skia" name="platform/external/skia" revision="d66241cf69bfb701f19b4c5d3804189dc6454426" />
   <project path="external/sonivox" name="platform/external/sonivox" revision="4fe08534dea6b494dd6bbdfa5be605bd4f0e1ac7" />
   <project path="external/speex" name="platform/external/speex" revision="9965152ae52eb4dfdafbdcd8b55e39d1a23052e0" />
   <project path="external/sqlite" name="platform/external/sqlite" revision="904607b881c63fad87fd72a78602d620792b58dc" />
-  <project path="external/srec" name="platform/external/srec" revision="58a59517c49aa1153cf4c5813ac4829e88ca8f48" />
+  <project path="external/srec" name="platform/external/srec" revision="35a6d12873c94f19efdf4763b7ed4f00212b1d15" />
   <project path="external/stlport" name="platform/external/stlport" revision="95d799c8b9b8fc61c010a299cb7674e3e824c870" />
-  <project path="external/strace" name="platform/external/strace" revision="5f5ae71ed6fc176add4c3bfe2df7538d24494794" />
+  <project path="external/strace" name="platform/external/strace" revision="fb19d317e61dfbb8234bb23d5c7cc40827667ec2" />
   <project path="external/svox" name="platform/external/svox" revision="8e199439ff3a726412b31b0c75f50b5aee7a77a1" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" revision="20dda290edd481880682bdc9ac9d1aa4ef6410b6" />
+  <project path="external/tremolo" name="platform/external/tremolo" revision="1a7ca64dd19ab9a5af3c4c3c58c815f764877bf7" />
   <project path="external/v8" name="platform/external/v8" />
-  <project path="external/webkit" name="platform/external/webkit" revision="bf13d116b8b9dbefaf2a09542aaad63f85cc16d4" />
+  <project path="external/webkit" name="platform/external/webkit" revision="b7c854aed9c3a06b7d7fd977ce6fdba58c41126e" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="97168b54aa9d793599ec95515296e9149bd920a0" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="d82128d89c860044606cabe00169738f4bf0c800" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="f9485fe8567fc50f2eecf35055ee5c5c31d61362" />
   <project path="external/zlib" name="platform/external/zlib" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4" />
+
   <project path="frameworks/base" name="platform/frameworks/base" revision="bda001aa320721b72309c4d9f85a251d64c8b185" />
   <!-- Not in use until 15 June 2010 -->
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
