@@ -119,5 +119,5 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="85ff57da47aaa93dc0018940cbd6b1f923664b46" />
   <project path="external/zlib" name="platform/external/zlib" revision="edc3fb3b9f9250ceacaf07a83beb5dde02807f9c" />
   <!-- Not in original manifest. -->
-  <project path="vendor/htc/dream" name="platform/vendor/htc/dream-open" revision="e3868b58332ab687e3d7225a04db4022572762e8" />
+  <project path="vendor/htc/dream" name="platform/vendor/htc/dream-open" revision="a35b8c504606c5d7261c4c5c08c4b5ff78cb6a86" />
 </manifest>
