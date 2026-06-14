@@ -1,7 +1,9 @@
 i-cant-believe-its-not-android: Android 1.0 AOSP build (TC3)
 =========================================================
 
-This repository contains the manifest for the Android 1.0 AOSP build (TC3).
+This repository contains two manifests for the Android 1.0 AOSP build (TC3).
+
+Build TC3-20081021.xml is the first to ever be tagged on AOSP, while android-1.0.xml is the build that was released under the "android-1.0" tag. They feature only around two-four changes.
 
 Preparing a Build Environment
 -----------------
