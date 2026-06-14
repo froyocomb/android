@@ -116,21 +116,21 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="f9485fe8567fc50f2eecf35055ee5c5c31d61362" />
   <project path="external/zlib" name="platform/external/zlib" revision="d834beaf3037eed0745f6dbd987a3bd8b3bf7ee4" />
-
-  <project path="frameworks/base" name="platform/frameworks/base" revision="bda001aa320721b72309c4d9f85a251d64c8b185" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="0b275423126c441a2ed78abb827176ec77d60dc1" />
   <!-- Not in use until 15 June 2010 -->
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="6b8a1c6010b8cff0fc4081d3eba0778c9e8a86b2" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="b15879a589bb5ce350869e1a735840679e4b2aaa" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="bf871a3efb4f93cd05c9ebad1906074e246e6840" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="ce3e1af91f1c384d1704530d0ec3cbd4557cd341" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="c6cf19a688b6d1c068a6f6ee4c1302a333cd8518" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="da98899bbfe41361fe9709da9465c538c874d04d" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="3c865ec2f9efbe5e21b55c1b43a2fbe9ffe1000a" />
   <!-- Not in use until 23 June 2010 -->
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="72c8c9f7d7f2f371e95918211e2bc514c96b9f83" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="76e1a7bfbf7317789e49721abf1b37eded14208b" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="ed9d64aa98ec5c8654abf0e3decfc1706539170c" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="27bb904e35a755c541302d014f2b3ddaa3dfb7cb" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="23f1bd9e9114d77087c7b8fafbcadf97de70c662" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4d7c6cbda8f292beb38cbf6bd0abbd05555e3e90" />
+
   <project path="libcore" name="platform/libcore" revision="873ccdf856836603f62f5e89c9dc65cba21fd8fc" />
   <project path="ndk" name="platform/ndk" revision="92c6ba95a1f6ca9eee7e1c0bb321ef359a933d4d" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="b695ef9b57c799326377b2965e0a2e98e170fbb2" />
