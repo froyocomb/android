@@ -3,7 +3,7 @@
    <remote  name="korg"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com" />
-  <remote  name="github"
+   <remote  name="github"
            fetch="https://github.com/froyocomb" />
    <default revision="android-1.6_r1"
            remote="korg" /> 
