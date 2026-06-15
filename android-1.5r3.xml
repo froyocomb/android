@@ -4,7 +4,8 @@
   <remote fetch="https://github.com/froyocomb" name="github" />
 
   <default remote="korg" revision="android-1.6_r1"/>
-  
+
+<!-- Manifest of Android 1.5 build CRC1, or tag android-1.5r3. Build tagged on 1 July 2009, manifest made on 15 June 2026. -->
   <project name="platform/bionic" path="bionic" revision="6ed739e1d3b5088bf1cd56f09ba3afba792b969d"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="076ef94d61f349f7cf0fe776e60456d8f232cca5"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="8fd8fc6c4d23e1a287fc64f817de23cabcf55b78"/>

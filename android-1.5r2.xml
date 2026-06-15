@@ -8,6 +8,7 @@
   <default revision="android-1.6_r1"
            remote="korg" />
 
+<!-- Manifest of Android 1.5 build CRB43, or tag android-1.5r2. Build tagged on 13 May 2009, manifest made on 15 June 2026. -->
   <project name="platform/build" path="build" revision="9b54792d7044125126a9765d1baf3ff0e59efcb4">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
