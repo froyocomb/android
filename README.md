@@ -9,7 +9,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 | [`cupcake-den`]                          | Android 1.5      |          
 | [`donut-bakery`]                         | Android 1.6      |                
 | [`what-kind-of-dessert-is-eclair-anyway`]| Android 2.0-2.1  |                
-| [`zombiebread`]                          | Android 2.3      |          
+| [`krakenbread`]                          | Android 2.3      |          
 | [`froyocomb`]                            | Android 3.0-3.2  |            
 | [`i-scream-sandwich`]                    | Android 4.0      |       
 | [`jolly-bean-jolly-bean`]                 | Android 4.1-4.3  |          
@@ -23,7 +23,7 @@ This repository is a collection of reconstructed manifests for pre-release build
 [`cupcake-den`]:  https://github.com/froyocomb/android/tree/cupcake-den
 [`donut-bakery`]:  https://github.com/froyocomb/android/tree/donut-bakery
 [`what-kind-of-dessert-is-eclair-anyway`]:  https://github.com/froyocomb/android/tree/what-kind-of-dessert-is-eclair-anyway
-[`zombiebread`]: https://github.com/froyocomb/android/tree/zombiebread
+[`krakenbread`]: https://github.com/froyocomb/android/tree/krakenbread
 [`froyocomb`]:  https://github.com/froyocomb/android/tree/froyocomb
 [`i-scream-sandwich`]: https://github.com/froyocomb/android/tree/i-scream-sandwich
 [`jolly-bean-jolly-bean`]: https://github.com/froyocomb/android/tree/jolly-bean-jolly-bean
