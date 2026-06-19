@@ -21,14 +21,13 @@
   <project path="dalvik" name="platform/dalvik" revision="b46dfc86bd5b746de4421b6a14f90f9b694f8850"/>
   <project path="development" name="platform/development" revision="b4d22f86eb704b65ae6f5255ca85b8bd35780c0d"/>
   <project path="device/common" name="device/common" revision="923fa910b497abcd1685875b9dea66118fd85590"/>
-  <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
   <project path="device/moto/stingray" name="device_moto_stingray" revision="HRH54C" remote="github" />
   <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
   <project path="external/apache-http" name="platform/external/apache-http" revision="723b2f0ba0f78bc610498372ee7441ff5fc4eea6"/>
   <project path="external/astl" name="platform/external/astl" revision="21e60cd99f51072bf3db25ca3d02a3e0d199c216"/>
   <project path="external/bison" name="platform/external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
   <project path="external/blktrace" name="platform/external/blktrace" revision="1e2f2877319669fc4be61b4b46182b44390d3bc9"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="4e0e44626dacd6d2165cfaa7073fd0a9eb4187f2"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="8ff98ead0a283cdc7a3248be47596fb6c1299e51"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="757b7f7d8917b43c77e43b5653e7674417ba298f"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="c17020b4896833f03d4b40da48ee87a99b10bc6d"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="8212855a312dc8ebe081a3e08b1d2d8f8757af02"/>
