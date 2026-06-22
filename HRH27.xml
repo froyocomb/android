@@ -7,7 +7,7 @@
   <remote name="github"
           fetch="https://github.com/" />
   
-  <default revision="master"
+  <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
   <project path="build" name="platform/build" revision="51e2bd3f229cdd68cf63ff3f7ca6211287012f89">
@@ -18,15 +18,16 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="c2dcefa3822e31ccb85644311b9df52ca541cf04"/>
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="7c3ee270ce65b2ff2e234a259bc5b69eab5e58dd"/>
   <project path="cts" name="platform/cts" revision="a7b6e805db6a62c69d62a65e3580e02bd302b60f"/>
-  <project path="dalvik" name="platform/dalvik" revision="9c907e0f7dd74ef351d0116783e088bb9ed68bdb"/>
+  <project path="dalvik" name="platform/dalvik" revision="0b33af0c8ab2d1012b31ff1b2e550348a8b0217a"/>
   <project path="development" name="platform/development" revision="01cd2b97eb8ad3169fc8991ab9b5c72ce84fb5d1"/>
   <project path="device/common" name="device/common" revision="923fa910b497abcd1685875b9dea66118fd85590"/>
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="517cc316d4705078bc601002eb804c66ad7effb7"/>
   <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
   <project path="external/apache-http" name="platform/external/apache-http" revision="723b2f0ba0f78bc610498372ee7441ff5fc4eea6"/>
   <project path="external/astl" name="platform/external/astl" revision="21e60cd99f51072bf3db25ca3d02a3e0d199c216"/>
   <project path="external/bison" name="platform/external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
   <project path="external/blktrace" name="platform/external/blktrace" revision="1e2f2877319669fc4be61b4b46182b44390d3bc9"/>
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="00b3d48753565e620aeeec6ae2aa2e7306a0e50d"/>
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="c3d03f1916d453eabbc5e3d58f6926dcaba2c4df"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="757b7f7d8917b43c77e43b5653e7674417ba298f"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="c17020b4896833f03d4b40da48ee87a99b10bc6d"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="cc041ec354960aa3dfcb84950505968be3871b68"/>
