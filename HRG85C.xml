@@ -22,7 +22,7 @@
   <project path="development" name="platform/development" revision="2ffaf68b6b19da23258a0bed9eaeba0b1660e50e"/>  
   <project path="device/common" name="device/common" revision="923fa910b497abcd1685875b9dea66118fd85590"/>
   <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRG85C" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="0fd7b6a7e3300ab563d49109b0a847cfd7746e7c" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="e9a3cc7842f13b5e2b941bafc6bb3d0e9aa4c819"/>
   <project path="external/astl" name="platform/external/astl" revision="c3c760978c34d5eeea1205c0bf7f27444e192a98"/>
   <project path="external/bison" name="platform/external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d"/>
