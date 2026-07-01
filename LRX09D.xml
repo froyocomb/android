@@ -13,9 +13,9 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android 5.0 build LRX09G. Build tagged on 10 October 2014 (9 October 2014 for base build). Manifest made on 14 April 2026. Base build commit is 90381372180847d82a3bbb69d47ea7b0a644b6a6 -->
-  <!-- LRX09F -->
-  <project path="build" name="platform/build" groups="pdk" revision="6faf33406eedad8fb0f2f10c53a2dd32ab916ee6" >
+<!-- Manifest of Android 5.0 build LRX09D. Build tagged on 9 October 2014. Manifest made on 14 April 2026. Base build commit is 90381372180847d82a3bbb69d47ea7b0a644b6a6 -->
+  <!-- LRX09D -->
+  <project path="build" name="platform/build" groups="pdk" revision="b33b4d5db410125409225987c098f6111604f62a" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -56,16 +56,13 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" revision="7c99ad7641e0b828bacd8db9e0ad9c6a85d5c8ec" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" revision="1d0e31e87aa3a4a8c75f8baaf8001dfea65922b0" />
-  <!-- LRX09G -->
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" revision="880919a6e4681d88d801c165980ce68b33d8b7e9" />
+  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" revision="1c8ebb189b5a2ce89b78a2110135e3237bdb7edf" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" revision="6c6d366962bc104c1d232d705c820ec0e8124212" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" revision="5766b1e721f8304c8509c77897d41725cb4ac3d4" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" revision="0db2c7439d6ea2b46d1f14ceda6c98489cac7696" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" revision="7908d0beb9ee7ce293796de52e6275a344e0c5bd" />
-  <!-- LRX09F -->
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" revision="710273c04b9436c7d93c7cc4d96439e06ebd9b00" />
-  <!-- LRX09E, LRX09G -->
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="8d29833bddc886a5e4f5e3d69e2eb34a53c5b8b1" />
+  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" revision="c79afa18ef92c72cd78f34358038d9affcd48fa2" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" revision="2f5450144b69b1698bdcdef4232f30c0439eb320" />
   <project path="device/sample" name="device/sample" groups="pdk" revision="58f4d4922499164498118b4c52c3705aa59e64cb" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" revision="8247621e0ad9b6da533dcd463002433ff47fbcfe" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" revision="d01c551151026d1f4b6eadf291421425d1fa3212" />
@@ -80,8 +77,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <!-- LRX09F x2 -->
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="3cd04cdd9c85154c8c104cdef0e35a04716e8d75" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" revision="6cb679abac3e1e2b45263b33cd6c671bcd9bac50" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -291,8 +287,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <!-- LRX09C, LRX09G -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="7acbabb31437bc18e01d7bd5bc515c7e08332311" />
+  <!-- LRX09C -->
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="6c7fbb3fb85d437982adef0dd8f609a47d6bc631" />
   <!-- LRX09B x2, LRX09D -->
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" revision="b1afb9b9321e230c8a47b39b4810703d6d4843aa" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="b9c753f1630bde9c32d09ef1fb41ab5a6fd220bd" />
@@ -353,8 +349,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <!-- LRX09F -->
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="443af5df5a284166a403ae72a1ed5ce9ae6d36c3" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" revision="c996e24b9fb4da6eba57996f7dbccb4ddf61e364" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" revision="2f87625264d51f543c0492ffd04f4c98fdf78774" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" revision="83a7a505474c69d9c248690ca328d4959acc45d2" />
@@ -403,8 +398,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="4c99d70732d5bf20d34da3ce76753e00c7ae7c39" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="3a9c1a0f7c5a84ab81f0b0d804ce245c34cac0c3" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <!-- LRX09E -->
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="602ec62110fe57ec8333a186399ad2c15f3b5b4e" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="5c4d0fededbd9ac31508dfd0c24ae74acf3ee720" />
   <project path="packages/apps/OMA-DM" name="android_packages_apps_OMA-DM" remote="github" revision="11d3f3de8d61d2536c3f9ad188e6a0b87861f0ac" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="5d27b6d112591da033be2a23d285307d2b4dd22b" />
@@ -420,8 +414,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="6ae29d86c6c95839269580c2a4d3ebdea32a9497" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <!-- LRX09G -->
-  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="eeced9b20b5871e9cf5da41d241aefc8c00631ec" />
+  <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" revision="4f4aa904c7a3393b8c905cb99e905e255a286355" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="ed987db759e398545a5229ab6d9c26e4061f359b" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="cafd6fcd4a1b6321d8a48412b75ed8cc0c1a922c" />
@@ -441,8 +434,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" revision="461073c4a6ca13ef74b0cf06e5351983edb8e824" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" revision="5ab8f74810464d4306e3a0c5de2738ed0e10d89d" />
-  <!-- LRX09E -->
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="c70b023f81b5bd3683aff4ba0e649b2404c764bd" />
+  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" revision="501608a0387783fb624545e5fa837df1291e1044" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
