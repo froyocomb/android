@@ -14,7 +14,7 @@
            fetch="https://chromium.googlesource.com" />
 
 <!-- BUILD NEEDS "REDO" (more like find the correct frameworks/base commit, or well good luck doing so lol) -->
-<!-- Manifest of Android L build "LRV71". Not actually LRV71, MASTER. Build tagged on 11 June 2014 at 20:50:05 +0000, manifest made on 8 March 2026. -->
+<!-- Manifest of Android L build "LRV72". Not actually LRV72, MASTER. Build tagged on 11 June 2014 at 20:50:05 +0000, manifest made on 8 March 2026. -->
   <project path="build" name="platform/build" groups="pdk" revision="1ebacee598156ca70125400f39763a76c8b658ca" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>

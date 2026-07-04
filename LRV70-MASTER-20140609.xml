@@ -13,7 +13,7 @@
   <remote name="chromium"
            fetch="https://chromium.googlesource.com" />
 
-<!-- Manifest of Android L build "LRV69". Not actually LRV69, MASTER. Build tagged on 09 June 2014 at 15:55:48 +0000, manifest made on 4 March 2026. -->
+<!-- Manifest of Android L build "LRV70". Not actually LRV70, MASTER. Build tagged on 09 June 2014 at 15:55:48 +0000, manifest made on 4 March 2026. -->
   <project path="build" name="platform/build" groups="pdk" revision="30e677081bf9b910b3079d0fecda78d874125084" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
