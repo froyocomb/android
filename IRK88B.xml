@@ -326,8 +326,8 @@
   <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization" revision="79ffa26d286ccb7b1065db15ac1baf5dce340108" />
   <project name="platform/packages/wallpapers/NoiseField" path="packages/wallpapers/NoiseField" revision="76d6ea97b0d3e64787398a179e015443dde9c024" />
   <project name="platform/packages/wallpapers/PhaseBeam" path="packages/wallpapers/PhaseBeam" revision="1d1672900d5f7625022d4fcc89b36dc3137dcb62" />
-  <project name="platform/prebuilt" path="prebuilt" revision="17ed0f73d074f4db7f3790481b6553c1179f2c35" />
-  <project name="platform/sdk" path="sdk" revision="dcc30f9b14d1e33b4e841811bbb39b80bd8a2552" />
+  <project name="platform/prebuilt" path="prebuilt" revision="dcc30f9b14d1e33b4e841811bbb39b80bd8a2552" />
+  <project name="platform/sdk" path="sdk" revision="e9ec568d57b74de9540c3213cc0a31657edac672" />
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="5cd290f3284add3bda6085c16346bb37d6cc291e" />
   <project name="platform/system/core" path="system/core" revision="1a5ca61b28b3269b625b7a7162b4f50734f7fea9" />
