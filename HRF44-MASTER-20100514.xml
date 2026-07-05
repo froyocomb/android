@@ -34,6 +34,7 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="2dd13dc20956426dfa43c94d7d04805f536f942b" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="d2a4f34b03f74ee1fc94008282f95678da224241" />
+  <!-- android-3.0_r1 -->
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
@@ -102,6 +103,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="7a4d031b12a6c276ae993c77b0de630669262435" />
   <!-- Required by frameworks/base at this time (and until 01 September 2010). For the patches made to the repository, see the revision history. -->
   <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-1" />
+  <!-- android-3.0_r1 -->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="fd113c07c3c2a6b07f8ab69dfae7d104e769f469" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="802e057e6e55fc120cb6d344ca5e6a2690cff3f0" />
@@ -215,5 +217,7 @@
   <project path="system/media" name="platform/system/media" revision="c191066ec54eb7b1edee3af49551d0e644a03af2" />
   <project path="system/netd" name="platform/system/netd" revision="6a5a63bd690b25d9c0b590f19169d6d3060f2330" />
   <project path="system/vold" name="platform/system/vold" revision="1a06edaf4db4e9c520624bcc06e0e13ee470d90e" />
+  <!-- Custom, very minor tree to fix hdpi on emulator. Also allows you to build under user and userdebug. -->
+  <project path="vendor/full_alldpi" name="vendor_full_alldpi" remote="github" revision="main" />
 
 </manifest>

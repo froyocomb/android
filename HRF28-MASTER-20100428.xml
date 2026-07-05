@@ -34,6 +34,7 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="2dd13dc20956426dfa43c94d7d04805f536f942b" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="03bf0dfc60c4292c87632d8845d495aa81b0d18b" />
+  <!-- android-3.0_r1 -->
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
@@ -102,6 +103,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="f802a64c0770bf6cae4986ece86019b4a879b995" />
   <!-- Required by frameworks/base at this time (and until 01 September 2010) -->
   <project path="external/opencore" name="platform/external/opencore" revision="master" />
+  <!-- android-3.0_r1 -->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="0e804cad5b26bb5b9906553b6ae87187edb31702" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="de6b5ecad5b51e38b85975c4f95a9f6e6f13719c" />
@@ -215,5 +217,7 @@
   <project path="system/media" name="platform/system/media" revision="33b73d3e28d2232fafdbda81654c2dec207fc5a9" />
   <project path="system/netd" name="platform/system/netd" revision="37dc4a51774b9c8a95205cb825eae6753170a851" />
   <project path="system/vold" name="platform/system/vold" revision="1a06edaf4db4e9c520624bcc06e0e13ee470d90e" />
+  <!-- Custom, very minor tree to fix hdpi on emulator. Also allows you to build under user and userdebug. -->
+  <project path="vendor/full_alldpi" name="vendor_full_alldpi" remote="github" revision="main" />
 
 </manifest>

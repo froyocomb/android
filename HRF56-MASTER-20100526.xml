@@ -34,6 +34,7 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="2dd13dc20956426dfa43c94d7d04805f536f942b" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="1711ca0ac530b93166d136c89c0c3189caa76cfe" />
+  <!-- android-3.0_r1 -->
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="acecdb4ea44e810a5ddb53e0c3fa4baf04b4a5c9" />
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
@@ -73,6 +74,7 @@
   <project path="external/icu4c" name="platform/external/icu4c" revision="e8aab5e9f14e1c3a670fbea64057a2a5f5c35245" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="a3bf26f14bd98e38677a685e34cb5d3bfbd4a816" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="4fe3597dce855ea199afa239498c9c1833a6fe48" />
+  <!-- android-3.0_r1 -->
   <project path="external/iptables" name="platform/external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233" />
   <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
   <project path="external/jhead" name="platform/external/jhead" revision="1ed8197f0cefb2541f630830993e109c59ba822c" />
@@ -102,6 +104,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="cdf4554f9a4f935f4d84c9948c384909b60b6725" />
   <!-- Required by frameworks/base at this time (and until 01 September 2010). For the patches made to the repository, see the revision history. -->
   <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-1" />
+  <!-- android-3.0_r1 -->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="ffbefd3fbbe05b9095e83c42b6288ad8c1ec7347" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="802e057e6e55fc120cb6d344ca5e6a2690cff3f0" />
@@ -218,5 +221,7 @@
   <project path="system/media" name="platform/system/media" revision="8a307c7272108766eebabc7fa7044d7510d65f77" />
   <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
   <project path="system/vold" name="platform/system/vold" revision="f69b3b9af78c94b5ce56a73e086b22b585ea5c85" />
+  <!-- Custom, very minor tree to fix hdpi on emulator. Also allows you to build under user and userdebug. -->
+  <project path="vendor/full_alldpi" name="vendor_full_alldpi" remote="github" revision="main" />
 
 </manifest>
