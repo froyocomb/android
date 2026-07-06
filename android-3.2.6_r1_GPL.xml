@@ -5,11 +5,12 @@
            fetch="https://android.googlesource.com" />
   <remote  name="github"
            fetch="https://github.com/froyocomb" />
-  <default revision="refs/tags/android-3.0_r1.2"
+  <default revision="refs/tags/android-3.2.6_r1"
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android 3.0 build HWI69 (android-3.0_r1.2) GPL modules. Manifest made on 6 July 2026. -->
+<!-- Manifest of Android 3.2.6 build HLK75H (android-3.2.6_r1) GPL modules. Manifest made on 6 July 2026. -->
+<!-- NOTE: The GPL modules for this build were not tagged properly and are just 4.0.1. -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
