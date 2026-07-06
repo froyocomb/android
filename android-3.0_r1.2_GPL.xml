@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <remote  name="github"
+           fetch="https://github.com/froyocomb" />
+  <default revision="refs/tags/android-3.0_r1.2"
+           remote="aosp"
+           sync-j="4" />
+
+<!-- Manifest of Android 3.2 build HWI69 GPL modules. - "reconstruction" (not really) of "android-3.0_r1.2" tag. Manifest made on 6 July 2026. -->
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/iproute2" name="platform/external/iproute2" />
+  <project path="external/iptables" name="platform/external/iptables" />
+  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
+
+</manifest>
