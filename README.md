@@ -3,7 +3,7 @@ froyocomb: Honeycomb Restoration Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 3.x ("Honeycomb") builds.
 
-**See the list of manifests above for the total amount of reconstructed builds.**
+**Honeycomb is so far the only page to have beta and release tags split - for release builds, see the release folder, for betas, see the beta folder.**
 
 Preparing a Build Environment
 -----------------
@@ -20,9 +20,9 @@ After the script is finished, create a folder in which the build files will be k
 
 Downloading Source
 ------------------
-To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
+To initialize a repository tree using one of the manifests provided by this project, execute a command like this, replacing <build> with the build you want to sync and <folder> with either beta or release:
 
-    repo init -u https://github.com/froyocomb/android.git -b froyocomb -m <build>.xml --depth=1
+    repo init -u https://github.com/froyocomb/android.git -b froyocomb -m <folder>/<build>.xml --depth=1
 
 Then to download the respective code, execute:
 
