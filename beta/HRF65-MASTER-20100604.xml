@@ -23,7 +23,7 @@
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
   <!-- Not in use until 08 July 2010 -->
   <project path="device/moto/common" name="device/moto/common" revision="adc90e465c04a50e9dc4e2187854d58fd21a69f2" />
-  <!-- Original commit is 39425dcffb6bb7337bd3c1cf37568846ff157a5c, has to be modified to add full_stingray.mk -->
+  <!-- Original commit is 1e5c156e12e35eb3a8a916bdc67cf0005ce882c4, cherry-pick of 9748a7891d4a82146d2c11821b4089a8d3529c41 to add full_stingray.mk -->
   <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRF65-AOSP-cherrypick" />
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="5648c97be2c515bdafeff3d8a4b07ea0ddc3e357" />
