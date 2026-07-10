@@ -10,6 +10,8 @@
   
   <default remote="aosp"
            sync-j="4" />
+
+<!-- This manifest is GARBAGE (made on August 2025 when we had no experience on how to do this whatsoever) - it will either be completely re-done or replaced with a different build. -->
   <!-- [HRH83D] the android-x86 patches were merged in later -->
   <project path="build" name="platform/build" revision="ab2f01b855f632a8c8315c9fe3c3f13e3932d8a8">
     <copyfile dest="Makefile" src="core/root.mk"/>

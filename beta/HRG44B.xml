@@ -10,6 +10,8 @@
   
   <default remote="aosp"
            sync-j="4" />
+
+<!-- This manifest is GARBAGE (made on August 2025 when we had no experience on how to do this whatsoever) - it will either be completely re-done or replaced with a different build. -->
   <project path="build" name="platform/build" revision="76e3544a09b1d1cb77c2432c3b572958b0a4c452">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>

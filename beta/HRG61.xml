@@ -11,6 +11,7 @@
   <default remote="aosp"
            sync-j="4" />
   
+<!-- This manifest is GARBAGE (made on August 2025 when we had no experience on how to do this whatsoever) - it will either be completely re-done or replaced with a different build. -->
   <project path="device/common" name="device/common" revision="923fa910b497abcd1685875b9dea66118fd85590"/>
   <project path="device/sample" name="device/sample" revision="433c857afdc70b56b8034dd513cf1fc97dee3ffd"/>
   <project path="bionic" name="platform/bionic" revision="c111863fbf2d8b4ccf0b3d82864165dadc4a6f11"/>

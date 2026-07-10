@@ -10,6 +10,8 @@
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
            sync-j="4" />
+        
+<!-- This manifest is GARBAGE (made on August 2025 when we had no experience on how to do this whatsoever) - it will either be completely re-done or replaced with a different build. -->
   <project path="build" name="platform/build" revision="51e2bd3f229cdd68cf63ff3f7ca6211287012f89">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
