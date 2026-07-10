@@ -135,7 +135,7 @@
   <project path="frameworks/base" name="platform/frameworks/base" revision="0829f0d51f73b529a018b9afd931d01711db2f89" />
   <!-- Originally in external/llvm/libbcc, moved to frameworks/compile/libbcc on 07 September 2010 -->
   <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="7b399fd37edc8a02241a841252a777dd17d3eb2a" />
-  <!-- Not in use until 04 June 2010 - originally in external/llvm/slang, moved to frameworks/comp/slang on 07 September 2010 -->
+  <!-- Not in use until 04 June 2010 - originally in external/llvm/slang, moved to frameworks/compile/slang on 07 September 2010 -->
   <!--<project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="462aefd62cc646d2ff753c1d003ef3cd7bbea262" />-->
   <!-- Not in use until 15 June 2010 -->
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
