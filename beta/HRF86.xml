@@ -217,7 +217,5 @@
   <project path="system/media" name="platform/system/media" revision="eb5bd5218961cd1f9c13a0f5e1f88cdd3f6574c2" />
   <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
   <project path="system/vold" name="platform/system/vold" revision="acc9e7dcca8978fc809fa5b4d9b819c515a980ff" />
-  <!-- Custom, very minor tree to fix hdpi on emulator. Also allows you to build under user and userdebug. -->
-  <project path="vendor/full_alldpi" name="vendor_full_alldpi" remote="github" revision="main" />
 
 </manifest>
