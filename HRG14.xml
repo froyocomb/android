@@ -21,7 +21,8 @@
   <project path="dalvik" name="platform/dalvik" revision="4b851a75f7712086a9fc4427f68c99b83725f37d" />
   <project path="development" name="platform/development" revision="27772028d4450794adaeadd67587808ad4a6773a" />
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
-  <project path="device/moto/common" name="device/moto/common" />
+  <!-- android-3.0_r1 -->
+  <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
   <!-- Original commit is 21ee8073e680450ba6b9ab6e7ca511375e83de7e, cherry-pick of 9748a7891d4a82146d2c11821b4089a8d3529c41 to add full_stingray.mk -->
   <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRG14-AOSP-cherrypick" />
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
