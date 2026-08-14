@@ -181,7 +181,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="46fedaa25c077408e3e317ab4ad28626bd1ef765" />
   <!-- android-3.0_r1 -->
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="d41f1d98d7bf42e9e867819593ad79f685604796" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="1f04bacb57af5ac14852cc1056f53016560cc656" />
   <!-- Not in use until 18 October 2010 -->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="55fe86afc0ac49c807f18d003e9df02a463b446d" />
   <!-- Not in use until 17 January 2011 -->
