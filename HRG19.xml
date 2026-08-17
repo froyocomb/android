@@ -190,7 +190,10 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="f2d6c4e8afdba92ef360bbce7291e687b7af0b59" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="622dabf8248b05a9742e524f242cb40d02c9187a" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="d5fae06e6724043d0eedad2b7a7f1d8e062ef323" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="481a75fcfa81f0869f8e68c9f95390fb924ac2c5" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="44f92495c1a916c89a603266977fb15a8c64372a" />
+  <!-- LatinIme2Google. This is 100% not what was included in the master Honeycomb manifest at that time, but has much more changes than the above LatinIME. -->
+  <!-- To compile, download the below revision and replace the already synced LatinIME with it, then add "LatinIme2Google" and "libjni_latinime2" to any PRODUCT_PACKAGES included in the compile. -->
+  <!--<project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="cbd4592fe1f2bce822044099246709f7802d5aa8" />-->
   <!-- android-3.0_r1 -->
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="6b7954e2967754a77c55dc4291941978e3508259" />
