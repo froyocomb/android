@@ -173,7 +173,7 @@
   <!-- Not in use until 14 October 2010 -->
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="a886d22305284e538245438c1dbeb636f979f052" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="5e5e193b674790bf3195c4c9a0c7c6d6b4a92a09" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="c97fea097483c6e58c199e857b279ec92e64d8e3" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="bba529eb8b174ccbc03b46e91101376e5e727be1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="20d835c4b499d40504b08f58435d5b9de48ffddf" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="19a24c39b8c23be1e0f4f91b2a859dd4477976a9" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="3b380636db9db3aba05889efca0a55bf73dd4db6" />
