@@ -10,7 +10,8 @@
            sync-j="4" />
 
 <!-- Manifest of Android Honeycomb build HRG19. Build tagged on 19 July 2010, manifest made on 18 August 2026. -->
-  <project path="build" name="platform/build" revision="cec0e97a01686bf1e555cef62c8eb6ecf4564a22">
+  <!-- Original commit is cec0e97a01686bf1e555cef62c8eb6ecf4564a22 - change LatinIME to LatinIme2Google so that we get a keyboard on this build. -->
+  <project path="build" name="platform/build" revision="HRG19-latinime-rename">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" revision="be96be7e8376e8b455f6ef2539ba83b544558db6" />
