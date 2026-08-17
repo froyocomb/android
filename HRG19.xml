@@ -52,7 +52,7 @@
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="96713431bbeb5270b545b160da1e3f6167835d0b" />
   <!-- android-3.0_r1 -->
   <project path="external/easymock" name="platform/external/easymock" revision="cef83e796d0ab91f15a22f2eb837fce7cb8fe9c9" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" revision="62c1bed1c4505369cac2e72fbe30452a598fb690  " />
+  <project path="external/elfcopy" name="platform/external/elfcopy" revision="62c1bed1c4505369cac2e72fbe30452a598fb690" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" revision="f5eb8b0c9abf1e9911b5c84a555bc495651595e5" />
   <project path="external/emma" name="platform/external/emma" />
