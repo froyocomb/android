@@ -112,7 +112,7 @@
   <project path="external/proguard" name="platform/external/proguard" revision="6660cb6cb4231a03a3c02127fa5c4e7828422caa" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="732aaf0089505130cea55633bcfb2fdf5111f380" />
   <project path="external/qemu" name="platform/external/qemu" revision="41ddd14be483315017bac728d3a023a77787cad1" />
-  <project path="external/quake" name="platform/external/quake" revision="14c49699bbca14a6a92d8a9428af1df06b3f1916" />
+  <project path="external/quake" name="platform/external/quake" revision="0b098acc31bcd0f40288fc0b31466509ed5df2ee" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" revision="90a1efbdde19ee56c33929592277871509c25893" />
   <project path="external/sonivox" name="platform/external/sonivox" revision="f1298246581874025998ec434477ae90d4d39181" />
