@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Honeycomb build HRG28. Build tagged on 28 July 2010, manifest made on 24 August 2026. -->
+<!-- Manifest of Android Honeycomb build HRG28. Build tagged on 28 July 2010, manifest made on 22 August 2026. -->
   <project path="build" name="platform/build" revision="e2c19f869d868a95feb75d204168c4ce7e2e8a0a">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
