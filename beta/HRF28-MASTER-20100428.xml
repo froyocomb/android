@@ -77,15 +77,15 @@
   <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
   <project path="external/jhead" name="platform/external/jhead" revision="8d61723fea0a5cdcd08e34325123fbd3e0bd41ae" />
   <project path="external/jpeg" name="platform/external/jpeg" revision="60ba49e6e7ce3276ad250447ad920b2434b0fbed" />
-  <!-- Not in use until 05 Aug 2010 -->
+  <!-- Not in use until 05 August 2010 -->
   <project path="external/jsilver" name="platform/external/jsilver" revision="b175b218264f1f4bd254151612e4c3309e240564" />
   <project path="external/jsr305" name="platform/external/jsr305" revision="7dfa0d76ee2bf38078b295f50aab085747a72fcf" />
   <project path="external/junit" name="platform/external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="faeff4e8918c60eb0840f42f0d34efa7fe69db9a" />
   <project path="external/libffi" name="platform/external/libffi" revision="ac8057e23c0e1eed563db86cdeb8da8fb36665c9" />
-  <!-- Not in use until 12 Sep 2010 -->
+  <!-- Not in use until 12 September 2010 -->
   <project path="external/libgsm" name="platform/external/libgsm" revision="4ccd528967799be8288711f46b8bdb57198ac8b1" />
-  <!-- Not in use until 23 Sep 2010 -->
+  <!-- Not in use until 23 September 2010 -->
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="4ff7c86a2c706b150078274455406f1b04966e1a" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="eaf247190a94a0244bcfd4cf068f665309548a0f" />
