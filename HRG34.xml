@@ -23,7 +23,7 @@
   <project path="device/common" name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7" />
   <!-- android-3.0_r1 -->
   <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
-  <!-- Original commit is 2ce9dd744a81ce01bd6aef72b663db47b9c6ca5a, cherry-pick of 9748a7891d4a82146d2c11821b4089a8d3529c41 to add full_stingray.mk -->
+  <!-- Original commit is 2ce9dd744a81ce01bd6aef72b663db47b9c6ca5a, cherry-pick of 9748a7891d4a82146d2c11821b4089a8d3529c41 to add full_stingray.mk and e976c14bffd43a66b75353e4a4186eb3dd390e34 to fix compile -->
   <project path="device/moto/stingray" name="device_moto_stingray" remote="github" revision="HRG34-AOSP-cherrypick" />
   <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="3b74bc0ac45043a6b559d44aa913de5803793a56" />
