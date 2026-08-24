@@ -197,7 +197,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="0ba430ae0decfd575b0e0e27b0f7731ff7aec2b2" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="a549eb3c9627862a3e45d910d5c981191086a949" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="40389839299240d63a734a1403529a1ee4a8c091" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="b03532e8edf572d63c6a59a0b40b1d329b7cdf66s" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="b03532e8edf572d63c6a59a0b40b1d329b7cdf66" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="3d8bf05677c11764474df82ec5dc912c9e746b0a" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="0ebbb48f9f83ad65d738d1910a38e4fbdb920ac7" />
