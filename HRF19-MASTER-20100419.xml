@@ -217,6 +217,6 @@
   <project path="system/media" name="platform/system/media" revision="ae87eb144deaa96de5f1ba97c126d62f8698a664" />
   <project path="system/netd" name="platform/system/netd" revision="31c61c80a013bd1a050f0f4103e13fba62bf1717" />
   <project path="system/vold" name="platform/system/vold" revision="1a06edaf4db4e9c520624bcc06e0e13ee470d90e" />
-  <notice>Bugs: The emulator included with the compile does not start and will always produce a segmentation fault. I recommend using the external Android emulator instead. </notice>
-  <notice>Bugs: The Camera app crashes on the emulator image.</notice>
+  <notice>Bugs: The emulator included with the compile does not start and will always produce a segmentation fault. I recommend using the external Android emulator instead.
+  The Camera app crashes on the emulator image.</notice>
 </manifest>
