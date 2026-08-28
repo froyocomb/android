@@ -31,6 +31,8 @@
   <!-- 4.0 RTM commit dont change -->
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c" />
   <project name="device/sample" path="device/sample" revision="12da143edc45b1ae9837bb1479aa3ef43847624b" />
+  <project name="device/moto/stingray" path="device/moto/stingray" revision="b85bf0a8010aba0bdd4e1f88bf3e3bdbb60cba69" />
+  <project name="device/moto/wingray" path="device/moto/wingray" revision="7c39b564b181c96d6cc9d2b126b4c8c318d09115" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="bb694213e3bedc2e1ec181ca98bdc44136841500" />
   <!-- 4.0 RTM commit dont change -->
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
