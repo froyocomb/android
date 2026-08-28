@@ -184,5 +184,5 @@
   <project path="system/vold" name="platform/system/vold" revision="90d92f11ab27d1748d13ea3e48fee114e218833c"/>
   <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="3baca6cc248e0d9a852c25b214c92bc856ae03ea"/>
   <project path="tools/tradefederation" name="platform/tools/tradefederation" revision="9d7595585b671fbbe517bc70e77a349c74ecad62"/>
-
+  <notice> Hey hey hey! The manifest you have just synced was made during 2025, where we had no idea what we were doing. This build is absolutely unaccurate and will have a redo done soon. It may also be replaced with another build. Please keep that in mind!</notice>
 </manifest>

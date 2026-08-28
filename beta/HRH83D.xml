@@ -207,4 +207,5 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="3baca6cc248e0d9a852c25b214c92bc856ae03ea"/>
   <!-- [HRH83D] not present until 5.0 -->
   <project path="tools/tradefederation" name="platform/tools/tradefederation" revision="ff1703ee08c6ab317806324b651cc7e03c41d0b2"/>
+  <notice> Hey hey hey! The manifest you have just synced was made during 2025, where we had no idea what we were doing. This build is absolutely unaccurate and will have a redo done soon. It may also be replaced with another build. Please keep that in mind!</notice>
 </manifest>
