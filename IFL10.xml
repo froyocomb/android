@@ -347,4 +347,5 @@
   <project name="platform/system/media" path="system/media" revision="810d56b4cf6c5893b48e7d56166bb18635052dec" />
   <project name="platform/system/netd" path="system/netd" revision="c6c673496184bed6d62cf92a6fc7ed43fd94acd5" />
   <project name="platform/system/vold" path="system/vold" revision="3be890f59c04f94537f2f66f1d2841ed591f1a6e" />
+  <notice> Hey hey hey! The manifest you have just synced was made during 2025, where we had no idea what we were doing. This build is absolutely unaccurate and will have a redo done soon. It may also be replaced with another build. Please keep that in mind!</notice>
 </manifest>
