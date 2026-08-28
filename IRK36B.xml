@@ -27,6 +27,7 @@
   <project name="device/sample" path="device/sample" revision="12da143edc45b1ae9837bb1479aa3ef43847624b" />
   <project name="device/generic/goldfish" path="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c" />
   <project name="device/moto/stingray" path="device/moto/stingray" revision="03ee6318c481064fa6dcf2ded2364de337476212" />
+  <project name="device/moto/wingray" path="device/moto/wingray" revision="72f19a6564bec1b7dd4b63ab68b01c3b7799c7a0" />
   <project name="device/samsung/crespo" path="device/samsung/crespo" revision="bee7665d2f4dcb513a29a78fee781d85ff63d833" />
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
   <project name="platform/external/antlr" path="external/antlr" revision="939f4a47010d361698e8f81a67e2337e180fc086" />
