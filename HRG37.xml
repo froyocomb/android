@@ -99,7 +99,7 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <!-- Commit from a few hours earlier to fix compile. -->
-  <project path="external/nist-sip" name="platform/external/nist-sip" revision="29c26d07eb1c66891e6ad4f0396712f0a1273c92" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="ba817ffeda68f3ccd2da4409798e4dba6111399e" />
   <!-- Required by frameworks/base at this time (and until 01 September 2010). For the patches made to the repository, see the revision history. -->
   <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-3" />
   <!-- android-3.0_r1 -->
