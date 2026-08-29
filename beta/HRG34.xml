@@ -209,7 +209,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="f3e818bf02c3d1fbe2ce7ce28bac057a1bdf94a6" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="f894bc7c2fed0207395b4f12341bcfac527e9de8" />
   <!-- Original commit is 4d8b010911d4c183f8164c807945c8facb14fc56, needs a cherry-pick of an ICS kernel commit to boot on emulator. -->
-  <project path="prebuilt" name="platform_prebuilt" remote="github" revision="HRG34-ICS-kernel" />
+  <project path="prebuilt" name="platform_prebuilt" remote="github" revision="HRG34-HRG37-ICS-kernel" />
   <project path="sdk" name="platform/sdk" revision="b77fc44ce57afeb2dcc4504bf486534feb031f8c" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="30a738e653aa2d9f7670d0b19409ce30916cc397" />
   <project path="system/core" name="platform/system/core" revision="e306a9044a1ef97019871eb8cdd102223307f1c9" />
