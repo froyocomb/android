@@ -207,7 +207,8 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="4e94189374cf8b0d1782c217c05fdbbb3c49ff52" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="96ad018837aecc40cd6240f5cd0291033955d7a8" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="f894bc7c2fed0207395b4f12341bcfac527e9de8" />
-  <project path="prebuilt" name="platform/prebuilt" revision="4d8b010911d4c183f8164c807945c8facb14fc56" />
+  <!-- Original commit is 4d8b010911d4c183f8164c807945c8facb14fc56, needs a cherry-pick of an ICS kernel commit to boot on emulator. -->
+  <project path="prebuilt" name="platform_prebuilt" remote="github" revision="HRG34-HRG37-ICS-kernel" />
   <project path="sdk" name="platform/sdk" revision="b77fc44ce57afeb2dcc4504bf486534feb031f8c" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="30a738e653aa2d9f7670d0b19409ce30916cc397" />
   <project path="system/core" name="platform/system/core" revision="da7723ce905b0d39cb5605d3a26d836553853610" />
