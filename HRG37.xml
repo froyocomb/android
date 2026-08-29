@@ -91,8 +91,8 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="90d3ed91ae9228e1c8bab561b6138d4cb8c1e4fd" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
-  <!-- Originally in external/llvm/llvm, moved to external/llvm on 07 September 2010 -->
-  <project path="external/llvm/llvm" name="platform/external/llvm" revision="c49bb66142dbaf30ac804253861703e963680d7e" />
+  <!-- Commit from 20 minutes later to fix compile. Originally in external/llvm/llvm, moved to external/llvm on 07 September 2010 -->
+  <project path="external/llvm/llvm" name="platform/external/llvm" revision="ac48439fb41df4c460f262956f5e51a7d7fc1f57" />
   <!-- android-3.0_r1 -->
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
   <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
