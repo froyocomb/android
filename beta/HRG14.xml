@@ -41,7 +41,7 @@
   <project path="external/chromium" name="platform/external/chromium" revision="5e43ad9465e402d595a3c960784b1effe2e9bd88" />
   <!-- Originally in external/llvm/llvm/tools/clang, moved to external/clang on 07 September 2010 -->
   <project path="external/llvm/llvm/tools/clang" name="platform/external/clang" revision="ec29bc0265b0a67e7e47947fd5e0707f46c15d4a" />
-  <!-- Required for compile by droiddoc at this time (and until 06 August 2010) -->
+  <!-- Required for compile by monkeyrunner at this time (and until 19 August 2010) -->
   <project path="external/clearsilver" name="platform/external/clearsilver" revision="11a4773bb2459eb7adb84163bc21d8438cd085bd" />
   <project path="external/dbus" name="platform/external/dbus" revision="c3f28a9129a64df9f499d3540bc51ed6aa519001" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="9661983ab7964d195432d905f721f9dd59163edc" />
