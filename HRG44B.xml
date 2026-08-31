@@ -127,9 +127,10 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <!-- android-3.0_r1 -->
   <project path="external/tremolo" name="platform/external/tremolo" revision="ef03ae17fcbd7474f839cc2fee27a58369cf41dd" />
-  <project path="external/v8" name="platform/external/v8" revision="bb769b257e753aafcbd96767abb2abc645eaa20c" />
-  <!-- Slightly newer to fix compile. -->
-  <project path="external/webkit" name="platform/external/webkit" revision="0f3bce65488d955e265fdd51dc78f7de0a236819" />
+  <!-- Commit from before r65072 got merged in. r65072 does not compile at the moment. -->
+  <project path="external/v8" name="platform/external/v8" revision="91e42c979b0b259e6ffa5b3ebc410f47b2bb2cda" />
+  <!-- Commit from before r65072 got merged in. r65072 does not compile at the moment.  -->
+  <project path="external/webkit" name="platform/external/webkit" revision="f3d41ba51d86bf719c7a65ab5297aea3c17e2d98" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a8b5ba4fd9ac012723cd51e4f667861044dca89f" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="780d2cf8c45756cb95cbaad062a9353fef4893f0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
