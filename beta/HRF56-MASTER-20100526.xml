@@ -226,7 +226,7 @@
   READ BEFORE COMPILING!!!!
   --------------------------------------------
   Bugs and quirks:
-  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". You must run the application under hdpi scaling, which is not compiled in by default (only mdpi is, you can add in hdpi to PRODUCT_LOCALES in the same make file mentioned before)
+  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". You must run the application under hdpi scaling, which is not compiled in by default (only mdpi is, you can add hdpi by adding "PRODUCT_LOCALES = mdpi hdpi" in the same make file mentioned before)
     The application will crash under 1280x800 resolution by default. This can be fixed by modifying a line in "packages/apps/Gallery3D/new3d/src/com/android/gallery3d/ui/SlotView.java" from:
      mScrollLimit = ((size + rowCount - 1) / rowCount) * (hGap + slotWidth)
          + hGap - getWidth();
