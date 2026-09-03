@@ -244,6 +244,7 @@
   - This build has patches done to OpenCORE (not to be confused with OpenCore by Acidanthera) to make the build compile by default, as code depending on it is still in this build but the repository was discontinued after Android Froyo. 
     The default patches should work - if you experience issues, add the line "BUILD_WITHOUT_PV=true" to the end of your command.
   - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk", though the app is merely a black screen in this build.
+  - Other miscellaneous bugs and quirks are also to be expected as this build is a beta.
   --------------------------------------------
 ]]></notice>
 
