@@ -219,7 +219,9 @@
   <project path="system/vold" name="platform/system/vold" revision="1a06edaf4db4e9c520624bcc06e0e13ee470d90e" />
   <notice><![CDATA[
   --------------------------------------------
-  Bugs and quirks (READ BEFORE COMPILING):
+  READ BEFORE COMPILING!!!!
+  --------------------------------------------
+  Bugs and quirks:
   - THE TWO-PANE CONTACTS APP CRASHES BY DEFAULT IN THIS BUILD! This can only be fixed by manually modifying the code (the code is not modified automatically). Navigate to "packages/apps/Contacts/src/android/app/patterns/Loader.java" and change the following line from:
     public void registerListener(int id, OnLoadCompleteListener<D> listener) {
         if (mListener != null) {
