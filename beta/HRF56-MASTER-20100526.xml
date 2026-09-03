@@ -221,20 +221,5 @@
   <project path="system/media" name="platform/system/media" revision="8a307c7272108766eebabc7fa7044d7510d65f77" />
   <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
   <project path="system/vold" name="platform/system/vold" revision="f69b3b9af78c94b5ce56a73e086b22b585ea5c85" />
-  <notice>
-  Bugs and quirks (READ BEFORE COMPILING):
-  - This build has patches done to OpenCORE (not to be confused with OpenCore by Acidanthera) to make the build compile by default, as code depending on it is still in this build but the repository was discontinued after Android Froyo. 
-    The default patches should work, however if you experience issues, add the line "BUILD_WITHOUT_PV=true" to the end of your command.
-  - A repository under the name "google-common" is required by the vcard module, but not actually needed. This repository is stubbed out so the build can compile, rather than being removed as a reference from the module.
-  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". You must run the application under hdpi scaling, which is not compiled by default (only mdpi is, you can add in hdpi to PRODUCT_LOCALES anywhere)
-    The application will crash under 1280x800 resolution by default. This can be fixed by modifying a line in "packages/apps/Gallery3D/new3d/src/com/android/gallery3d/ui/SlotView.java" from:
-     mScrollLimit = ((size + rowCount - 1) / rowCount) * (hGap + slotWidth)
-         + hGap - getWidth();
-     to:
-     mScrollLimit = Math.max(0,
-         ((size + rowCount - 1) / rowCount) * (hGap + slotWidth)
-         + hGap - getWidth());
-  - Other miscellaneous quirks not mentioned here.
-  </notice>
 
 </manifest>
