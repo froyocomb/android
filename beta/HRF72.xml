@@ -228,7 +228,7 @@
   - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". GalleryNew3D in most builds has not been tested yet - please let us know if the application crashes by default or doesn't launch.
   - The notification bar is white instead of black due to coinciding Android Gingerbread changes done at the time.
   - Commit 9748a78 is cherry-picked for the Motorola XOOM to add "full_stingray.mk" and allow for it to be compiled.
-  - Other miscellaneous quirks not mentioned here.
+  - Other miscellaneous bugs and quirks are also to be expected as this build is a beta.
   --------------------------------------------
   </notice>
 
