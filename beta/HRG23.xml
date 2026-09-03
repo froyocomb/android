@@ -217,5 +217,17 @@
   <project path="system/media" name="platform/system/media" revision="a85e814e4ba35dc6aa8bcd18793dc650b2799297" />
   <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
   <project path="system/vold" name="platform/system/vold" revision="e17e91f63b3cceb2ef670947fd7f9ff3c40ee1a7" />
+  <notice>
+  --------------------------------------------
+  Bugs and quirks (READ BEFORE COMPILING):
+  - This build has patches done to OpenCORE (not to be confused with OpenCore by Acidanthera) to make the build compile by default, as code depending on it is still in this build but the repository was discontinued after Android Froyo. 
+    The default patches should work - if you experience issues, add the line "BUILD_WITHOUT_PV=true" to the end of your command.
+  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". GalleryNew3D in most builds has not been tested yet - please let us know if the application crashes by default or doesn't launch.
+  - The new status bar might appear on the top alongside the new home, back and menu buttons, rather than on the bottom. Reboot the emulator/device to fix this.
+  - Commit 9748a78 is cherry-picked for the Motorola XOOM to add "full_stingray.mk" and allow for it to be compiled.
+    - BOARD_HAVE_BLUETOOTH is also automatically set from TRUE to FALSE, needed to fix the compile for XOOM in this build.
+  - Other miscellaneous bugs and quirks are also to be expected as this build is a beta.
+  --------------------------------------------
+  </notice>
 
 </manifest>
