@@ -217,5 +217,16 @@
   <project path="system/media" name="platform/system/media" revision="eb5bd5218961cd1f9c13a0f5e1f88cdd3f6574c2" />
   <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
   <project path="system/vold" name="platform/system/vold" revision="acc9e7dcca8978fc809fa5b4d9b819c515a980ff" />
+  <notice>
+  --------------------------------------------
+  Bugs and quirks (READ BEFORE COMPILING):
+  - This build has patches done to OpenCORE (not to be confused with OpenCore by Acidanthera) to make the build compile by default, as code depending on it is still in this build but the repository was discontinued after Android Froyo. 
+    The default patches should work - if you experience issues, add the line "BUILD_WITHOUT_PV=true" to the end of your command.
+  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". GalleryNew3D in most builds has not been tested yet - please let us know if the application crashes by default or doesn't launch.
+  - The notification bar is white instead of black due to coinciding Android Gingerbread changes done at the time.
+  - Commit 9748a78 is cherry-picked for the Motorola XOOM to add "full_stingray.mk" and allow for it to be compiled.
+  - Other miscellaneous quirks not mentioned here.
+  --------------------------------------------
+  </notice>
 
 </manifest>
