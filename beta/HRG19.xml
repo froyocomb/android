@@ -30,6 +30,7 @@
   <project path="external/astl" name="platform/external/astl" revision="c3c760978c34d5eeea1205c0bf7f27444e192a98" />
   <project path="external/bison" name="platform/external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d" />
   <project path="external/blktrace" name="platform/external/blktrace" revision="ac4461c3b3e7bcbafe5336b9478657d0fa3e08aa" />
+  <!-- Commit is from froyo-release, which wasn't merged in yet, but i can't use anything else or the compile will fail. -->
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="3a8a13d6ce59205d0a68bdee4835fded32042791" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="b469581b8f4b43847c592d34b08abce479ab44a3" />
   <!-- android-3.0_r1 -->
