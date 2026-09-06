@@ -103,7 +103,7 @@
   <project path="external/neven" name="platform/external/neven" revision="d898f9992b4db8f63ec707b07f3802ce3181ffda" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="81db327fe77d1f66501e72010cb27a968190090d" />
   <!-- Required by frameworks/base at this time (and until 01 September 2010) -->
-  <project path="external/opencore" name="platform/external/opencore" revision="master" />
+  <project path="external/opencore" name="platform/external/opencore" revision="61bf9af643abf0011dcf82ae8a436aeb7e8aae97" />
   <!-- android-3.0_r1 -->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
   <project path="external/openssl" name="platform/external/openssl" revision="221304ee937bc0910948a8be1320cb8cc4eb6d36" />
