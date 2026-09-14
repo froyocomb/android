@@ -241,7 +241,7 @@
   <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ae83a002c9364f4a37eedc6ac49478657c2721fe" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="62af9c8ddb4f666dba52e41587a6050ac127b62d" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="b224b78c143241ab5d120af27fc110d1dc3f32a2" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="cee8501c1623765d5287fcd440fbf8001b9de183" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="656e5c1ace1a7c0d37f1cc85a378aa063bb6ef13" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="5a182ec3e8b87b6538b4b492cb993239a677915f" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="b72262b057060a7265d42058e2efb67b052c9cee" />
