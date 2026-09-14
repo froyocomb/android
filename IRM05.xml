@@ -353,7 +353,7 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="a8b273939887747c62fe78996e9b7918b24df70d" />
   <project path="system/core" name="platform/system/core" revision="29b4fecc26d7a7eb79fe72d48056394974cd9c98" />
   <project path="system/extras" name="platform/system/extras" revision="f9f063aae2b10bf2e38ed583c7a7df3757bfe606" />
-  <project path="system/media" name="platform/system/media" revision="dd7a636717f1c66336e9494c804b121b36b92dcd" />
+  <project path="system/media" name="platform/system/media" revision="b1c7f4577e3ac74f4b6ddcb32a91fd44056cf759" />
   <project path="system/netd" name="platform/system/netd" revision="7b984e3f7e724f8a3547a707210319f3d479f261" />
   <!-- Not in use until 15 February 2012 --> 
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
