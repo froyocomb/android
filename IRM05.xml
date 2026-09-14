@@ -47,7 +47,7 @@
   <project path="device/ti/panda" name="device/ti/panda" revision="f6236737628f3b20850c91957511b238509dfb8e" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="93afea92fe09d47ef2414bb8422841a28895ff41" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/aac" name="platform/external/aac" />-->
+  <!--<project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />-->
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -136,7 +136,7 @@
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
   <project path="external/libselinux" name="platform/external/libselinux" revision="f074036424618c130dacb3464465a8b40bffef58" />
   <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/libsepol" name="platform/external/libsepol" />-->
+  <!--<project path="external/libsepol" name="platform/external/libsepol" revision="255e72915d4cbddceb435e13d81601755714e9f3" />-->
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" />
@@ -182,7 +182,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="2b1168acefb6a4104bb7f008df6ac51fcd1de7ec" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- Not in use until right now -->
+  <!-- Not in use until after this build, no "Initial empty repository" commit. -->
   <!--<project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />-->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
