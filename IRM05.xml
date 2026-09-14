@@ -182,7 +182,8 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="2b1168acefb6a4104bb7f008df6ac51fcd1de7ec" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />
+  <!-- Not in use until right now -->
+  <!--<project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />-->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -349,8 +350,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="a6720149b0039b3a5e5a3183c124d500f0830d38" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="076636f4a526fef2028867a2954548f881f0c202" />
   <project path="sdk" name="platform/sdk" revision="3e838f40ef30c367b7caac4af846d9fa885f05b4" />
-
-
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="a8b273939887747c62fe78996e9b7918b24df70d" />
   <project path="system/core" name="platform/system/core" revision="29b4fecc26d7a7eb79fe72d48056394974cd9c98" />
   <project path="system/extras" name="platform/system/extras" revision="f9f063aae2b10bf2e38ed583c7a7df3757bfe606" />
