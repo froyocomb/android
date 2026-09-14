@@ -43,7 +43,7 @@
   <project path="device/samsung/toro" name="device/samsung/toro" revision="416cec27d309a1d32c2325a533e727791186617d" />
   <!-- Not in use until 13 January 2012 -->
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="33866ce5437aeaa3570faeea568664c412a7485e" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="31e70cf182d5b834acf92ba7eabd780ce4bcc55d" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="587a05c9cd783c1443a256904179fd2ff2133660" />
   <project path="device/ti/panda" name="device/ti/panda" revision="f6236737628f3b20850c91957511b238509dfb8e" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="93afea92fe09d47ef2414bb8422841a28895ff41" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
