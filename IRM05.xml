@@ -215,7 +215,7 @@
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av. -->
-  <project path="frameworks/media" name="platform/frameworks/av" revision="ec9e663f697df4254dacc79f52cdb633179c92ab" />
+  <project path="frameworks/media" name="platform/frameworks/av" revision="4ca06b0a9af472cfd13f52841fc9d2e5a6558674" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="0946e78515afa295fb880a98e6bd30b1e9316930" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="6a4fe8b21796e800b51ca0453023d0a1d9d5d087" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="f129b42a5a440afe193086fb6711a8d75e512ba9" />
