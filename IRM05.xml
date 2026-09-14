@@ -134,7 +134,8 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="c91f924204b91bcbb1a1dcb6f1ee18e76922b49f" />
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
-  <project path="external/libselinux" name="platform/external/libselinux" revision="f074036424618c130dacb3464465a8b40bffef58" />
+  <!-- Not in use until after this build, no "Initial empty repository" commit. -->
+  <!-- <project path="external/libselinux" name="platform/external/libselinux" revision="f074036424618c130dacb3464465a8b40bffef58" /> -->
   <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
   <!--<project path="external/libsepol" name="platform/external/libsepol" revision="255e72915d4cbddceb435e13d81601755714e9f3" />-->
   <project path="external/libusb" name="platform/external/libusb" />
@@ -183,7 +184,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="2b1168acefb6a4104bb7f008df6ac51fcd1de7ec" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <!-- Not in use until after this build, no "Initial empty repository" commit. -->
-  <!--<project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />-->
+  <!-- <project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" /> -->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
