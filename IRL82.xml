@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean (ICS MR2) build IRL82. Tagged on 21 December 2011. No revision = RTM commit. Manifest made on 13 September 2026. Mainfest made by IsaaSooBarr. -->
+<!-- Manifest of Android Jelly Bean (ICS MR2) build IRL82. Build tagged on 21 December 2011, manifest made on 13 September 2026. -->
   <project path="build" name="platform/build" revision="93a3241ea467cd9b6f07c08b676c56c2a310f2fe" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
