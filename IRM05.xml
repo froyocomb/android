@@ -194,7 +194,6 @@
   <project path="external/stlport" name="platform/external/stlport" revision="a6734e0645fce81c9610de0488b729207bfa576e" />
   <project path="external/strace" name="platform/external/strace" revision="c9fd2e5ef7d002e12e7cf2512506c84a9414b0fd" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
-  <!-- Reverted one commit to fix compile. -->
   <project path="external/svox" name="platform/external/svox" revision="9f6a1b7e86f22197609c851a45e99933402a2ff7" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
@@ -247,7 +246,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="5a182ec3e8b87b6538b4b492cb993239a677915f" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="b72262b057060a7265d42058e2efb67b052c9cee" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="31f453ab7bb48bbfc6affd0772a76d785819c6c7" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="9139bfbe5c2bf26dfac14fedd5b7defafbaecb7f" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="6464068a31ff890d42d3da9cdf580d07c9c630d8" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="85e28eec8163c776f2f3a093f4053a96ed2d6f98" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="07d1d816ef328abe7678929c7a8bfdbbc32a041b" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4adf0a82f66de9379c5e37d5dd0831a70cb6f236" />
@@ -355,7 +354,6 @@
   <project path="system/core" name="platform/system/core" revision="29b4fecc26d7a7eb79fe72d48056394974cd9c98" />
   <project path="system/extras" name="platform/system/extras" revision="f9f063aae2b10bf2e38ed583c7a7df3757bfe606" />
   <project path="system/media" name="platform/system/media" revision="dd7a636717f1c66336e9494c804b121b36b92dcd" />
-  <!-- Reverted one commit to fix compile. -->
   <project path="system/netd" name="platform/system/netd" revision="7b984e3f7e724f8a3547a707210319f3d479f261" />
   <!-- Not in use until 15 February 2012 --> 
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
