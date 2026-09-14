@@ -124,7 +124,7 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" revision="21342bf7d23a5f34d6fe7217df611b1b395eb47a" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="f69b6cc621493fab468b0fd5d6a7e88ed420fcad" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="82aaf221530353f53af8b65fe9c6ca681903cf5b" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
