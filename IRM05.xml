@@ -357,6 +357,6 @@
   <project path="system/netd" name="platform/system/netd" revision="7b984e3f7e724f8a3547a707210319f3d479f261" />
   <!-- Not in use until 15 February 2012 --> 
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
-  <project path="system/vold" name="platform/system/vold" revision="71189e7f31dad5ef31d7f250e76034b7b0b478fb" />
+  <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
 
 </manifest>
