@@ -65,7 +65,7 @@
   <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
   <!--<project path="external/checkpolicy" name="platform/external/checkpolicy" revision="8c48de15b1afeb1cd01a753195a29b1a7811dbfe" />-->
   <project path="external/chromium" name="platform/external/chromium" revision="940e47a8a93a8720ca55c0966689f4cdd4bf5b4e" />
-  <!-- Not in use until 02 May 2012 -->
+  <!-- Not in use until 2 May 2012 -->
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <!-- Not in use until 24 April 2012 -->
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
@@ -82,7 +82,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" revision="f57594030e578089ecf52e29559f0703b1a8ea6b" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="dc3069ab9b1ccdf39058fe1729a5cd8533a93734" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <!-- Not in use until 04 April 2012 -->
+  <!-- Not in use until 4 April 2012 -->
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="4962dcfd83c5fc8a01c807185230afbfd62a0c4a" />
   <!-- Not in use until 22 March 2012 -->
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="062f011b9ecb3e13ecdd5f72a1156046e6764a32" />
@@ -118,7 +118,7 @@
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" revision="84f254d6bb4e3458e25bd14394306dd8b89b02d8" />
   <project path="external/jmdns" name="platform/external/jmdns" revision="76f0067cea0428b683cba2f187d81e723658f964" />
-  <!-- Not in use until 01 March 2012 -->
+  <!-- Not in use until 1 March 2012 -->
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" revision="f9b30489e75ac1eabc365064959804e99534f7ab" />
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsilver" name="platform/external/jsilver" />
@@ -164,7 +164,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <!-- Not in use until 30 May 2012 -->
   <project path="external/openfst" name="platform/external/openfst" revision="a92766f0a6ba4fac46cd6fd3856ef20c3b204f0d" />
-  <!-- Not in use until 08 February 2012 -->
+  <!-- Not in use until 8 February 2012 -->
   <project path="external/openssh" name="platform/external/openssh" revision="8273adc47a9f7405a0e038e9364a3c45f3609347" />
   <project path="external/openssl" name="platform/external/openssl" revision="7b476c43f6a45574eb34697244b592e7b09f05a3" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="529d868851ce83328c89429d256e68afe320c51d" />
@@ -194,7 +194,8 @@
   <project path="external/stlport" name="platform/external/stlport" revision="a6734e0645fce81c9610de0488b729207bfa576e" />
   <project path="external/strace" name="platform/external/strace" revision="c9fd2e5ef7d002e12e7cf2512506c84a9414b0fd" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
-  <project path="external/svox" name="platform/external/svox" revision="659851c7b5a2d0023266bf34634179ff8d08e3ba" />
+  <!-- Reverted one commit to fix compile. -->
+  <project path="external/svox" name="platform/external/svox" revision="9f6a1b7e86f22197609c851a45e99933402a2ff7" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" revision="65b4340d064f87c50a4271d5c4208a14c7e04cc7" />
@@ -250,10 +251,10 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="85e28eec8163c776f2f3a093f4053a96ed2d6f98" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="07d1d816ef328abe7678929c7a8bfdbbc32a041b" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="4adf0a82f66de9379c5e37d5dd0831a70cb6f236" />
-  <!-- Not in use until 05 March 2012 -->
+  <!-- Not in use until 5 March 2012 -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
   <project path="libcore" name="platform/libcore" revision="3e3b75cc823a747faa0490824807e1a1da6aab0e" />
-  <!-- Not in use until 03 May 2012. -->
+  <!-- Not in use until 3 May 2012. -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="6d4a69fd2196625ab46dbd961af4132eea31138a" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -273,7 +274,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="02d76da6ceb8e6f7eb2dc427858ebd9489eb8df6" />
-  <!-- Not in use until 04 June 2012. -->
+  <!-- Not in use until 4 June 2012. -->
   <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="334791a4fd29daa13b59af84a352ba297798e7fd" />-->
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="a6d959559834f8f02ad891a12fd22de805b9386e" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="d79a37d86cff5ee7b293b7223c967f5330534b05" />
