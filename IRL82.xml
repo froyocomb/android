@@ -46,7 +46,7 @@
   <project path="device/ti/panda" name="device/ti/panda" revision="fd123b62d3c45cf10ffd93508dc1f319a9389657" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="661e26ad9a53881e0a02d3ecda19f34142b53d38" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/aac" name="platform/external/aac" />-->
+  <!--<project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />-->
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -75,7 +75,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="7c044cc362b6590485a11d3b0351e09f4e123c85" />
   <project path="external/dbus" name="platform/external/dbus" />
   <!-- Not in use until 3 January 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/dexmaker" name="platform/external/dexmaker" />-->
+  <!--<project path="external/dexmaker" name="platform/external/dexmaker" revision="579d7739c53a2707ad711a2d2cae46d7d782f061" />-->
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="62bc4775ef99e3369b10fb4bd30df0cc83e18713" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" revision="7efab0654228208ba605ffafc38b433a70e62933" />
@@ -135,9 +135,9 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="c91f924204b91bcbb1a1dcb6f1ee18e76922b49f" />
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
   <!-- Not in use until 04 January 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/libselinux" name="platform/external/libselinux" />-->
+  <!--<project path="external/libselinux" name="platform/external/libselinux" revision="f074036424618c130dacb3464465a8b40bffef58" />-->
   <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/libsepol" name="platform/external/libsepol" />-->
+  <!--<project path="external/libsepol" name="platform/external/libsepol" revision="255e72915d4cbddceb435e13d81601755714e9f3" />-->
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" />
@@ -184,7 +184,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="2b1168acefb6a4104bb7f008df6ac51fcd1de7ec" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <!-- Not in use until 04 January 2012, no "Initial empty repository" commit -->
-  <!--<project path="external/sepolicy" name="platform/external/sepolicy" />-->
+  <!--<project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />-->
   <project path="external/skia" name="platform/external/skia" revision="3835dced6aa563021942c680d0e90574a58f5170" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
