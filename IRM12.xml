@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean (ICS MR2) build IRM12. Build tagged on 12 January 2012, manifest made on 16 September 2026. -->
+<!-- Manifest of Android Jelly Bean (ICS MR2) build IRM12. Build tagged on 12 January 2012, manifest made on 15 September 2026. -->
   <project path="build" name="platform/build" revision="81b4e62e992dfd632134e0a61db91354f71492a6" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
