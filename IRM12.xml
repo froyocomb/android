@@ -180,7 +180,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="6cb78e547641bcab6f18ec34badca0840e000992" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- Not in use until 18 January 2012 -->
+  <!-- Not in use until 18 January 2012, no "Initial empty repository" commit. -->
   <!-- <project path="external/sepolicy" name="platform/external/sepolicy" revision="beefbe5c4de92dfeb8aca88929f8f1c69240da1b" /> -->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
