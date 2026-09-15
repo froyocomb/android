@@ -350,8 +350,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="074a1cca4038b3579c3a940deb1339a23b119b59" />
   <project path="sdk" name="platform/sdk" revision="1d30be07eb4a69e36fc5b263bd251e636a202d39" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <!-- Original commit is 13c5bb504db54d6f01668cc446eb166909ac51d0, cherry-pick of 828bf0cdf4e869fa7bb007331670328c834f8277 to fix compile -->
-  <project path="system/core" name="platform_system_core" remote="github" revision="IRM12-cherrypick" />
+  <project path="system/core" name="platform/system/core" revision="13c5bb504db54d6f01668cc446eb166909ac51d0" />
   <project path="system/extras" name="platform/system/extras" revision="da63f160c29892a1f4a418e42dbaab57bb038d7c" />
   <project path="system/media" name="platform/system/media" revision="aaf94d2547d0f4a87379997a604652e098f43812" />
   <project path="system/netd" name="platform/system/netd" revision="5ea0c05a1e7d8e664b808aa1bb1efd08fdb2fb13" />
