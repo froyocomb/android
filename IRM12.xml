@@ -241,7 +241,8 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ae83a002c9364f4a37eedc6ac49478657c2721fe" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="6df641e269639dbb81bb1c19f47d3b9e5e3ff7d7" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="6ef1ba7108438937dae6247e53582f7c0a05c2bb" />
+  <!-- Original commit is 6ef1ba7108438937dae6247e53582f7c0a05c2bb, cherry-pick of 5c1ebdc9db8d7e5ff51704f80c55f460638eb095 to fix compile -->
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="github" revision="IRM12-cherrypick" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="c3dee7890047bad1136078f0f6e2b6d1a9a24947" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="8b3fe9b3cff6b59b2f4977dcce9b3c1ae47c2e25" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="6de494aa87e55850f2bfba52305e426a83686b40" />
