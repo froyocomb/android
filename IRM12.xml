@@ -290,7 +290,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="dda3f8368d5c44e1d272d5dd4a682e1722b8a9b9" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="a169671f807d08f135ae2e7b757938ed2c90fb66" />
-  <!-- ???????????????????????????????????????????????????????????????????? -->
+  <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally for a "NEW" Email app since 4.1. Here it is, required by the Email app. 25 April 2012 is when it's no longer needed. -->
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="db97747e5adc0a5fdf38f0f7c7f3878156278424" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="0175bb6efbc64f4795c5bd978813a82dfe884274" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="70397d7b21f27ae3460d16305653a0355e9699ae" />
