@@ -3,7 +3,7 @@ froyocomb: Honeycomb Restoration Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 3.x ("Honeycomb") builds.
 
-**Honeycomb is so far the only page to have beta and release tags split - for release builds, see the release folder, for betas, see the beta folder.**
+**Honeycomb has beta and release tags split - for release builds, see the release folder, for betas, see the beta folder.**
 
 Preparing a Build Environment
 -----------------
