@@ -3,7 +3,7 @@ jolly-bean-jolly-bean: Jelly Bean Reconstruction Project
 
 This repository contains reconstructed `repo` manifests of pre-release Android 4.1-4.3 ("ICS MR2/Jelly Bean") builds.
 
-**See the list of manifests above for the total amount of reconstructed builds.**
+**Jelly Bean has version 4.1, 4.2 and 4.3 split. See the folders for the manifests.**
 
 Preparing a Build Environment
 -----------------
@@ -22,7 +22,7 @@ Downloading Source
 ------------------
 To initialize a repository tree using one of the manifests provided by this project, execute a command like this (see the list of manifests above for available `<build>`s):
 
-    repo init -u https://github.com/froyocomb/android.git -b jolly-bean-jolly-bean -m <build>.xml --depth=1
+    repo init -u https://github.com/froyocomb/android.git -b jolly-bean-jolly-bean -m <folder>/<build>.xml --depth=1
 
 Then to download the respective code, execute:
 
