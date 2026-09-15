@@ -215,7 +215,7 @@
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av. -->
   <project path="frameworks/media" name="platform/frameworks/av" revision="8dcbd11c186e26b67de813adaec66dd578415cd7" />
-  <!-- Original commit is face34cf6e54ca4ac69c4e85d48eaaf0760deed5, cherry-pick of 0a204ed0f58a9baaac5630864cd75495486c6cbe to fix compile. -->
+  <!-- Original commit is face34cf6e54ca4ac69c4e85d48eaaf0760deed5, cherry-pick of 0a204ed0f58a9baaac5630864cd75495486c6cbe and 0f0fbd9441f40c6f99470b89774e397f99bf61eb to fix compile. -->
   <project path="frameworks/base" name="platform_frameworks_base" remote="github" revision="IRM12-cherrypick" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="7acc49dd7364b323b46be62c93dc05a64f993631" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="c9acf1fd2d58985b95793374b15cc3bdd11e271b" />
