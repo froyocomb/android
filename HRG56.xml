@@ -19,7 +19,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="37d58711f63052137e79b4fa319480299de535a6" />
   <project path="cts" name="platform/cts" revision="7de8b4f19e794a13f70547cd911de6e6b00078cb" />
   <project path="dalvik" name="platform/dalvik" revision="6f95c2751db9d029ea76491e4223919513cec370" />
-  <project path="development" name="platform/development" revision="989a1180de3ae2ee51435c81b91dffeab787a32a" />
+  <project path="development" name="platform/development" revision="3e9d3728e73ea12d7856d586e03bd4d19c1c9c79" />
   <project path="device/common" name="device/common" revision="de8788e74ff4a1c42997c8c6fae23987291bec6a" />
   <!-- android-3.0_r1 -->
   <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
