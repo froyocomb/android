@@ -180,7 +180,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="6cb78e547641bcab6f18ec34badca0840e000992" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- Not in use until 18 January 2012, no "Initial empty repository" commit. -->
+  <!-- Not in at this time. -->
   <!-- <project path="external/sepolicy" name="platform/external/sepolicy" revision="beefbe5c4de92dfeb8aca88929f8f1c69240da1b" /> -->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
@@ -348,7 +348,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="5409c1bdc2a4ef9fe1379af5821c403c193cc2a7" />
   <project path="sdk" name="platform/sdk" revision="0b0639262adbce654b3a32e971a9af7954130e79" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" revision="2ac29d02505670ce412a5fb07009f903b300dce5" />
+  <project path="system/core" name="platform/system/core" revision="b7b59700cc49991d2442e4c61be4f0e40778e972" />
   <project path="system/extras" name="platform/system/extras" revision="da63f160c29892a1f4a418e42dbaab57bb038d7c" />
   <project path="system/media" name="platform/system/media" revision="49c4dbdd921fbcdc447ed72087f6e205b3c84700" />
   <project path="system/netd" name="platform/system/netd" revision="4da10dd08f12002c3821c5d4ceba302daae33e03" />
