@@ -14,7 +14,6 @@
   <project path="build" name="platform/build" revision="91332cb70c1bde1b1cefa5df3a359433cd972eb2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528" />
   <project path="bionic" name="platform/bionic" revision="45af9ba7c404581bbf4921186ad2ffd4d71e72b0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
@@ -199,12 +198,9 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" revision="65b4340d064f87c50a4271d5c4208a14c7e04cc7" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-
-
-  
   <project path="external/v8" name="platform/external/v8" revision="692be65d6b06edd9ff4cfc4c308555b7c99c1191" />
   <project path="external/valgrind" name="platform/external/valgrind" revision="b32f58018498ea2225959b0ba11c18f0c433deef" />
-  <project path="external/webkit" name="platform/external/webkit" revision="f9977b5d4a855495130c155270e27c36605a93a5" />
+  <project path="external/webkit" name="platform/external/webkit" revision="af183cc0c6d28f5cdc146d2b68f8a05db3eb738d" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
   <!-- Required for compile by libhardware_legacy at this time (unknown until when, check build by build by removing wpa_supplicant) -->
@@ -216,6 +212,8 @@
   <project path="external/zlib" name="platform/external/zlib" revision="69e5801bd16a495e1c1666669fe827b1ddb8d56b" />
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
+
+
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av. -->
   <project path="frameworks/media" name="platform/frameworks/av" revision="8dcbd11c186e26b67de813adaec66dd578415cd7" />
   <!-- Original commit is face34cf6e54ca4ac69c4e85d48eaaf0760deed5, cherry-pick of 0a204ed0f58a9baaac5630864cd75495486c6cbe and 0f0fbd9441f40c6f99470b89774e397f99bf61eb to fix compile. -->
