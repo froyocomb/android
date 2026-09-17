@@ -131,7 +131,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="c91f924204b91bcbb1a1dcb6f1ee18e76922b49f" />
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
-  <!-- Not in use until after this build, no "Initial empty repository" commit. -->
+  <!-- Not in use at this time. -->
   <!-- <project path="external/libselinux" name="platform/external/libselinux" revision="f074036424618c130dacb3464465a8b40bffef58" /> -->  
   <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
   <!--<project path="external/libsepol" name="platform/external/libsepol" revision="255e72915d4cbddceb435e13d81601755714e9f3" />-->
@@ -180,7 +180,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="6cb78e547641bcab6f18ec34badca0840e000992" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- Not in at this time. -->
+  <!-- Not in use at this time. -->
   <!-- <project path="external/sepolicy" name="platform/external/sepolicy" revision="beefbe5c4de92dfeb8aca88929f8f1c69240da1b" /> -->
   <project path="external/skia" name="platform/external/skia" revision="9b2134046eb6de4c986bfb73badb0cd0a23270d4" />
   <project path="external/smali" name="platform/external/smali" />
@@ -314,8 +314,6 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="aef092ae06bc564f3d2450ee27a0f735ab1bd565" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="bba215a1f4387c66db758755d79b4574d2649794" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="bb84caeb637dea9d89e9087d1089c303a2a1048a" />
-
-
   <!-- Not in use until 12 March 2012 -->
   <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
   <project path="prebuilt" name="platform/prebuilt" revision="9f5dbd903eb3d2b6ceb60688a993f0d2ce867c31" />
