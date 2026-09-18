@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM24. Base build is 4a9580a54e2bdf66f3c16b2e4d598f1d06771463. Build tagged on 25 January 2012, manifest made on 18 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM24. Base build is 4a9580a54e2bdf66f3c16b2e4d598f1d06771463. Build tagged on 25 January 2012, manifest made on 17 September 2026. -->
   <!-- Revision C (IRM25 -> JRM24 (ICS MR2 branded) -> JRM24)-->
   <project path="build" name="platform/build" revision="4bd8ead393cab4b6ffa84886a3bded2a7c5b4866" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -131,9 +131,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="c91f924204b91bcbb1a1dcb6f1ee18e76922b49f" />
   <project path="external/libpng" name="platform/external/libpng" revision="17b24482db9fb75020b91a9c17f2014beebc86ed" />
-  <!-- Not in use at this time. -->
   <project path="external/libselinux" name="platform/external/libselinux" revision="d409de2efd8c6ddc3929d1a5b79ab3163b65542c" />
-  <!-- Not in use until 24 January 2012, no "Initial empty repository" commit -->
   <project path="external/libsepol" name="platform/external/libsepol" revision="b1db49d77789525ac1f4e73e978e35694f21ea1a" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
@@ -180,7 +178,6 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
   <project path="external/replicaisland" name="platform/external/replicaisland" revision="0adc750c252f6fb408aafc4862231aedf05d19e9" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <!-- Not in use at this time. -->
   <project path="external/sepolicy" name="platform/external/sepolicy" revision="2b826fcbe8231bf13affd63dbed865b315e1eddc" />
   <project path="external/skia" name="platform/external/skia" revision="bb6246803e96f979734b4dfffa9df823019d9030" />
   <project path="external/smali" name="platform/external/smali" />
