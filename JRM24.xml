@@ -254,8 +254,6 @@
   <!-- Not in use until 3 May 2012. -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="64f5aa49e372cc5465f25c494ce0e1b419cde4cd" />
-
-
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="e26e4dfd898bc03c8d8f7345477a1236ab077f57" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="d4c8220cd175a2c12a507fcf86c302f9a20ecd63" />
