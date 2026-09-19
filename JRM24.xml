@@ -42,8 +42,7 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="f2eb83d61668c210bcbc4e3070602847f9961f17" />
   <project path="device/samsung/toro" name="device/samsung/toro" revision="617cf74d196544b49d787e979d1bc5e33320d858" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="5d3f101c8c3be6b00ba557e26e3c3230a948bc55" />
-  <!-- Original commit is c47062bf876ea1cdbc850d6c4ce0d0abdcaddd77 -->
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="github" revision="JRM24-kernel-downgrade" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="c47062bf876ea1cdbc850d6c4ce0d0abdcaddd77" />
   <project path="device/ti/panda" name="device/ti/panda" revision="ab4aa5b2f723ebc161e02e3ab47dfeba578a1021" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="64e1e6fde9f705a98b9559c52305162172192eba" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
