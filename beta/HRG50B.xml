@@ -101,10 +101,10 @@
   <project path="external/neven" name="platform/external/neven" />
   <!-- Original commit is 9c0e76beae15ce3ef27507b6b32a75ab78c6b836. Cherry-pick of 96f517ad51c3afe83f4d12e78beba1122f5dc877 -->
   <project path="external/nist-sip" name="platform_external_nist-sip" remote="github" revision="honeycomb-nist-sip-patches-rev-1" />
-  <!-- Required by frameworks/base at this time (and until 01 September 2010). For the patches made to the repository, see the revision history. -->
-  <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-3" />
   <!-- android-3.0_r1 -->
   <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
+  <!-- Required by frameworks/base at this time (and until 15 October 2010). For the patches made to the repository, see the revision history. -->
+  <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-3" />
   <project path="external/openssl" name="platform/external/openssl" revision="bf2894223fb3e3c74627222af7fc2cd1fefc4374" />
   <project path="external/oprofile" name="platform/external/oprofile" revision="c4ad4bafe1bc1c9e92be1995c288ff89eb7b191e" />
   <project path="external/ping" name="platform/external/ping" revision="f35ea57ab6d01badde92491274ff2d74cbe3cf01" />
