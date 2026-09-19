@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com" />
+  <remote  name="github"
+           fetch="https://github.com/froyocomb" />
+  <default revision="refs/tags/android-4.0.1_r1"
+           remote="aosp"
+           sync-j="4" />
+
+<!-- Manifest of Android Honeycomb build HRG64. Build tagged on 02 September 2010, manifest made on 22 September 2026. -->
+  <project path="build" name="platform/build" revision="9d1def1a50e47b7bdc027e13b34774198f4c88b8">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="bionic" name="platform/bionic" revision="964a14d0dd494055d14e2b8ee35ed9394b991c28" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="0589d96bbe85069577f00de0b75a8031f2457c01" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="5200114fe8c1c1503176c891230200bf8d5ec632" />
+  <project path="cts" name="platform/cts" revision="06faffdcdb544e3ba8dd7c2a9fd793e9525157bb" />
+  <project path="dalvik" name="platform/dalvik" revision="c3288051029805ace18d943e26db84e5fb4c5272" />
+  <project path="development" name="platform/development" revision="5f2cb81aec5a7b1cb1d8d11ed2474713ea8a2798" />
+  <project path="device/common" name="device/common" revision="ba31a2786b2575bdbb3ea9e9eac4353a68fc9ad7" />
+  <!-- android-3.0_r1 -->
+  <project path="device/moto/common" name="device/moto/common" revision="88f2f2b4fcf01b3e3a2d9dcaf6e03449865ea251" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="233534401017d00d6805a4b99e7ad99632930d84" />
+  <project path="device/sample" name="device/sample" revision="223669e41d1f6b250ab44080af09237ba011aa58" />
+  <project path="external/apache-http" name="platform/external/apache-http" revision="c70bdbc1eb32e81259dbb4a5c028efef354e9c54" />
+  <project path="external/astl" name="platform/external/astl" revision="c3c760978c34d5eeea1205c0bf7f27444e192a98" />
+  <project path="external/bison" name="platform/external/bison" revision="889df9c1efa7ca5de113407ab7793b57a6db677d" />
+  <project path="external/blktrace" name="platform/external/blktrace" revision="ac4461c3b3e7bcbafe5336b9478657d0fa3e08aa" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="18f897c9453e21f26ee23840d77cf3fef75656a3" />
+  <!-- android-3.0_r1 -->
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="757b7f7d8917b43c77e43b5653e7674417ba298f" />
+  <!-- android-3.0_r1 -->
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="ce36a6c7c5f8043c038415d8e270d55d9834008d" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="0d31ca0f54efe12f12049174bfa9403961654a92" />
+  <!-- android-3.0_r1 -->
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
+  <project path="external/bzip2" name="platform/external/bzip2" revision="e7bb50078e4a09f3d9b593d34bbff6e031bc1c1a" />
+  <project path="external/chromium" name="platform/external/chromium" revision="06741cbc25cd4227a9fba40dfd0273bfcc1a587a" />
+  <!-- Originally in external/llvm/llvm/tools/clang, moved to external/clang on 07 September 2010 -->
+  <project path="external/llvm/llvm/tools/clang" name="platform/external/clang" revision="94123d2d6164c19fe11d639459a054455f2ee887" />
+  <project path="external/dbus" name="platform/external/dbus" revision="53088637727c077817156dc9f9de0dbdb6389976" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="3698b204069c11616d6edfe2fb26d268e60242d3" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="1b25960ebe33754410ba3c663c1c45662c779381" />
+  <project path="external/doclava" name="platform/external/doclava" revision="41d8656cf17e04b25a058d0874e401654ea547b4" />
+  <project path="external/dropbear" name="platform/external/dropbear" revision="d3a3a803df8f32e9ba26758b3a9d7fbd27a3dc9c" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="96713431bbeb5270b545b160da1e3f6167835d0b" />
+  <!-- android-3.0_r1 -->
+  <project path="external/easymock" name="platform/external/easymock" revision="cef83e796d0ab91f15a22f2eb837fce7cb8fe9c9" />
+  <!-- android-3.0_r1 -->
+  <project path="external/elfcopy" name="platform/external/elfcopy" revision="83a9e97f988380cb719825bcb054aa64455d7207" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/embunit" name="platform/external/embunit" revision="f5eb8b0c9abf1e9911b5c84a555bc495651595e5" />
+  <project path="external/emma" name="platform/external/emma" />
+  <project path="external/esd" name="platform/external/esd" />
+  <project path="external/expat" name="platform/external/expat" revision="f04cbb87d94e4751d201d07a68302b71766ebb19" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="8bc97822f854f7d521c8bcaa42574fa8cfa51395" />
+  <project path="external/freetype" name="platform/external/freetype" revision="f2873c598230898219f9481ffb43edc5e4d3f806" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="59ae828834dc177c74775cf36cafda4da9927bd9" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
+  <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
+  <project path="external/grub" name="platform/external/grub" revision="a0be411871f2e71834a2cd75dea882d732557530" />
+  <project path="external/gtest" name="platform/external/gtest" revision="75f109c3120bf78ee89124f1f21b50ea24225236" />
+  <project path="external/guava" name="platform/external/guava" revision="2dd064ee23f7fa14e0d3583c64129849d165be91" />
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="bc5032157caeb9e460d05f147c010fe9df851f4c" />
+  <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="761516e77d8c607763bddbe9ab5b8a6898c25e4a" />
+  <project path="external/iproute2" name="platform/external/iproute2" revision="14740a4557728ba63348e0574507a71fa40a8bd4" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="862972dbfb453593a85fb0f41be769e2be0e5b29" />
+  <!-- android-3.0_r1 -->
+  <project path="external/iptables" name="platform/external/iptables" revision="4a820b4c41de49482adce1a4e7424ca124b6b233" />
+  <project path="external/jdiff" name="platform/external/jdiff" revision="590cef7c1b48c9c3f4556ae65fbc0065d65da54a" />
+  <project path="external/jhead" name="platform/external/jhead" revision="a5d9b7a8d52403b74773fcdd1e155baa48b9a545" />
+  <project path="external/jpeg" name="platform/external/jpeg" revision="e0eadaa39b72e33f032220246c771d7302ebeaf8" />
+  <project path="external/jsilver" name="platform/external/jsilver" />
+  <project path="external/jsr305" name="platform/external/jsr305" revision="d1583ee1b4f5d4222ac61625f9f8eab651d6fe85" />
+  <project path="external/junit" name="platform/external/junit" revision="e9b8080d6d80d17729e0b7f8b1d2b573b3456cc4" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="ec5698d4cad9c7332a5dadad58ffba506c158510" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <!-- Not in use until 12 September 2010 -->
+  <project path="external/libgsm" name="platform/external/libgsm" revision="4ccd528967799be8288711f46b8bdb57198ac8b1" />
+  <!-- Not in use until 23 September 2010 -->
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="4ff7c86a2c706b150078274455406f1b04966e1a" />
+  <project path="external/libpcap" name="platform/external/libpcap" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="82a6d29f88ade70200c5532cca207d8b46c92d74" />
+  <project path="external/libpng" name="platform/external/libpng" revision="1c5f8c054976e6a55f07375508858044d7f4c6aa" />
+  <project path="external/libvpx" name="platform/external/libvpx" revision="8aa17fc40a750935d80b115d89ca9403f42ab211" />
+  <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/libxslt" name="platform/external/libxslt" />
+  <!-- Originally in external/llvm/llvm, moved to external/llvm on 07 September 2010 -->
+  <project path="external/llvm/llvm" name="platform/external/llvm" revision="5183d48d560ae7c0c548bc23eb0101784cfd664d" />
+  <!-- android-3.0_r1 -->
+  <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
+  <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
+  <project path="external/netperf" name="platform/external/netperf" />
+  <project path="external/neven" name="platform/external/neven" />
+  <!-- Original commit is 9c0e76beae15ce3ef27507b6b32a75ab78c6b836. Cherry-pick of 96f517ad51c3afe83f4d12e78beba1122f5dc877 -->
+  <project path="external/nist-sip" name="platform_external_nist-sip" remote="github" revision="honeycomb-nist-sip-patches-rev-1" />
+  <!-- android-3.0_r1 -->
+  <project path="external/oauth" name="platform/external/oauth" revision="c76276a1d6165cfb502b06f65b1735fef0754d26" />
+  <!-- Required by frameworks/base at this time (and until 15 October 2010). For the patches made to the repository, see the revision history. -->
+  <project path="external/opencore" name="platform_external_opencore" remote="github" revision="honeycomb-opencore-patches-rev-4" />
+  <project path="external/openssl" name="platform/external/openssl" revision="61e163095984f3e67249aecf9d2027c304e793e4" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="c4ad4bafe1bc1c9e92be1995c288ff89eb7b191e" />
+  <project path="external/ping" name="platform/external/ping" revision="f35ea57ab6d01badde92491274ff2d74cbe3cf01" />
+  <project path="external/ppp" name="platform/external/ppp" revision="35003ca8aeb0d007efedc87ef0f2a9558294d4fa" />
+  <project path="external/proguard" name="platform/external/proguard" revision="6660cb6cb4231a03a3c02127fa5c4e7828422caa" />
+  <project path="external/protobuf" name="platform/external/protobuf" revision="fdcaf07a13de696b42edbf2cf1b98e61052be8ce" />
+  <project path="external/qemu" name="platform/external/qemu" revision="cefa7443eb3d3e4bb134595f756145426d5613e3" />
+  <project path="external/quake" name="platform/external/quake" revision="14c49699bbca14a6a92d8a9428af1df06b3f1916" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/skia" name="platform/external/skia" revision="fda149e38309f3ee38b172a9997cfee5dbccc32a" />
+  <project path="external/sonivox" name="platform/external/sonivox" revision="f1298246581874025998ec434477ae90d4d39181" />
+  <project path="external/speex" name="platform/external/speex" revision="32e4d0aa78c5879565cbcd06415fa2e344036ab5" />
+  <project path="external/sqlite" name="platform/external/sqlite" revision="c48491f5d1fa01a4b8f0cb8f6d0bf822166a8376" />
+  <project path="external/srec" name="platform/external/srec" revision="fe2df6d191e9b24fed13a3c7c24ff8aa11281988" />
+  <project path="external/stlport" name="platform/external/stlport" revision="b7ece4a7c9780e70c716304339543023f488dad8" />
+  <!-- android-3.0_r1 -->
+  <project path="external/strace" name="platform/external/strace" revision="cfa96b379cdd6561a5cc89f2bb86ee9f4b2a3928" />
+  <project path="external/svox" name="platform/external/svox" revision="bfea701b25ad39ea7a1f76efecdf0ba0ffe89f31" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <!-- android-3.0_r1 -->
+  <project path="external/tremolo" name="platform/external/tremolo" revision="ef03ae17fcbd7474f839cc2fee27a58369cf41dd" />
+  <project path="external/v8" name="platform/external/v8" revision="791712a13f1814dd3ab5d1a5ab8ff5dbc476f6d6" />
+  <project path="external/webkit" name="platform/external/webkit" revision="df918270fb67a2e58a9cb729f5e90592a19378d4" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a8b5ba4fd9ac012723cd51e4f667861044dca89f" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="d5df555ff0d6e9494409d5ccfe0b4b15c9b61e30" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" revision="0fe811d9a994dd6df8aa9852c7b9241fa9aa453b" />
+  <project path="external/zlib" name="platform/external/zlib" revision="b5611c4ac00b35b72c298f5ecdaa154167c6dd6d" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="e67bfa3bacbd0a68e80b77c98d436341ab483003" />
+  <!-- Originally in external/llvm/libbcc, moved to frameworks/compile/libbcc on 07 September 2010 -->
+  <project path="external/llvm/libbcc" name="platform/frameworks/compile/libbcc" revision="210eb40e3d604293f477aeb15b4a58a598325016" />
+  <!-- Originally in external/llvm/slang, moved to frameworks/compile/slang on 07 September 2010 -->
+  <project path="external/llvm/slang" name="platform/frameworks/compile/slang" revision="e2e522f0d23c074ecd1025f1f2ed161ed485d9c8" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="1fa3a8f74d46a616e27c23ed1512f4b7de2ad66d" />
+  <!-- Not in use until 16 January 2011 -->
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
+  <!-- android-3.0_r1 -->
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="49f8fa5f480ae382f9087fde333b50072b214ad2" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="06ae82316d0b5f7222a7a1d15b7d03df88fdea15" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="e7fb557185249a07e3e3205c588ca9085fba5c55" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="9b4250f364c91e87ef07e5c025201515a8f48dd2" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="7a25fd7138dd87e1d697e12ea9a69aee7c3ae814" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="48f4d60622cc17afc9a1a41892434bf5347c930d" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="5153d56321e20974d29c0649839d96e8351775b6" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="2b5d4610fa6506f95e9574900997793e35ebf9d8" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="bf14edddd5d1c29a046130cea65feab8c6e2e12b" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="5b4e15459062e151f277c6600ae2d2f6c1d20213" />
+  <project path="libcore" name="platform/libcore" revision="e2f3ecedda402fbec6ef0e3498e45ab3ea365ca1" />
+  <project path="ndk" name="platform/ndk" revision="01be266cb8c14cb4cb1dc9f48b9374ed89954aea" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="e699ee4ed89f2d33c7566a57b3ebebb3df12e5aa" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="aba242c3435b444fdc7b0c7620175d3aa6358017" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="6bcaef19866ebb2602e2e4b7651b4bb75df6c89d" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="697157470a6f0d8e7b806af9b4fb7fbe0bccae87" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="244c3e2bd04cff6c59860ecaf19939daab61e352" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="23463775292a78e73a1a18f731443120b08e4146" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="2dfa9c7ae4069ec6e612afcb36511ebfae7f9dc2" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="94c7d160735eabb0df44068d97875d86f2b76e07" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="f4a476e671923fec1ff4d0a2fe6664c4ba6cdc33" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="44ff7fdb13381fe037c94a669564da513f03eed1" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="205b5246d3edd6f0f400e0ad345f437be8647754" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="483f7bc8720b031b421e399963d11a92b892e5d4" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="12815f5ac09055ba6a3cd04a14f3bc9d2e537a25" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="d1543152f704c8a2f9d5347b7cb507da5beed0f8" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="e2e66ca25282152528696c0d412805d7a61d4d53" />
+  <!-- Not in use until 14 October 2010 -->
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="a886d22305284e538245438c1dbeb636f979f052" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="a379e13559be314fa9021638e5721df13a2f4ffb" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="0138c5bcb5e65b5f6c96f844f2a0ece0283c200a" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="35e1ab63381cad5df4f1219bde8b255c4e69136b" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="19a24c39b8c23be1e0f4f91b2a859dd4477976a9" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="20a39ad945ebb7a0349f6a6d3b97055dac3faa3a" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="df4a5b3ada2603f1df51a28610796793ea208338" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="0d7dd8ac9e1526cdf88112d13d32810834661895" />
+  <!-- android-3.0_r1 -->
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="d41f1d98d7bf42e9e867819593ad79f685604796" />
+  <!-- Not in use until 18 October 2010 -->
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="55fe86afc0ac49c807f18d003e9df02a463b446d" />
+  <!-- Not in use until 17 January 2011 -->
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="f2d6c4e8afdba92ef360bbce7291e687b7af0b59" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="cab73d353878c12e1f34dfe194530e8e1af2276c" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="e5c6bdad9060918bfb4f00a6d68a95f37ce08df8" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="ac64a5c3edf9a99889bc9f800139df95abb200b9" />
+  <!-- android-3.0_r1 -->
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="04d5d8f387c61472721905c664dd7a66e6027084" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="baf202ffb4fdd22a138edd97c07a02421d2710fa" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="b222a85a892be92fe380c36abeaea79aa8f160dd" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="66e3c421a517bf704a6e2ccf8c47c65ae2fc677d" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="471b6c041bf6c2841dec96548c45a8b77d35dac0" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="b03532e8edf572d63c6a59a0b40b1d329b7cdf66" />
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="9114b186ffb26cf0ec6af6eb01ccdf47228a355f" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="75c8e7af555137bf496b57855ec5651dde740e86" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="dcb7a354832c50861ffa866d4d4a2c9b33eea746" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="8e49a3c7e029944074084bf8ea884dca3bf240ee" />
+  <!-- Not in use until 28 October 2010 -->
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="7e90341a251a2b1c01781279c103cde742385353" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="79cdb217a579796c3db50f1ba1d242de96ef2d8f" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="e8bdfd180de8ada4fbfb698a4a3f7c583972ac55" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="1f01d180fe5d519f5d657a006e98277363fe4947" />
+  <project path="prebuilt" name="platform/prebuilt" revision="1af88aa0bb3b818a30ebd713fde852345f798742" />
+  <project path="sdk" name="platform/sdk" revision="c6613461499d0a812ce1bcf7dd72df6f02010417" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" revision="d499eb8ba024c78bfa96178ec073f2f8443fe013" />
+  <project path="system/core" name="platform/system/core" revision="dad578642b5c2410e4bd35beb972cdb3a23a7292" />
+  <project path="system/extras" name="platform/system/extras" revision="6ca26ef8a78cc46dd8c779dcd7c611a247dd22c7" />
+  <project path="system/media" name="platform/system/media" revision="8fb0d437892062a4573c2e0e7107ad50e5d737e1" />
+  <project path="system/netd" name="platform/system/netd" revision="a783390cc37cc8321fe695ba95ffaa5b6a2ed05b" />
+  <project path="system/vold" name="platform/system/vold" revision="2c7d5761d28c39c8e40bf06874f2f5ca92f726d0" />
+  <notice>
+  --------------------------------------------
+  Bugs and quirks (READ BEFORE COMPILING):
+  - This build has patches done to OpenCORE (not to be confused with OpenCore by Acidanthera) to make the build compile by default, as code depending on it is still in this build but the repository was discontinued after Android Froyo. 
+    The default patches should work - if you experience issues, add the line "BUILD_WITHOUT_PV=true" to the end of your command.
+  - To compile GalleryNew3D, add the line "GalleryNew3D" to PRODUCT_PACKAGES under "build/target/product/core.mk". GalleryNew3D in most builds has not been tested yet - please let us know if the application crashes by default or doesn't launch.
+  - Other miscellaneous bugs and quirks are also to be expected as this build is a beta.
+  --------------------------------------------
+  </notice>
+
+</manifest>
