@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM33. Build tagged on 02 Februrary 2012, manifest made on 22 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM33. Build tagged on 2 Februrary 2012, manifest made on 20 September 2026. -->
   <project path="build" name="platform/build" revision="c3e73d38c2e5d81613bff1e243d130d96a512c16" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -211,7 +211,7 @@
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av -->
   <project path="frameworks/media" name="platform/frameworks/av" revision="a789d6c0560d85fca51ba7d806527212aa6337c9" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="92ecaa46ff44ba5319b951c5541102b27b7cf7af" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="b260d408c57a28eb8873c79cccec47880cc66e7c" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="ce5aac37a50bbc1556dfeca8b46101806fd86391" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="ef50fd4ab703ef72552405a0637a0a121aee563c" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="5c20cd874e5fd6cd028b2e00633acd2cc3047a08" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="30d1edd30d0571a4b6866e04c3e674e7c3d414e3" />
@@ -250,8 +250,6 @@
   <!-- Not in use until 3 May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="64f5aa49e372cc5465f25c494ce0e1b419cde4cd" />
-
-
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="96ef3fd2145f911e75d0edbf6eb134f4c6d248ee" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="24007e0cbb9c532007f630f14c6f2fd54f77fba6" />
