@@ -208,15 +208,13 @@
   <project path="external/zlib" name="platform/external/zlib" revision="714598851d81e2b38d6f8105d60056c28110967b" />
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-
-
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av -->
-  <project path="frameworks/media" name="platform/frameworks/av" revision="eedda3071755b2dcf851bca8bed610de18a91d01" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="847d895bda716dccd9901292c254677f28b8f288" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="ce5aac37a50bbc1556dfeca8b46101806fd86391" />
+  <project path="frameworks/media" name="platform/frameworks/av" revision="a789d6c0560d85fca51ba7d806527212aa6337c9" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="92ecaa46ff44ba5319b951c5541102b27b7cf7af" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="b260d408c57a28eb8873c79cccec47880cc66e7c" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="ef50fd4ab703ef72552405a0637a0a121aee563c" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="d188cb0dc342801c2038c8f3ec201fc72b328e65" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="66e1d4ba9cc994dd2dda1260a881fe22075a6163" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="5c20cd874e5fd6cd028b2e00633acd2cc3047a08" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="30d1edd30d0571a4b6866e04c3e674e7c3d414e3" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <!-- Not in use until 9 July 2012 -->
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
@@ -225,33 +223,35 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="1de9c0f5dd625a44c634087e4fa485893a31a066" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="865fbe6e061e42d0a89593a8858d93a9355b8581" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="1ba0f1ebaf05d2e1e16a1e5da67707a29652b769" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <!-- Not in use until around March 2012 -->
   <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="6a057c34ca84c0b7211538caa85f366a0a0e6434" />-->
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d55a6c6fec54493ee2e3a6724bafa99fb32a0055" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="17e2c728eed13702021d901248e66b917bedc117" />
   <!-- Not in use until 13 June 2012 -->
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
   <!-- Not in use until around March 2012 -->
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="e96622ef43ac28c58e8f5f178a7d2b5d9724ac3f" />-->
-  <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ae83a002c9364f4a37eedc6ac49478657c2721fe" />
+  <project path="gdk" name="platform/gdk" revision="4c05150d77225cd8be862b006c421d8c045fa71c" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="71e14af1abc4e1f6906f1a4c92036304fe609335" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="ea84c55f2ce47e54fc0e73f69f3e283e2e9afe59" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="4374eead2218261dc94b387cd074b681b30ed908" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="ae2e42b2447d011bd6cf9d5b4413dd3557de0035" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="10d31fa204a23d2d5535a16467ebf11f85a56aea" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="c3dee7890047bad1136078f0f6e2b6d1a9a24947" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="8b3fe9b3cff6b59b2f4977dcce9b3c1ae47c2e25" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="6de494aa87e55850f2bfba52305e426a83686b40" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="0b5d0bc6f19b4b945e5a0dc83ca66c24312e2d36" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="a0a88cf291e156344d5346c29824d996d1d81fab" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="03e11edd578940e72095b1366591a461f74452f8" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="4092e363aed09f26c5e758c3eb1afdb1767ddb47" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="db4ddcbf596a9127521cbc6c8fc69b20bdd4d700" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="734b1b3f7c184a72c720339287176aa2e0f1a61f" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <!-- Not in use until 5 March 2012 -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
-  <project path="libcore" name="platform/libcore" revision="b8a47ea0b1596cecfeca569f4de137eb02f0e57d" />
+  <project path="libcore" name="platform/libcore" revision="d26d17b086b0c7f17179c6083cf3c6e6b858b028" />
   <!-- Not in use until 3 May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="64f5aa49e372cc5465f25c494ce0e1b419cde4cd" />
+
+
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="e26e4dfd898bc03c8d8f7345477a1236ab077f57" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="d4c8220cd175a2c12a507fcf86c302f9a20ecd63" />
