@@ -211,7 +211,7 @@
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av -->
   <project path="frameworks/media" name="platform/frameworks/av" revision="a789d6c0560d85fca51ba7d806527212aa6337c9" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="92ecaa46ff44ba5319b951c5541102b27b7cf7af" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="ce5aac37a50bbc1556dfeca8b46101806fd86391" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="90fe84bbc286aca1d82532916fa07baa894ffb85" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="ef50fd4ab703ef72552405a0637a0a121aee563c" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="5c20cd874e5fd6cd028b2e00633acd2cc3047a08" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="30d1edd30d0571a4b6866e04c3e674e7c3d414e3" />
@@ -283,8 +283,6 @@
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="43bdeaf7969264607d6aedca64cc1312ed011f2a" />
-  <!-- Requires an earlier commit for this build -->
-  <!--<project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="a169671f807d08f135ae2e7b757938ed2c90fb66" />-->
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally (since 4.1) up to that point only for the "NEW" Email app, which is included here before being replaced with the ICS MR1 one again on 25 April 2012 -->
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="1b9efd9beb715927e0db7b138ddbb2925bc2c06f" />
