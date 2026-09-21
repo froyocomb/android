@@ -51,7 +51,7 @@ If compiling a build below HRG85C, run:
 
     make CC=gcc-4.4 CXX=g++-4.4 -j$(nproc) BUILD_WITHOUT_PV=TRUE
 
-Please make sure to remember that certain builds may require exclusive patches that are mentioned on their respective BetaWiki page. If you face any issues during the compile, ask in the Discord server or on the "Issues" page on GitHub.
+Please make sure to remember that certain builds may require exclusive patches that are mentioned when syncing their manifests. If you face any issues during the compile, ask in the Discord server or on the "Issues" page on GitHub.
 
 Running
 -------
