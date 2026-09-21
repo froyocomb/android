@@ -12,11 +12,10 @@ This repository is a collection of reconstructed manifests for pre-release build
 | [`krakenbread`]                          | Android 2.3      |          
 | [`froyocomb`]                            | Android 3.0-3.2  |            
 | [`i-scream-sandwich`]                    | Android 4.0      |       
-| [`jolly-bean-jolly-bean`]                 | Android 4.1-4.3  |          
+| [`jolly-bean-jolly-bean`]                | Android 4.1-4.3  |          
 | [`have-a-key-lime-pie`]                  | Android 4.4      |  
 | [`thou-shalt-take-the-L`]                | Android 5.0      |
-| [`all-my-homies-hate-clang`]         | post-5.1           |
-| [`no-funny-name-for-marshmallow`]  | Android 6.0    |                   
+| [`no-funny-name-for-marshmallow`]        | Android 6.0      |                   
 | [`nothing-rhymes-with-nougat`]           | Android 7.0-7.1  |          
 
 [`i-cant-believe-its-not-android`]:  https://github.com/froyocomb/android/tree/i-cant-believe-its-not-android
@@ -29,7 +28,6 @@ This repository is a collection of reconstructed manifests for pre-release build
 [`jolly-bean-jolly-bean`]: https://github.com/froyocomb/android/tree/jolly-bean-jolly-bean
 [`have-a-key-lime-pie`]:  https://github.com/froyocomb/android/tree/have-a-key-lime-pie
 [`thou-shalt-take-the-L`]: https://github.com/froyocomb/android/tree/thou-shalt-take-the-L
-[`all-my-homies-hate-clang`]: https://github.com/froyocomb/android/tree/all-my-homies-hate-clang
 [`no-funny-name-for-marshmallow`]: https://github.com/froyocomb/android/tree/no-funny-name-for-marshmallow
 [`nothing-rhymes-with-nougat`]: https://github.com/froyocomb/android/tree/nothing-rhymes-with-nougat
 
