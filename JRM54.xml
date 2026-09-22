@@ -291,7 +291,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="77c6fcfe2c38331b8d8bd3fbd8483bd6e879bd99" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="ebdce7e943055c906c336c6c70bfcc80ede3e91e" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="d54e162756778d286fa5b60eb77a741dacfb09cb" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="edde53f9bb17b279dcb7c51d3675e01d50c70882" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="de170382a204291afdbc6b2292a0f3871d5ef508" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="a52b985bd0930252cadb39eb0a6cc502f5edf832" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="3502b4ef9d65aa1109d06c1cabc762d514e0d900" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="9311c7ff9d35ca3acc908da3da7a79fbf7a8da6b" />
@@ -309,8 +309,6 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="bb84caeb637dea9d89e9087d1089c303a2a1048a" />
   <!-- Not in use until 12 March 2012 -->
   <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
-
-
   <project path="prebuilt" name="platform/prebuilt" revision="4e672046b004710ec47d509ef884f630d7201a25" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
