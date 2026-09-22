@@ -255,7 +255,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="e9cd38e92a532694ed5ea20075901dd025a6396c" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="70789cc5e67e60304f33444459e0d033eb093063" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="9258f0709ea23afa0f2c66a5654c0464da7644d3" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="a097c3960d60f531fc8dcdaae9072d380cf20126" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="4f1bd75c9bcb318273349717326cf03e5f4bb87f" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="91b2ad6949ecc3e63869b0650444c4f3e8981709" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="610659db545ff8ba42d0c9db8eae55d57d0ff3e7" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="de449ef630b5694629f93b329a4133f600d71dd1" />
@@ -291,7 +291,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="77c6fcfe2c38331b8d8bd3fbd8483bd6e879bd99" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="ebdce7e943055c906c336c6c70bfcc80ede3e91e" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="d54e162756778d286fa5b60eb77a741dacfb09cb" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="edde53f9bb17b279dcb7c51d3675e01d50c70882" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="090b118eaa5092c06576c8a7ee36db29a394c1dd" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="a52b985bd0930252cadb39eb0a6cc502f5edf832" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="3502b4ef9d65aa1109d06c1cabc762d514e0d900" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="9311c7ff9d35ca3acc908da3da7a79fbf7a8da6b" />
