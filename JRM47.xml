@@ -230,7 +230,7 @@
   <!-- Not in use until around March 2012 -->
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="e96622ef43ac28c58e8f5f178a7d2b5d9724ac3f" />-->
   <project path="gdk" name="platform/gdk" revision="c2bda1831d8307310f4f6ecbc91c1c53ce6fbf2f" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="c346645baae2c5ffdccf75d5723a6dbd94690bbf" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="4f82dd0588aaa474b2ed08161fed90456738bdca" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="5ad38a901dcca2961f3ed35ae0b206c13bc515cd" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="c5eb8b4a5d4395ce335bc7c3e6df2678fa47e2dd" />
