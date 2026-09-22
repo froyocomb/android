@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM54. Build tagged on 23 Februrary 2012, manifest made on 23 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM54. Build tagged on 23 Februrary 2012, manifest made on 22 September 2026. -->
   <project path="build" name="platform/build" revision="852575c4dfef54d8cb6f7923f3f4860aa07ea57b" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -33,7 +33,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="bf038003f3daa36e1900438d3c27fc32441d5b35" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="c71b8d08afeb2e38c040b7f8630bc93ea0a29488" />
   <project path="device/moto/wingray" name="device/moto/wingray" revision="50cb1c2caf0e26091cd7fc51a9a2b59c8e17bd13" />
   <project path="device/sample" name="device/sample" revision="3152efbaadeca4a46f4031cc7d0b4c8f4dfd2001" />
   <project path="device/samsung/crespo" name="device/samsung/crespo" revision="6b1e4cc44afb3b6a0ba8e1503bf360fd186d678e" />
