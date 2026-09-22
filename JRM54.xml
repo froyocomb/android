@@ -239,7 +239,7 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="6c5d832a6967e45bf742e1e612328d0fdccb3031" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="4092e363aed09f26c5e758c3eb1afdb1767ddb47" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="74edf7544704de2061e5efeb6ac383087b15adf5" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="49d75012a1396ec9493c612f256896b97d87688b" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="6c0f07c89514e3fa7fcde734d906eecf87243cba" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="1429c6df4d06bfdc36cfa4f7a598f313289e8cd7" />
   <!-- Not in use until 5 March 2012 -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
