@@ -211,7 +211,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="cc366e573e31f43a6101fd6e04b90c6afdc3b7a7" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="50b814ae8797a929bc0416d6a97e3551b24eaf30" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="6f620d7409c431862250d0c367bf267bbbc17178" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="1797928f7ad9c901a79a0367564e471657587ca3" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="2a68f19ca2d46ac6e1b23be2e32eb07873849523" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <!-- Not in use until 9 July 2012 -->
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
