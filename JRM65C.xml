@@ -207,8 +207,8 @@
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
   <!-- Was frameworks/media until around March 2012, then it became frameworks/av -->
   <project path="frameworks/media" name="platform/frameworks/av" revision="90b6191067990a7a3ee947d7ce08c64f780f0de7" />
-  <!-- JRM65C -->
-  <project path="frameworks/base" name="platform/frameworks/base" revision="a7a99653ad8370b7dc6e09824de0dde35c2e2d96" />
+  <!-- JRM65C x2 -->
+  <project path="frameworks/base" name="platform/frameworks/base" revision="169eed9f624060fb90eb753b18e971dd2e035b82" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="78fb3108f87bde8d3c6e22cb8ff660718f8a2001" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="56ca447beb2f9d893d9c3dbee5c46090e929529b" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="92bda08a129d6cae3bc55b6b18c376f967976309" />
