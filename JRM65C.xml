@@ -344,6 +344,6 @@
   <project path="system/media" name="platform/system/media" revision="20712ec80bced1fe49a2c0a7ba0acf363c15cff0" />
   <project path="system/netd" name="platform/system/netd" revision="7d16ba20b16cab4cb41b434fd80088e247811130" />
   <project path="system/security" name="platform/system/security" revision="a91203b08350b2fc7efda5b1eab39e7541476b3a" />
-  <project path="system/vold" name="platform/system/vold" revision="149aa3eb65a8cb878781206b1476aae110e0e1fd" />
+  <project path="system/vold" name="platform/system/vold" revision="9713ed463917f193823c7c6ecf1c7cb2a1ae9fcc" />
 
 </manifest>
