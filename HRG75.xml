@@ -39,8 +39,8 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="e7bb50078e4a09f3d9b593d34bbff6e031bc1c1a" />
   <project path="external/chromium" name="platform/external/chromium" revision="f74420b3285b9fe04a7e00aa3b8c0ab07ea344bc" />
-  <!-- One commit newer to fix compile and sync up Clang to r112367. -->
-  <project path="external/clang" name="platform/external/clang" revision="3049ec9961d1a1f0570a24dc601e6a362129b35d" />
+  <!-- Two commits newer to fix compile and sync up Clang to r112367. -->
+  <project path="external/clang" name="platform/external/clang" revision="a3a962bf01352483f73b474a4f2e1bbf76904400" />
   <project path="external/dbus" name="platform/external/dbus" revision="53088637727c077817156dc9f9de0dbdb6389976" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="b6ba7fb6ce416e8b9a6bd33130de26d9de8b857b" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="1b25960ebe33754410ba3c663c1c45662c779381" />
