@@ -310,13 +310,11 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <!-- Not in use until 12 March 2012 -->
   <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
-
-
-  <project path="prebuilt" name="platform/prebuilt" revision="4e672046b004710ec47d509ef884f630d7201a25" />
+  <project path="prebuilt" name="platform/prebuilt" revision="17a21e0625e225e6a93e466bceb848b02480cda9" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="bbbbf0732195487b3506479e8943f6d5df6f8db6" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="601047de62659e632038a5c1e6f347c9af75fabb" />
   <!-- Not in use until 16 April 2012 -->
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" revision="ab3b7cbd040e44324deb24cf68f5c4b92631d2a6" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
@@ -335,17 +333,17 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="9c915fc78857a698f9992c24804ea95875829665" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="5b02cc4c4e80fd6a9ee30e0ad4642122e08a007b" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="f84f4746f8e75b1eb2b1b192b7487f4e85ca4c22" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="fd19c38fcd992c857320ea41f61c4fcd552c7f32" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="5409c1bdc2a4ef9fe1379af5821c403c193cc2a7" />
-  <project path="sdk" name="platform/sdk" revision="9e3fd3e386a6e88ad73941131c0ed52fbda26bb0" />
+  <project path="sdk" name="platform/sdk" revision="15ccfce0ebaf01624738ce14f0dae442f308c70c" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" revision="52a5e3bce21431d44255a0a12884ca3cae808f7d" />
-  <project path="system/extras" name="platform/system/extras" revision="0349bd9f14d252673a7a25767da4a80121aaaaf2" />
-  <project path="system/media" name="platform/system/media" revision="f53c03aef27d5148fbeb675dd11902f68e366e7e" />
-  <project path="system/netd" name="platform/system/netd" revision="0a379691e04700b3b44948450b1e3db92ef2ec01" />
+  <project path="system/core" name="platform/system/core" revision="558ca722a5647cf250dcb44255a52b060a1f261e" />
+  <project path="system/extras" name="platform/system/extras" revision="7fdcdd1d4693cfcc72411afe803e987347be364f" />
+  <project path="system/media" name="platform/system/media" revision="20712ec80bced1fe49a2c0a7ba0acf363c15cff0" />
+  <project path="system/netd" name="platform/system/netd" revision="7d16ba20b16cab4cb41b434fd80088e247811130" />
   <project path="system/security" name="platform/system/security" revision="a91203b08350b2fc7efda5b1eab39e7541476b3a" />
-  <project path="system/vold" name="platform/system/vold" revision="ee6d8c42f337ea1446a319df53f6d1a96afbd209" />
+  <project path="system/vold" name="platform/system/vold" revision="149aa3eb65a8cb878781206b1476aae110e0e1fd" />
 
 </manifest>
