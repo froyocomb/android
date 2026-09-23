@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM74. Build tagged on 14 March 2012, manifest made on 24 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM74. Build tagged on 14 March 2012, manifest made on 23 September 2026. -->
   <project path="build" name="platform/build" revision="6577f6fb84ccea887b861438a8a9e0a1392fd166" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -248,7 +248,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="e434b8010832dfafe59dabe53c2d05512d04b5d6" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="70f2dc17250c1d0acdc8760bf61fef9a21361b3a" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="55a419e29359156416eccc829ae4a3ec29801ddd" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="00b87064abfb9d254fbbf72110643d2e626365e6" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="95903862da74128bbab5c81d782c5ff277172498" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="684eef930695db885dae407e86b8e4c4babf8914" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="7b394649f5c2b353384c89e9a2df3bdd79d1f772" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="d0621303abb903ebf597dbe0ea0e1234a02c7819" />
