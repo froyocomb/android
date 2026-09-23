@@ -218,7 +218,8 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="79d8d823a6fcb6936bab5695438a47c89ef15f3e" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" revision="8e412a15b1a9e810938602acfc9940c3b6202f58" />
+  <!-- Not in use until around March 2012 -->
+  <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="6a057c34ca84c0b7211538caa85f366a0a0e6434" />-->
   <project path="frameworks/support" name="platform/frameworks/support" revision="dc18a3999cea5efb91d30c13015c87494695031c" />
   <!-- Not in use until 13 June 2012 -->
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
