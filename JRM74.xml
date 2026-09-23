@@ -223,7 +223,8 @@
   <project path="frameworks/support" name="platform/frameworks/support" revision="dc18a3999cea5efb91d30c13015c87494695031c" />
   <!-- Not in use until 13 June 2012 -->
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="cde9b8b8bd0c84c62de49e73c08d224274280bfa" />
+  <!-- Not in use until around March 2012 -->
+  <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="e96622ef43ac28c58e8f5f178a7d2b5d9724ac3f" />-->
   <project path="gdk" name="platform/gdk" revision="f2cb0bbbf4029093cfdbf9d3bd6e03989a6ef1b2" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="dda746ddfc2a1ebe0f7d998085aea902082f9844" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" />
