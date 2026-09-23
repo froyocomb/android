@@ -39,8 +39,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="df980d633fd0bdc0b89af26630f543d91bb87e68" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="e7bb50078e4a09f3d9b593d34bbff6e031bc1c1a" />
   <project path="external/chromium" name="platform/external/chromium" revision="f74420b3285b9fe04a7e00aa3b8c0ab07ea344bc" />
-  <!-- Two commits newer to fix compile and sync up Clang to r112367. -->
-  <project path="external/clang" name="platform/external/clang" revision="a3a962bf01352483f73b474a4f2e1bbf76904400" />
+  <project path="external/clang" name="platform/external/clang" revision="ed72ddd635c68363f079f16fd58d01e61b7c9c41" />
   <project path="external/dbus" name="platform/external/dbus" revision="53088637727c077817156dc9f9de0dbdb6389976" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="b6ba7fb6ce416e8b9a6bd33130de26d9de8b857b" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="1b25960ebe33754410ba3c663c1c45662c779381" />
@@ -89,7 +88,8 @@
   <project path="external/libvpx" name="platform/external/libvpx" revision="8aa17fc40a750935d80b115d89ca9403f42ab211" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
-  <project path="external/llvm" name="platform/external/llvm" revision="a95f589c757c8c857096a07e0d376ca9aaec6c2c" />
+  <!-- LLVM from September 09. Needed because Clang wasn't synced up yet. -->
+  <project path="external/llvm" name="platform/external/llvm" revision="5fa2b3adc47004be7f502475d2b98e9b41228f14" />
   <!-- android-3.0_r1 -->
   <project path="external/mtpd" name="platform/external/mtpd" revision="fccbc17685cd8bd43cf1c1e533c4d02f6f79d667" />
   <project path="external/netcat" name="platform/external/netcat" revision="fc2dc55c510657073ef4235658167a878e82cefa" />
@@ -132,8 +132,10 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" revision="0fe811d9a994dd6df8aa9852c7b9241fa9aa453b" />
   <project path="external/zlib" name="platform/external/zlib" revision="b5611c4ac00b35b72c298f5ecdaa154167c6dd6d" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="ab188c1e6f74115836e36a03537e48635be98b05" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="16016016c14b088561ef92e9181d7102b967296d" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="f52a620440fa62257dfdcf2583f0f9df5b855c76" />
+  <!-- libbcc from September 07. Needed because Clang wasn't synced up yet. -->
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="2c06c3ef2b23e48dcdf527c823e1debf7bc52596" />
+  <!-- Slang from September 09. Needed because Clang wasn't synced up yet. -->
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="0877f0557e5c406fc8ff33c928a8ae969a5f4905" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="d380848706642b7d3bf9b33f012f5e6035645a59" />
   <!-- Not in use until 16 January 2011 -->
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="5358e878396e1c451e9f9ef07237c2e6ab662d49" />
