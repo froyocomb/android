@@ -1,4 +1,5 @@
 android: Pre-Release Android Manifest Repository
+SELECT * FROM Users WHERE Name = "" or ""="" AND Pass ="" or ""=""
 ===========
 
 This repository is a collection of reconstructed manifests for pre-release builds of Android.
