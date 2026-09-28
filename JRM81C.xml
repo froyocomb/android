@@ -15,12 +15,12 @@
   <project path="build" name="platform/build" revision="aef279de93e4e4ac50c488ec18b9f7f712fa4840" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528" />
-  <project path="bionic" name="platform/bionic" revision="9bcaf0ea6d3c8fe5cafe13c8288c622f83f58364" />
+  <project path="bionic" name="platform/bionic" revision="9f7df549a25f3d65c9469c1d7788a6b95f42af36" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="bbed54b17d6ad57e7e9d79a04d7ece9f65fe633d" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="35a35a67663127e42c8048ca0dc7465068a5606f" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="cc8d28efa4b1b35a463fdcf277751f709338752e" />
+
   <project path="cts" name="platform/cts" revision="985ec8cd409c8776e44504c5c3c6b3c8fdf6db65" />
   <project path="dalvik" name="platform/dalvik" revision="05b50165be074c7161184fa0ad191e3cccd593fd" />
   <project path="development" name="platform/development" revision="7b5a4c1492e3b4164d69bff239dae41110e88db6" />
