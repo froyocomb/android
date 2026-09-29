@@ -81,7 +81,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <!-- Not in use until 4 April 2012 -->
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="4962dcfd83c5fc8a01c807185230afbfd62a0c4a" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="b13cc3c964fee8f16bfbf4bd42ad0631c4cf7889" />
+  <!--<project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="b13cc3c964fee8f16bfbf4bd42ad0631c4cf7889" />-->
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -299,7 +299,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="bba215a1f4387c66db758755d79b4574d2649794" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <project path="pdk" name="platform/pdk" revision="b68bf605eb7862cfeacba9a97013564aa74d758a" />
-  <project path="prebuilt" name="platform/prebuilt" revision="8ea092142adc1fb4eacf618022a4f66662080919" />
+  <project path="prebuilt" name="platform/prebuilt" revision="1b50a93cacc340ba3481d47dc640d4b46a7ccd19" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
