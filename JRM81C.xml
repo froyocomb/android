@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM81C. Base build commit is d27e4f8225e5b06d13f333257770eeafed79cbdb. Build tagged on 22 March 2012, manifest made on 25 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM81C. Base build commit is d27e4f8225e5b06d13f333257770eeafed79cbdb. Build tagged on 21 March 2012, manifest made on 25 September 2026. -->
   <!-- JRM81B, JRM81C -->
   <project path="build" name="platform/build" revision="aef279de93e4e4ac50c488ec18b9f7f712fa4840" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -20,10 +20,9 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="bbed54b17d6ad57e7e9d79a04d7ece9f65fe633d" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="cc8d28efa4b1b35a463fdcf277751f709338752e" />
-
-  <project path="cts" name="platform/cts" revision="985ec8cd409c8776e44504c5c3c6b3c8fdf6db65" />
-  <project path="dalvik" name="platform/dalvik" revision="05b50165be074c7161184fa0ad191e3cccd593fd" />
-  <project path="development" name="platform/development" revision="7b5a4c1492e3b4164d69bff239dae41110e88db6" />
+  <project path="cts" name="platform/cts" revision="fcfc8abb52fed0396e5de6c58ef134f608cbb1d0" />
+  <project path="dalvik" name="platform/dalvik" revision="0492067b571d503fddfcf4f66e2d8014721d8db4" />
+  <project path="development" name="platform/development" revision="021cf63bd7eeafcfd853a9a94ae757d89c6b5ff1" />
   <!-- Not in use until 29 May 2012 -->
   <project path="device/asus/grouper" name="device/asus/grouper" revision="150e057022abf927ab342e039530d47e50267f51" />
   <project path="device/common" name="device/common" revision="94d3522c8193b4dcb4e88f697d0f68996da7e395" />
@@ -31,23 +30,28 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
   <!-- Not in use until 6 June 2012 -->
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="89845e0f29e2f5ea5869c298f446ff34c47b0213" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="985594c9d0b84f3369750e3243c7b94e13a40ceb" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
   <project path="device/moto/stingray" name="device/moto/stingray" revision="7ad964f5fee8e43c08c9ec7a2a1339c7a6445af0" />
-  <project path="device/moto/wingray" name="device/moto/wingray" revision="dbd5592c66b4be08778c17fd7f3632bedf60a087" />
+  <!-- JRM81C -->
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="701b4fb56be168a6114e5e97b8c2ae3bcd1e33b9" />
   <project path="device/sample" name="device/sample" revision="35d79625c00724fe162951183aae999a5a463200" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="0a0fc00b3e678de8555796ae42f4386e3e0a8d9d" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="eeb6fa10596eab3c9b76032ecf94760f049733d0" />
+  <!-- JRM81B -->
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="cf8b12b44c0eccc759a0a377b7f821541a69030f" />
+  <!-- JRM81C -->
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="16529798486281f575d05d8fc2bd4902a1aac6b7" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="3a59c0ed067b22c19961a69b8a3fc0cee1c9b21c" />
-  <project path="device/samsung/toro" name="device/samsung/toro" revision="f1f319bf942942626193337495373364065c4c4c" />
+  <project path="device/samsung/toro" name="device/samsung/toro" revision="d16832dafacfcf76e850ee7560d634afd8897876" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="b0ef3afe924d06b898e448b86f192bc17a0e0d59" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="b0651bed02806dbfcd4643d4bf64bbf1d81d8b61" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="ae4be5553804f1e50bf7725bb56d42540e9f5cac" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="300e73a534c491e5152480a8db6c1dad2b6c9c0c" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="fa299ee87efebfed8a8a8962f0e03cc1a9843559" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="27ad68698dcbef9af91cb3b299ffe8896f8551bf" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="3afff39c57241b538a987921bcd3d20db4e0a64d" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
   <!--<project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />-->
+
+  
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
