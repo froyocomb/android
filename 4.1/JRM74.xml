@@ -303,8 +303,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="bba215a1f4387c66db758755d79b4574d2649794" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <project path="pdk" name="platform/pdk" revision="85cc59d2125083b35cdc6fc40be4d2b0c6a5de24" />
-
-
   <project path="prebuilt" name="platform/prebuilt" revision="17a21e0625e225e6a93e466bceb848b02480cda9" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
@@ -318,10 +316,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="529dfb55afffa3a4c781c86bc0ca2165b00ddd2a" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="d4dbdb67cac22f22ceb70055090b492b3010bd13" />
-  <!-- Not in use until 10 March 2012 -->
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="6e29c6df94faed985db57a1875cbcd317698c0fd" />
-  <!-- Not in use until 10 March 2012 -->
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="c054f352bafcffa05812051dc16053926dc99489" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="f31370172766ae7adb44e0cb102c8db8d2cd39b6" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6"/>
   <!-- Not in use until 16 April 2012 -->
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="b832c77812d4735e04acf368e0f2b7628fc4b242" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
