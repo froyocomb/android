@@ -225,7 +225,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="79d8d823a6fcb6936bab5695438a47c89ef15f3e" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <!-- Not in use until around March 2012 -->
-  <project path="frameworks/rs" name="platform/frameworks/rs" revision="d1f7da6803a1bfc0bf8129a66316cfb8994e7110" />
+  <!--<project path="frameworks/rs" name="platform/frameworks/rs" revision="d1f7da6803a1bfc0bf8129a66316cfb8994e7110" />-->
   <project path="frameworks/support" name="platform/frameworks/support" revision="87bfcff81147357906d6684a564d3b64683cba0b" />
   <!-- Not in use until 13 June 2012 -->
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
