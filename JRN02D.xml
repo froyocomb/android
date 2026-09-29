@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN02D. Base build commit is 5a101e717c5b633fa9d0c22d1d2e5266e939a5cd. Build tagged on 2 April 2012, manifest made on 1 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN02D. Base build commit is 5a101e717c5b633fa9d0c22d1d2e5266e939a5cd. Build tagged on 2 April 2012, manifest made on 29 September 2026. -->
   <!-- JRN02D -->
   <project path="build" name="platform/build" revision="30960a2a658066923c616615b08a74456f409a66" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -210,7 +210,6 @@
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <!-- Not in use until 9 July 2012 -->
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
-  <!-- JRM81C -->
   <project path="frameworks/native" name="platform/frameworks/native" revision="c4dab03bc5d3dd7e1a6dd77c2d11b412687f060d" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="49613988bb98fb69b0b681172bf901cffa41ab66" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
