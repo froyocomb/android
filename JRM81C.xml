@@ -65,7 +65,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" revision="b2197cae52338e04bb2b7911faae7bab57fcc7bc" />
+  <project path="external/chromium" name="platform/external/chromium" revision="a7dee89fba4aaa5f0be152cfc7c7b9b5cff98d51" />
   <!-- Not in use until 2 May 2012 -->
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <!-- Not in use until 24 April 2012 -->
