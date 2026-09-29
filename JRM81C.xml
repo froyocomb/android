@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRM81C. Base build commit is d27e4f8225e5b06d13f333257770eeafed79cbdb. Build tagged on 21 March 2012, manifest made on 25 September 2026. -->
+<!-- Manifest of Android Jelly Bean build JRM81C. Base build commit is d27e4f8225e5b06d13f333257770eeafed79cbdb. Build tagged on 21 March 2012, manifest made on 29 September 2026. -->
   <!-- JRM81B, JRM81C -->
   <project path="build" name="platform/build" revision="aef279de93e4e4ac50c488ec18b9f7f712fa4840" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -65,7 +65,8 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" revision="a7dee89fba4aaa5f0be152cfc7c7b9b5cff98d51" />
+  <!-- One commit newer to fix compile -->
+  <project path="external/chromium" name="platform/external/chromium" revision="731158395b8ae1105c69cc42dae6244385f6b4ff" />
   <!-- Not in use until 2 May 2012 -->
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <!-- Not in use until 24 April 2012 -->
@@ -255,7 +256,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="19950840c91b094f4fe3992e75838c5c86b2c9b9" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="0693ef57c17fd5532d3d862ef6d9cd18b5e8df0d" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="02df2ef167ee4c85d19d935e67418a2e26c471b3" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="7d99ba835013491e9d3d540a937e5e0a742b1ab4" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="684eef930695db885dae407e86b8e4c4babf8914" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="c02649b81605ca8ca6223d214427b35692869419" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="c32192568a3156fa500b0a598e446d0773b6e60e" />
   <!-- JRM81C -->
