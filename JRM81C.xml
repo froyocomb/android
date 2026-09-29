@@ -230,7 +230,7 @@
   <!-- Not in use until 13 June 2012 -->
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
   <!-- Not in use until around March 2012 -->
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="077405a448705636da29403ff6f24fd63623daac" />
+  <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="077405a448705636da29403ff6f24fd63623daac" />-->
   <project path="gdk" name="platform/gdk" revision="f2cb0bbbf4029093cfdbf9d3bd6e03989a6ef1b2" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="ad183a611f51de090de4b78034f562579eaab665" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" />
