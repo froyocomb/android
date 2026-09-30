@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN16C. Base build commit is 4f613f811929366ea21fc1c958ef119769b2e5dd. Build tagged on 16 April 2012, manifest made on 1 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN16C. Base build commit is 4f613f811929366ea21fc1c958ef119769b2e5dd. Build tagged on 16 April 2012, manifest made on 30 September 2026. -->
   <!-- JRN16B, JRN16C -->
   <project path="build" name="platform/build" revision="1cb4fa6185d21bc1e5ca72b72fcf843aaeeff3ca" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -70,7 +70,8 @@
   <project path="external/clang" name="platform/external/clang" revision="2d4476d7733465f6c446432e654d12047c90b604" />
   <!-- RTM, Required for compile by development/tools/a3dconvert at this time (and until 19 April 2012) -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="034bda5eab7cda14fac0bed3a39de4a3dbce3cff" />
+  <!-- One commit newer to fix compile -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="8e2ac92639f80f0c850bb91d9f51a5f149c0ae29" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="7ba38eb2ba6ef9429943f5ac32aff1b56a5ffe4c" />
@@ -191,7 +192,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" revision="85b71799222b55eb5dd74ea26efe0c64ab655c8c" />
   <project path="external/valgrind" name="platform/external/valgrind" revision="57ba9b82d34bbb5008ce3c39f89d5191ff79f285" />
-  <!-- JRN16C -->
+  <!-- JRN16C x2 -->
   <project path="external/webkit" name="platform/external/webkit" revision="1ded942f8a9bd82d533cb6277f8612c1a1b76ac5" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
