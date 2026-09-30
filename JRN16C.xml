@@ -70,7 +70,8 @@
   <project path="external/clang" name="platform/external/clang" revision="2d4476d7733465f6c446432e654d12047c90b604" />
   <!-- RTM, Required for compile by development/tools/a3dconvert at this time (and until 19 April 2012) -->
   <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="0a27a1f97e7d089de28b39744adfc6bc61df0bf1" />
+  <!-- Two commits newer to fix compile -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="b8a0c57f15cab97957901b5c71eaac14972b71ed" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="7ba38eb2ba6ef9429943f5ac32aff1b56a5ffe4c" />
