@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN23B. Base build commit is 7b0946d1df982f2406247c990595e909833b3fba. Build tagged on 23 April 2012, manifest made on 1 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN23B. Base build commit is 7b0946d1df982f2406247c990595e909833b3fba. Build tagged on 23 April 2012, manifest made on 2 October 2026. -->
   <!-- JRN23B -->
   <project path="build" name="platform/build" revision="7151e9de74da942d0ebd26ca3e251bc98d9f90bf" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -231,7 +231,8 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="e63c645cb33a335f5fd13826b890364c44340b05" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="8a8918c82bf55784cfb2ce3de8c1bfa76bc32331" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="fb2460b616379e075a42ef6be0ca4d6723d36239" />
-  <project path="libcore" name="platform/libcore" revision="617f435b7decc07c3721b45edb0f4e7c4c2e54a5" />
+  <!-- Testing -->
+  <project path="libcore" name="platform/libcore" revision="9953af4dd9a22f42ac0bfea75af00ec2e5e9f90d" />
   <!-- Not in use until 3 May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="4558609606c77e332677cf374468adcb264ee6e4" />
