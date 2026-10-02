@@ -15,18 +15,17 @@
   <project path="build" name="platform/build" revision="7151e9de74da942d0ebd26ca3e251bc98d9f90bf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" revision="b5e8d57664f0591317416172296c536178c84af0" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a" />
+  <project path="bionic" name="platform/bionic" revision="5fb8130be9c7b5c3794cd916ff2a218dcb024a58" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="42b7340563f631a1f96f6b38a901dc0d0713ef66" />
-  <project path="cts" name="platform/cts" revision="50f5fd8435a209a0c993df11c38f0708546b2a97" />
-  <project path="dalvik" name="platform/dalvik" revision="cee7f2c85678fa9fa5c0e94130ef135f74d8a82c" />
-  <project path="development" name="platform/development" revision="eb3c927f352f8b67b0e2ea960246b2ec7683d25c" />
+  <project path="cts" name="platform/cts" revision="b3c85154b9c80c1f421fb9226236cdee9ed9e079" />
+  <project path="dalvik" name="platform/dalvik" revision="0cdf3934d334805fd6f22040fa781a86515ad2bf" />
+  <project path="development" name="platform/development" revision="62bad7555eb1bba4602c365d67f88fa69675a443" />
   <!-- Not in use until 29 May 2012 -->
   <project path="device/asus/grouper" name="device/asus/grouper" revision="150e057022abf927ab342e039530d47e50267f51" />
-  <project path="device/common" name="device/common" revision="10df27a2b127322175bcf49a57ef8c7b0a2b2fcb" />
+  <project path="device/common" name="device/common" revision="9cb1b4a67ef2a9c0a487606aee8f11f2c906a84b" />
   <!-- Not in use until 6 June 2012 -->
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
   <!-- Not in use until 6 June 2012 -->
@@ -36,16 +35,16 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
   <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" revision="e27cf1f3143d1f4490d33fefe3fd1620304d51ed" />
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="35d7df7340d998bd169b9c188d83ab6e5745c250" />
   <project path="device/sample" name="device/sample" revision="c2771636c11d224e41d0a8a6453a39325161c0cc" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="09de7585d6d4b58afbc78c2280d5f66bc514f0dc" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="557cc81dc23c385e7e67a33e98b097511306ccc8" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="cd05d7a1e8eda2b5a7e73d3c388d01125f62b4e7" />
-  <project path="device/samsung/toro" name="device/samsung/toro" revision="b4e42be664241c77d4e519ae1b755b0fa772a0ad" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="1ed8667926f7cd02c4221f3917053b8cdfd14954" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="f9f2e7b1fd8272ec3e8b77637e7a6925b253c704" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" revision="e8f65a065e51f5abc67e49538e25bb9bd255fc85" />
+  <project path="device/samsung/toro" name="device/samsung/toro" revision="977747c5e3127a70195c1aef04ef19d0d31341ad" />
   <project path="device/samsung/torospr" name="device/samsung/torospr" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="fc78b68e6d58a7d91f371bfea8adb97ba043c48d" />
-  <project path="device/ti/panda" name="device/ti/panda" revision="3caa3043c20dc77739d38d1d41c4c98187427426" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="a2c91bbeddb8d75e3abb2e9efe785ca2e6b3404d" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" revision="bc08957ff27e065bc5809d54ac77327cf9f50caf" />
+  <project path="device/ti/panda" name="device/ti/panda" revision="b807ea1a1ac56bb8370c6339c2111b136a7d5f8b" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="c08c565b452e7d0ad00f87b387206be98fdda366" />
   <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
   <!--<project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />-->
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -56,34 +55,31 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="7a6b34cca3a9bcb9037f90e5bd613ed214381795" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="6faba6d5d19acc85a2fd9161ab797a1654c19200" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="c3ca927de0c0655e1f8d618d13f1de19b2b7975e" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" revision="d473d7ae9135c9ca149a361b78366a753e1c0d5f" />
+  <project path="external/chromium" name="platform/external/chromium" revision="8e8529d08429cac48a02b12b41b292bdd697ec53" />
   <!-- Not in use until 2 May 2012 -->
   <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
   <!-- Not in use until 24 April 2012 -->
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" />
   <project path="external/clang" name="platform/external/clang" revision="2d4476d7733465f6c446432e654d12047c90b604" />
-  <!-- RTM, Required for compile by development/tools/a3dconvert at this time (and until 19 April 2012) -->
-  <project path="external/collada" name="platform/external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f" />
   <!-- Two commits newer to fix compile -->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="b8a0c57f15cab97957901b5c71eaac14972b71ed" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="7ba38eb2ba6ef9429943f5ac32aff1b56a5ffe4c" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="e4f0d1bd87c052c1b4af410599558de1e8875379" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/doclava" name="platform/external/doclava" revision="de0f029b5e2b6c099504c9f89c294d2fea16944a" />
+  <project path="external/doclava" name="platform/external/doclava" revision="2e683e10d5c0459b11527f5b064b6829761d919c" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="dc3069ab9b1ccdf39058fe1729a5cd8533a93734" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <!-- Not in use until 4 April 2012 -->
-  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="4962dcfd83c5fc8a01c807185230afbfd62a0c4a" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="710a161c9c528b5e5cb5cd6d0d41736881c9697f" />
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" revision="89135a3d398545a8108b0bce7b232a230a14d03b" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -92,7 +88,9 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" revision="b7b7254d72d5a83c044abfc64121b5e646786637" />
   <project path="external/flac" name="platform/external/flac" revision="7a4c039ab65f28a3e020557ac90ece2b21e5650f" />
-  <project path="external/freetype" name="platform/external/freetype" revision="27811904d8de0ce5591417812ca31163bf5aad60" />
+  <project path="external/freetype" name="platform/external/freetype" />
+
+  
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
