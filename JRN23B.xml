@@ -196,8 +196,7 @@
   <project path="external/zlib" name="platform/external/zlib" revision="683eb93eef7832d39e1f121ce8115a41e2e77b2e" />
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-  <!-- JRN23B x2 -->
-  <project path="frameworks/av" name="platform/frameworks/av" revision="359f90cea8a59c4a8d25b422fd0b0569e31db2fa" />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="b388e531613730572067e193b6b66afb5d042233" />
   <!-- JRN23B x3 -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="2ad93e4549ba6bd1f821f9049cbd59269b5c2974" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="99ec29fadbc4affc204b1aba22d2e54612125c9e" />
