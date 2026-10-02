@@ -21,7 +21,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="42b7340563f631a1f96f6b38a901dc0d0713ef66" />
   <project path="cts" name="platform/cts" revision="b3c85154b9c80c1f421fb9226236cdee9ed9e079" />
-  <project path="dalvik" name="platform/dalvik" revision="0cdf3934d334805fd6f22040fa781a86515ad2bf" />
+  <project path="dalvik" name="platform/dalvik" revision="ed06c06f8811a38b424a1d353d74eae7de2a01ac" />
   <project path="development" name="platform/development" revision="62bad7555eb1bba4602c365d67f88fa69675a443" />
   <!-- Not in use until 29 May 2012 -->
   <project path="device/asus/grouper" name="device/asus/grouper" revision="150e057022abf927ab342e039530d47e50267f51" />
