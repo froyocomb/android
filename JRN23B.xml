@@ -133,7 +133,8 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="4eb881eab369a68754cb352bd8c73cd363757d28" />
+  <!-- Not in use at this time -->
+  <!--<project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="4eb881eab369a68754cb352bd8c73cd363757d28" />-->
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" revision="f34ff122bea7902c8277c9bdafc7fafee085b494" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" />
