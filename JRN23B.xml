@@ -197,7 +197,7 @@
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
   <!-- JRN23B x2 -->
-  <project path="frameworks/av" name="platform/frameworks/av" revision="c2dabeb11d625fadfd923e6461405f5fbf383320" />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="359f90cea8a59c4a8d25b422fd0b0569e31db2fa" />
   <!-- JRN23B x3 -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="2ad93e4549ba6bd1f821f9049cbd59269b5c2974" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="99ec29fadbc4affc204b1aba22d2e54612125c9e" />
