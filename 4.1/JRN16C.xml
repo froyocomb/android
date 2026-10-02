@@ -196,6 +196,8 @@
   <project path="external/webkit" name="platform/external/webkit" revision="1ded942f8a9bd82d533cb6277f8612c1a1b76ac5" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
+  <!-- Required for compile by libhardware_legacy at this time (unknown until when, check build by build by removing wpa_supplicant) -->
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="b68741bc9da2c0dd0998d311a30674584175ee11" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="9e07767d5d76159ef38a241da00eb0d9f3bc6420" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
