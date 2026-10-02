@@ -45,7 +45,8 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="bc08957ff27e065bc5809d54ac77327cf9f50caf" />
   <project path="device/ti/panda" name="device/ti/panda" revision="b807ea1a1ac56bb8370c6339c2111b136a7d5f8b" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="c08c565b452e7d0ad00f87b387206be98fdda366" />
-  <project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />
+  <!-- Not in use until 11 July 2012, no "Initial empty repository" commit -->
+  <!--<project path="external/aac" name="platform/external/aac" revision="2228e360595641dd906bf1773307f43d304f5b2e" />-->
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -230,8 +231,8 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="e63c645cb33a335f5fd13826b890364c44340b05" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="8a8918c82bf55784cfb2ce3de8c1bfa76bc32331" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="fb2460b616379e075a42ef6be0ca4d6723d36239" />
-  <!-- ??? -->
-  <project path="libcore" name="platform/libcore" revision="3cb0374b1241cf058fc7df650e898a9b909aae1b" />
+  <!-- Testing -->
+  <project path="libcore" name="platform/libcore" revision="8d77852240d7297eea389db1e998dcfe895ab98b" />
   <!-- Not in use until 3 May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
   <project path="ndk" name="platform/ndk" revision="4558609606c77e332677cf374468adcb264ee6e4" />
