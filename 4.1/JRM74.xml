@@ -278,7 +278,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="ffaec8d185ebd1d427f6b141a2bdf4cf0b9757ee" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally (since 4.1) up to that point only for the "NEW" Email app, which is included here before being replaced with the ICS MR1 one again on 25 April 2012 -->
+  <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally (since 4.1) up to that point only for the "NEW" Email app, which is included here before being replaced with the ICS MR1 one again on 3 May 2012. --> 
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="ab709abe7db4ddd45760548ade00c6acd126056a" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="1a12adae9bd39f8829fa15f5506c17ce3ab23a64" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="9fefa58747e8bbd836566df9ae22c2bdfbb4cf91" />
