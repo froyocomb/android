@@ -45,7 +45,7 @@
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="fc78b68e6d58a7d91f371bfea8adb97ba043c48d" />
   <project path="device/ti/panda" name="device/ti/panda" revision="3caa3043c20dc77739d38d1d41c4c98187427426" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="a2c91bbeddb8d75e3abb2e9efe785ca2e6b3404d" />
-  <!-- Not in use until 6 April 2012. AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
+  <!-- Not in use until 18 April 2012. AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
   <project path="external/aac" name="platform_external_aac" remote="github" revision="a37315fe10ee143d6d0b28c19d41a476a23e63ea" /> 
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
