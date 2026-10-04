@@ -192,7 +192,8 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" revision="2ec18f95b04e505e8d336774a7dbeb6069f1bebf" />
+  <!-- One commit newer to fix compile -->
+  <project path="frameworks/av" name="platform/frameworks/av" revision="1d02a827bc0bb5023a551bc9ce3fb37457240daa" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="bd7c8af3202416e7da333e299f31ca5b7408adcc" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="fb2adce3b51b872c4974d05290f2e46970b90a74" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
