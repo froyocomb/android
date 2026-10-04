@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN38B. Base build commit is d9a9bde29c2567c0de1b116494b91810315da018. Build tagged on 8 May 2012, manifest made on 4 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN38B. Base build commit is d9a9bde29c2567c0de1b116494b91810315da018. Build tagged on 8 May 2012, manifest made on 3 October 2026. -->
   <!-- JRN38B -->
   <project path="build" name="platform/build" revision="675b0ebe29e888facbeadc4812c8aa914849f47b" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -186,8 +186,6 @@
   <project path="external/webkit" name="platform/external/webkit" revision="6eee8185ba6b17c35b11a80eff8eb9fdeb53772f" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <!-- Required for compile by libhardware_legacy at this time -->
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="a01d37870bbf9892d43e792e5de0683ca41c5497" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="2fb777c379ad560c309c54b96c2c13291da23f54" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
