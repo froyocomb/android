@@ -12,7 +12,7 @@
 
 <!-- Manifest of Android Jelly Bean build JRN00. Base build commit is 6631b2941b828f611e72997f966599d875587ca0. Build tagged on 17 May 2012, manifest made on 5 October 2026. -->
   <!-- JRN00 -->
-  <project path="build" name="platform/build" revision="267de65815b436864e7bf7880b2928b1a54d5d51" >
+  <project path="build" name="platform/build" revision="167cbb0d324d44099414a41f3a913897bc4c2f1f" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
