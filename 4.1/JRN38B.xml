@@ -222,8 +222,8 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media"/>
   <project path="hardware/ril" name="platform/hardware/ril" revision="8add90564c4c0ba63c42314706aa7592f330aa7a" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <!-- Some commits newer to fix compile -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="812f0cdd21be16f695df67670fb3370087400f8b" />
+  <!-- Four commits newer to fix compile -->
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="4495a87138cd1f0fdf62a9c4649e2c2bdbd3527d" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="fb2460b616379e075a42ef6be0ca4d6723d36239" />
   <project path="libcore" name="platform/libcore" revision="fa800dd6e3f6722c133242cd24d3fb63c77a9ee7" />
