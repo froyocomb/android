@@ -306,7 +306,7 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="80f927a38562ab8186c4e509bf151888c4c944a8" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="a389aef61a915e8f599c9b8ed06d6dbc16600864" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" revision="226f95c416fa52c879bb2d5e19a23e252ee8b120" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
