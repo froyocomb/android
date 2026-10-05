@@ -223,7 +223,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" revision="8add90564c4c0ba63c42314706aa7592f330aa7a" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <!-- x commits newer to fix compile -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="99710b5eaa2b8cd652a2c844b63e7c00c04c7969" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="4495a87138cd1f0fdf62a9c4649e2c2bdbd3527d" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="fb2460b616379e075a42ef6be0ca4d6723d36239" />
   <project path="libcore" name="platform/libcore" revision="a752434ef0c6ad4d7fe201e9fe7e04c3198dc9a3" />
