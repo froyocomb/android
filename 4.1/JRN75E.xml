@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN75E. Base build commit is 91f3d748c4e4459f50dfab010a92d9f60516b770. Build tagged on 15 June 2012 (base build on 14 June), manifest made on 7 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN75E. Base build commit is 91f3d748c4e4459f50dfab010a92d9f60516b770. Build tagged on 15 June 2012 (base build on 14 June), manifest made on 6 October 2026. -->
   <!-- JRN75B, JRN75C, JRN75D, JRN75E -->
   <project path="build" name="platform/build" revision="175026a969a865dba243b285494a13df9eb625ac" >
     <copyfile src="core/root.mk" dest="Makefile" />
