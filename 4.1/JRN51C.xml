@@ -316,7 +316,7 @@
   <project path="system/extras" name="platform/system/extras" revision="80cb15504324667c9934ff350afff48881613393" />
   <project path="system/media" name="platform/system/media" revision="1e821d1c5a72d669bea3572a28aec2027df39846" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" revision="bef8083783df4b06972f33b468eccf941e335864" />
+  <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" revision="bfc7db4772e73367bac5a190739326128b27f758" />
 
 </manifest>
