@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean build JRN64. Build tagged on 3 June 2012, manifest made on 7 October 2026. -->
+<!-- Manifest of Android Jelly Bean build JRN64. Build tagged on 3 June 2012, manifest made on 6 October 2026. -->
   <project path="build" name="platform/build" revision="81ae93ab2c320e64be6f7f336d0cec17ca69a277" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
