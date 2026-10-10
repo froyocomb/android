@@ -10,39 +10,50 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android 4.2 build AAN25. Build tagged on 25 April 2012, manifest made on 13 October 2026. -->
+<!-- Manifest of Android 4.2 build AAN25. Build tagged on 25 April 2012, manifest made somewhere in October 2026. -->
   <project path="build" name="platform/build" revision="d3950ccbbdf755b31a7a4e7b409d4a731744cc56" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="platform/bionic" revision="94179a509ee3f6ba7b4ba45fb90477b01049dab8" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
-  <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/generic/mips" name="device/generic/mips" />
-  <project path="device/generic/x86" name="device/generic/x86" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="d2a0ffa065dbb98e9acbf873dff5eb129bf2be71" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="f69d40afa190a2b6938979fe10760c74a8cc55b3" />
+  <project path="cts" name="platform/cts" revision="72063911acc70399117905cfb5f321cc3011f2f8" />
+  <project path="dalvik" name="platform/dalvik" revision="56211ff5a118af4aeaef2b7f76e07c1143364f25" />
+  <project path="development" name="platform/development" revision="f7f09951dcefeb761440a855bcb9a7c180c557d2" />
+  <!-- Not in use until 29 May 2012 -->
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" revision="150e057022abf927ab342e039530d47e50267f51" />
+  <!-- Not in use until 6 August 2012 -->
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" revision="8da405647c82e5f4a6bde59f8ee5bc83a91e569c" />
+  <project path="device/common" name="device/common" revision="9cb1b4a67ef2a9c0a487606aee8f11f2c906a84b" />
+  <!-- Not in use until 6 June 2012 -->
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
+  <!-- Not in use until 6 June 2012 -->
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" />
+  <!-- Not in use until 17 August 2012 -->
+  <project path="device/generic/common" name="device/generic/common" revision="430704d6d32825cfbab52f4e75aae47f8595c1e9" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="f7f6d5db6ad9d740a19cb613faa1e1f64fc38052" />
+  <!-- Not in use until 15 August 2012 -->
+  <project path="device/generic/mips" name="device/generic/mips" revision="e5ecd72fc11a068a009f27156f9b18859d8e6edd" />
+  <!-- Not in use until 8 August 2012 -->
+  <project path="device/generic/x86" name="device/generic/x86" revision="7645fecaef50e8f283a29d85cef9b78cbb03f2eb" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="9b1ef69828775a15396b753c16a83417bb769138" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded" />
+  <!-- Not in use until 5 June 2012 -->
+  <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" />
+  <!-- Not in use until 13 November 2012, no "Initial empty repository" commit -->
+  <!--<project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />-->
+  <project path="device/sample" name="device/sample" revision="792bdcaf1f80756fdeac1b8bf7073c1c76474a94" />
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="2730dc9b3d34ef636d76d3e1d293706062e01639" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="66b2ff08cceae69468bf0cb984b5597933215e39" />
+  <project path="device/samsung/toro" name="device/samsung/toro" groups="device" revison="f6bbbbae8d43c93c2b641898deda5ea6e091599e" />
+  <!-- Not in use until 6 August 2012 -->
+  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" revision="07dded0b26e83207389231025ec4d5a1d51faa47" />
+  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" revision="a47d262296f06eff8c5c0066d5417b3f93383a1d" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="8fceda2a5c903b5c3f5a6e95eb931308ebca0896" />
+
+
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
