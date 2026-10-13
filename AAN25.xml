@@ -44,6 +44,9 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" />
   <!-- Not in use until 13 November 2012, no "Initial empty repository" commit -->
   <!--<project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />-->
+  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="f76699a312ccf62a1b267f64dcbfa880c17a0123" />
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="80c6fa60cf9d64ca4f936f3367cdb15fd64a5065" />
   <project path="device/sample" name="device/sample" revision="792bdcaf1f80756fdeac1b8bf7073c1c76474a94" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="2730dc9b3d34ef636d76d3e1d293706062e01639" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="66b2ff08cceae69468bf0cb984b5597933215e39" />
