@@ -221,7 +221,7 @@
   <project path="external/webp" name="platform/external/webp" revision="88fe2b83c4b9232cd08729556fd0485d6a6a92cd" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="5870e071aabfbde0d570142acf440ab4dca97e04" />
   <!-- Needs checking -->
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="1ec2bd91deac8778bea6a821fd65e486ede0e012" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="b68741bc9da2c0dd0998d311a30674584175ee11" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="3eb807eec9a305f9a2bc87964925ec81bfc4eb1e" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <!-- Not in use until 4 October 2012 -->
@@ -230,32 +230,38 @@
   <project path="external/zlib" name="platform/external/zlib" revision="683eb93eef7832d39e1f121ce8115a41e2e77b2e" />
   <!-- Not in use until 3 May 2012 -->
   <project path="external/zxing" name="platform/external/zxing" revision="8dab53a2e7248ddba49f06d9f0beeb261b8fa589" />
-
-  
-  <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
-  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/av" name="platform/frameworks/av" revision="bb28e578c1eb95ab9b7ee2f8bde5a929ca10e5a2" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="5cc510bf895266f9f9b23de28cf29d10385ef793" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="5a6206fa2b4e812b316844817efd65dd2d809ab8" />
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="af930560f9f707af2b178a13bc3dc34c0e83d5e6" />
+  <!-- Not in use until 31 July 2012 -->
+  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="8ad720504e84a65fc3d01947a2effed67ad47346" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="1ca0341a6363a93addac30f8265e989317e7ccc0" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="14a7e172a411372d4edd84ea791ab972598dfa17" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="e71f6dbce4fb8b28c4733d9562c4cf651b23c3dd" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
-  <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
+  <project path="frameworks/ml" name="platform/frameworks/ml" revision="b019e89cbea221598c482b05ab68b7660b41aa23" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="6b8bef64f7ed94a45c1b03f65f4bffb9eba86889" />
+  <!-- Needs checking -->
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="535c02e153d7e7f1bb3f42c9948f444d541269e1" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="276f4096ba05670520cd749ff20f45bbcf22f08c" />
+  <!-- Not in use until 14 June 2012 -->
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="578987cea939f96ace0ed976edf4a15685f4c366" />
+  <!-- Not in use until 25 June 2012 -->
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
+  <!-- Not in use until 11 July 2012 -->
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="f4ba68aa88637e9df034fce94971535852cc0a7b" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="ec3fc1163c01e18b1454057723c451f0d96868ad" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a535e06412ade3939d8fcf165e54d29817dc2e7b" />
+  <!-- Not in use until 7 May 2012 -->
+  <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="84ed0307dcc468a925c8e779e804367345177ff3" />
+
+  
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
