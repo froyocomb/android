@@ -372,6 +372,8 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <!-- Needs checking -->
   <project path="pdk" name="platform/pdk" revision="ff31d3cf95e2a9fdc45d956e7bc289c61eebb62c" />
+  <!-- Required at this time -->
+  <project path="prebuilt" name="platform/prebuilt" revision="0b8f52a4dadf56600b702efe9767c8a38d869b8c" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <!-- Not in use until 3 August 2012 -->
