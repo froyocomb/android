@@ -44,7 +44,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" />
   <!-- Not in use until 13 November 2012, no "Initial empty repository" commit -->
   <!--<project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />-->
-  <project path="device/moto/common" name="device/moto/common" />
+  <project path="device/moto/common" name="device/moto/common" revision="refs/heads/main" />
   <project path="device/moto/stingray" name="device/moto/stingray" revision="f76699a312ccf62a1b267f64dcbfa880c17a0123" />
   <project path="device/moto/wingray" name="device/moto/wingray" revision="80c6fa60cf9d64ca4f936f3367cdb15fd64a5065" />
   <project path="device/sample" name="device/sample" revision="792bdcaf1f80756fdeac1b8bf7073c1c76474a94" />
