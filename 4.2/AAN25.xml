@@ -19,7 +19,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="d2a0ffa065dbb98e9acbf873dff5eb129bf2be71" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="f69d40afa190a2b6938979fe10760c74a8cc55b3" />
-  <project path="cts" name="platform/cts" revision="72063911acc70399117905cfb5f321cc3011f2f8" />
+  <project path="cts" name="platform/cts" revision="506b01d2a2ffc0ce810e6f165410dad42afbacf0" />
   <project path="dalvik" name="platform/dalvik" revision="56211ff5a118af4aeaef2b7f76e07c1143364f25" />
   <project path="development" name="platform/development" revision="f7f09951dcefeb761440a855bcb9a7c180c557d2" />
   <!-- Not in use until 29 May 2012 -->
