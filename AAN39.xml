@@ -367,6 +367,8 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="4cd1e13e3f6af7ab2c2ff3d5953d7e3677e2f0b1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <project path="pdk" name="platform/pdk" revision="0284a911ce75dfffca7befe7d647a12553fbaf53" />
+  <!-- Required at this time -->
+  <project path="prebuilt" name="platform/prebuilt" revision="f37f794a468064e5384f06143dd4e9122c730d34" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <!-- Not in use until 3 August 2012 -->
