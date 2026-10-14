@@ -19,7 +19,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="d2a0ffa065dbb98e9acbf873dff5eb129bf2be71" />
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="69f4b6732ce13f248b0da0c7eeda56207fdeaba2" />
-  <project path="cts" name="platform/cts" revision="4d70f47d7b8b57c377987a3570db8bf1553b7434" />
+  <project path="cts" name="platform/cts" revision="a8a4fabbee3eb2f4219870c16996e7db46608657" />
   <project path="dalvik" name="platform/dalvik" revision="d25f00e6921e9d7957017c79cab6b52ddef93234" />
   <project path="development" name="platform/development" revision="1af872f6cfcd5c7f0b81f0e52e0efe1dd62f1ef9" />
   <!-- Not in use until 29 May 2012 -->
@@ -239,7 +239,7 @@
   <project path="external/zlib" name="platform/external/zlib" revision="7b332dbcb6a69c1919decb488c28d9b1fc5ba141" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" revision="89f24546f131e78ada87d60c3843470fd737fa24" />
-  <project path="frameworks/base" name="platform/frameworks/base" revision="2f4b10e2d4320db490b03eb198ce034302ef00fc" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="709d138d2fbbfbcddde9c87528151dc897095742" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="9b004a1da8822093b004832c094497747195edaa" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="17eb07e01f6a864fa2f5ff3ed4b2d0cc3ac43ea8" />
   <!-- Not in use until 31 July 2012 -->
@@ -329,7 +329,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="1523bc37f4a30f890d2c17afc604ff364132ebab" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="15a250bd2dd7fe70d29ca2f088a8d52d834ac598" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="311899e77b5e4c6b7f2535165e80186cebcdcb59" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="70992ddaccf278ed037e36a4c281ca9d684280f2" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="d06e0f7e44a8463f5b773ab6b14283fd39fde50b" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d" />
@@ -346,7 +346,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="b4655f96bb0268e3d457cf32a58c0eeed8501880" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="929d8bb85a57135602372a7126a8cb0420025d70" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="c3f54281b3b4a1646923a726c9a1731bd39324a0" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="4efbfc5c2199dc38d9cc5bc98b16162e180d6707" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="f6a8fc0003d219b7ba847b478f72c61b2976a65a" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="dc94f04ed1593cf209cb4dd5709f8b8345045b45" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="db356aa3972dbd4ba60e9cc4758813c0f1d1c92e" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="5619dbb4338e9acea165f4cc0f1791d00e8df445" />
