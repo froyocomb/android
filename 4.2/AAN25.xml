@@ -44,7 +44,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" />
   <!-- Not in use until 13 November 2012, no "Initial empty repository" commit -->
   <!--<project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />-->
-  <project path="device/moto/common" name="device/moto/common" revision="refs/heads/main" />
+  <project path="device/moto/common" name="device/moto/common" revision="refs/heads/jb-dev" />
   <project path="device/moto/stingray" name="device/moto/stingray" revision="f76699a312ccf62a1b267f64dcbfa880c17a0123" />
   <project path="device/moto/wingray" name="device/moto/wingray" revision="80c6fa60cf9d64ca4f936f3367cdb15fd64a5065" />
   <project path="device/sample" name="device/sample" revision="792bdcaf1f80756fdeac1b8bf7073c1c76474a94" />
@@ -53,6 +53,8 @@
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" revision="f6bbbbae8d43c93c2b641898deda5ea6e091599e" />
   <!-- Not in use until 6 August 2012 -->
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" revision="07dded0b26e83207389231025ec4d5a1d51faa47" />
+  <!-- Was device/samsung/torospr until 6 August 2012, then it became device/samsung/toroplus -->
+  <project path="device/samsung/torospr" name="device/samsung/torospr" revision="b56e5ef99d9d7263d0905ea86eb197afa2d93d47" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" revision="a47d262296f06eff8c5c0066d5417b3f93383a1d" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="8fceda2a5c903b5c3f5a6e95eb931308ebca0896" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="bf8b4aa249ae4e2f8c6543839fefbfea0c96ce9a" />
@@ -77,9 +79,9 @@
   <!-- Not in use until 14 July 2012. AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
   <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" remote="github" revision="a2ca4b83ab8bbbfd8d5f6693e927ed4b82094624" />
   <!-- Required for compile by bluetooth/bluez -->
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/heads/main" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/heads/jb-dev" />
   <!-- Required for compile by bluetooth/bluez -->
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/heads/main" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/heads/jb-dev" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="c3ca927de0c0655e1f8d618d13f1de19b2b7975e" />
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779" />
