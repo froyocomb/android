@@ -367,8 +367,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="4cd1e13e3f6af7ab2c2ff3d5953d7e3677e2f0b1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="952a4923d05bdedf9ff11ff8286bce82745fcbff" />
   <project path="pdk" name="platform/pdk" revision="0284a911ce75dfffca7befe7d647a12553fbaf53" />
-  <!-- Required at this time -->
-  <project path="prebuilt" name="platform/prebuilt" revision="f37f794a468064e5384f06143dd4e9122c730d34" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <!-- Not in use until 3 August 2012 -->
@@ -393,7 +391,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" revision="ddd014fe1da895bff96f49d51a84423fd72c7970" />
   <!-- Not in use until 12 May 2012 -->
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" revision="907c92922b6f593b6d122e3e02212d589ec70ff8" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="a7ab54a81e9fd00d06f74844190d0903c9a80d38" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="c9d58192dd87422cd2616ef62ff00b0b2ad69627" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="0e9345c19d21bd3652a706c23d5e46ed2d3c7f36" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="3d4c16fe9ff8d87b9feb9db7380fc626a5d1f323" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="e743e8ded40d6571f99ddedc9e2b75ddc6d4df94" />
