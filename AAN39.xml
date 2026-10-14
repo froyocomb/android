@@ -265,7 +265,8 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" />
   <project path="frameworks/rs" name="platform/frameworks/rs" revision="1d892439c73e73ae2cdceb5df30f34f7c5eefe28" />
   <project path="frameworks/support" name="platform/frameworks/support" revision="4338f5e2f60c50ac90ebab9a1b1209d3f8298757" />
-  <project path="frameworks/testing" name="platform/frameworks/testing" revision="bb23e68d4dc19a37df318b8d169e3dfd0dd1c20e" />
+  <!-- Not in use at this time -->
+  <!--<project path="frameworks/testing" name="platform/frameworks/testing" revision="bb23e68d4dc19a37df318b8d169e3dfd0dd1c20e" />-->
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="91145ef159d3e165a461cbd76341ff8ed3d72bae" />
   <project path="gdk" name="platform/gdk" revision="6a5fd5f0c6aa00bfbc4473007a349710e026bb10" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="9e18487ef6b3acfdc3128b327aa761cbeeedfb99" />
