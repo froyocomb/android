@@ -213,7 +213,8 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="8daa09a2af477dbe495839ccf806919a02aa53cd" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="9e18487ef6b3acfdc3128b327aa761cbeeedfb99" />
+  <!-- One commit newer to fix Grouper wlan -->
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="df2c70e7e6e08da8fa984f2b2ef2fc487a7714db" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="a3e364144cc258bbe94e7eb0a216e317a9e7e38d" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="daf73d8e1a679620e9b0ca5f679224ae5c0867af" />
