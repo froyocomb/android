@@ -245,21 +245,22 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
   <!-- Not in use until around March 2012 -->
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="e96622ef43ac28c58e8f5f178a7d2b5d9724ac3f" />-->
-
-  
   <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="84b445e2d5d3cd94e12db420e7d2ab28aca84a8c" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="7291b77f00cfda5ea7321c89644b05b2329e6ff2" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="f04ab0706baf15234ce8601573f975a7cbbc1579" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="da9978fb8e7af7493eeaf14a24d28a0adf028aa8" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="cf0649e0d73a7dba1149e2f1314b4ae31469ee6e" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="fe6ebbdcedc595c6d92b391546012e356ba873f9" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="1e28bb373426d251eedbe1192c8d45975dddfe5f" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="161aee27af8a84876c297e0f4be28e2e42125d70" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="22f2554680715d1ea993409217a4a21f652ef130" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="7c2f7b69f91e660f872d0ca15ab14b32d23e53d4" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="c937e739c0f822733bccb51c98a44b6b8c7bc663" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="eb902b80c2b46e59b12b2bded315e7f620f87c7e" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="89ad127cd3489d7c681eae5f9710a29298aacefc" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="71b33a71357b3ec211ae479b154cec071e379353" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="bfcec3468e240eedf7583def48370ba410234132" />
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="0a543b9246699e97ea26ca5b7de59ecadf356dbb" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="c3a85902e0b52a5f1564478a747338a7d6e2704a" />
+  <!-- Not in use until 6 March 2012 -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
+
+  
   <project path="libcore" name="platform/libcore" revision="ce0a81fb68783de75c34da5dc99f55ec08ac1cc6" />
   <!-- Moved from platform/dalvik in May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
