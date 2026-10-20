@@ -252,7 +252,7 @@
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="22f2554680715d1ea993409217a4a21f652ef130" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="7c2f7b69f91e660f872d0ca15ab14b32d23e53d4" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="c937e739c0f822733bccb51c98a44b6b8c7bc663" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="89ad127cd3489d7c681eae5f9710a29298aacefc" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="eb902b80c2b46e59b12b2bded315e7f620f87c7e" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="71b33a71357b3ec211ae479b154cec071e379353" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="0a543b9246699e97ea26ca5b7de59ecadf356dbb" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="c3a85902e0b52a5f1564478a747338a7d6e2704a" />
