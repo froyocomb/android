@@ -246,7 +246,7 @@
   <!--<project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="e96622ef43ac28c58e8f5f178a7d2b5d9724ac3f" />-->
   <project path="gdk" name="platform/gdk" revision="0f8a40e4cfdc5f6cd47c22e81f69ed0446067c54" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="cf0649e0d73a7dba1149e2f1314b4ae31469ee6e" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="fe6ebbdcedc595c6d92b391546012e356ba873f9" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="86e0dce7c7630385989627d4d010695bb8a2b3f3" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="1e28bb373426d251eedbe1192c8d45975dddfe5f" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="161aee27af8a84876c297e0f4be28e2e42125d70" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="22f2554680715d1ea993409217a4a21f652ef130" />
