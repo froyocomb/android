@@ -366,7 +366,7 @@
   <project path="sdk" name="platform/sdk" revision="fc6ab562778daea2db3141294cbf5f7ca3b37445" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="328890869f2053131fb9df4f054e3ec6014189c4" />
   <project path="system/core" name="platform/system/core" revision="f48311073d62068c3978650d3e3d1e367543e6c2" />
-  <project path="system/extras" name="platform/system/extras" revision="82a646669008a70924f1f558630a0e2b660c5748" />
+  <project path="system/extras" name="platform/system/extras" revision="6ca3a62a0d193b272d668f9ad24dc26cea1d3e27" />
   <project path="system/media" name="platform/system/media" revision="5265bf10dad1d1f0e62d06dff8f0416329df8db1" />
   <project path="system/netd" name="platform/system/netd" revision="8c61917c11c3b32b37f174265060bb857683ee57" />
   <!-- Not in use until 15 February 2012 -->
