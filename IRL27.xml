@@ -226,7 +226,7 @@
   <!-- Not in use until 17 March 2012 -->
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="7a83dfa572a3ae9da136c30c62f6d6cdab3dd064" />
   <!-- Slightly newer commit to adjust to LLVM r144606 -->
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="f736d5a12269e7e74740b130cdca98d9839b31e6" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="6bccf10de15053b12b323c10a03c6ef4dfbb9cdf" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="7d5b3122249097568d909339e1347f0db7854b5c" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <!-- Not in use until 9 March 2012 -->
