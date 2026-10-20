@@ -368,7 +368,7 @@
   <project path="system/core" name="platform/system/core" revision="f48311073d62068c3978650d3e3d1e367543e6c2" />
   <project path="system/extras" name="platform/system/extras" revision="82a646669008a70924f1f558630a0e2b660c5748" />
   <project path="system/media" name="platform/system/media" revision="5265bf10dad1d1f0e62d06dff8f0416329df8db1" />
-  <project path="system/netd" name="platform/system/netd" revision="068c39911794c8a334a4b241a06ffa9673b6a803" />
+  <project path="system/netd" name="platform/system/netd" revision="8c61917c11c3b32b37f174265060bb857683ee57" />
   <!-- Not in use until 15 February 2012 -->
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
   <project path="system/vold" name="platform/system/vold" revision="71189e7f31dad5ef31d7f250e76034b7b0b478fb" />
