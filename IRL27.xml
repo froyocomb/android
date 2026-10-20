@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<!-- Manifest of Android Jelly Bean (4.0.1) build IRL27. Build tagged on 27 October 2011, manifest made somewhere on October 2026. -->
+<!-- Manifest of Android Jelly Bean build IRL27. Build tagged on 27 October 2011, manifest made on 20 October 2026. -->
   <project path="build" name="platform/build" revision="090d360c6091a730628ce1094f52d39b269169c0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
