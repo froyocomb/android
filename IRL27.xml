@@ -187,7 +187,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <!-- Not in use until 18 January 2012, no "Initial empty repository" commit -->
   <!--<project path="external/sepolicy" name="platform/external/sepolicy" revision="2dd4e51d5c2a2dfc0bfdee9303269f5a665f6e35" />-->
-  <!-- Needs checking -->
   <project path="external/skia" name="platform/external/skia" revision="3fe22dc26aff9fa6d9260a7f7c30afeb02faf607" />
   <!-- Not in use until 16 November 2011 -->
   <project path="external/smali" name="platform/external/smali" revision="bb4b7b7f716d394a5f820c79f432850b38fe5165" />
@@ -259,102 +258,121 @@
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="c3a85902e0b52a5f1564478a747338a7d6e2704a" />
   <!-- Not in use until 6 March 2012 -->
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" />
-
-  
-  <project path="libcore" name="platform/libcore" revision="ce0a81fb68783de75c34da5dc99f55ec08ac1cc6" />
-  <!-- Moved from platform/dalvik in May 2012 -->
+  <project path="libcore" name="platform/libcore" revision="30318685fd7ebaf9f2573853f63ceb0463dcbdd9" />
+  <!-- Not in use until 3 May 2012 -->
   <!--<project path="libnativehelper" name="platform/libnativehelper" revision="292b1c28091b32a418eb44dcdef157a7b808abd4" />-->
-  <project path="ndk" name="platform/ndk" revision="503184d75ac486c335e9bc1722c5c8d97e6d552e" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="31a52817fae03a24c3bc96390c0a9f1b014004a3" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="01545dd93cce91bc6d0d9c25fc2f8445ada430d6" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="b1a5a9a116327667b43ab8c9dd49981b407e1b52" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="76a47486eb7bc57e3d904b4b9da8f9a658980a35" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="a99a316c176cf82bb42838ec8946f1316fd17107" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="ad1d1023c6d4181b5e4e0897b32f44932580bfbc" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="8108249511dea62efe9ab4fe5de18d34ea142f3a" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="2183fee938e6f7be3d2a58a61e7db52716189a2c" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="14b3edca78e9058c008e2b1f11cd581f557120d7" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="993fa5814ace1eb3e9c288eee6e8f08b8e84a6be" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="a6422eb8fb98ae7e365ba34bdb41c85df5d8a16c" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="f4c354508bfd6d4172c2f15c92e3eaf7bd3270a1" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f46eec4a9a2c0a6f15a1a92a42b50dbf36f309fd" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="323061f1b6ab85a288cc8f4b030f964738d2e648" />
+  <project path="ndk" name="platform/ndk" revision="95c8c2e2a428508277f1a75d0978b607ecb7b899" />
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="488665bb2c2d51d5102cc3b6ef8940d93fb5bf91" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="d7984a020180801b2eed3b5666e19ddbbc37e049" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="74b1a4ed7c6342a49b3456781433c03a9f65dfa3" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="2bb94948a5b41e07fb4885dd83b0fbb44e655aa7" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="19dcaad8567bcf29db6bb298a5999d965bb28731" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="c4668f85d8084ef6e00bb466992fc184ccf038c7" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="6be48efa31dc1d44bd8b9324a473b968e3e70dca" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="d0a76c156c678b107ad5bc97c548e68e46ae904c" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="74810e9bd81c3c59ff607702d51d95bf347b8252" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="fe60682965d5fe9e640c6c0179611c60bc9de3cf" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="f4f1e50de7aa8a0f8091e5c15ac2805e11961a54" />
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="5cd072dd544f65323b93deea57c0e398cb26b8fe" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="35089f2a4066a2d54d0d06a5c3a2880aa0d05e28" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="befd5c02b2d3393f200a3a5788b8aa112af9354c" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="1985d2994c41f33f0ef5d32f8447f017d44eb8f0" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="dbfabf9856a86fbe0f072edddae70fda52e8a46d" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="49d601bd922c881ccaa12a2133660cd516c86720" />
   <!-- Renamed to LegacyCamera in June 2012 -->
   <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="f3a22b8ec6f172831606598663dead220f76957b" />-->
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e639a94554521f0295ca213d22d2d826fe8fdb0d" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="03b0c5cdf1cbd7bcba24a6b742d9c129ac201fee" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="ba971463d8c182480d666a078f2ee14a863fd8bc" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="905cf88ce027d4e4fc9c00226f3a122ae376c54d" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="f9a72276546d9f67812710ab9b586dde244b44ee" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="9552cdc98acce868a279340b9f3f28f4139e60e2" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="ee1b2f834991453b9b5ab4eb6fef4466bd087d62" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="564006ddc695b9fa9ee2cf4325fab836b3136ad8" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="9378e28cdbeecb02d0a0ca3f97887494f17eb3fd" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="96d51e0d2128c3054c2d0bcc0e6dfddd650ceb5f" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="131f8e50e887fd8a68ca625ebadd84e4eccc3a4a" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="81050b45b7c59f322fec72f222330e4e85a9bfd8" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="d6d22dded2744a651182bd6c6a759a337f4ace9f" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="f97a1c0b4cd69f4d08d510143199661890c64a10" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="7aed495d94af4d0fcdac76317c0f1012a1a0868e" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="2915aa742dae05c6e565df7cc06e49acfae4e28a" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="449fd6a099f394cdd4bc0c5c7f22d5bb7efe3fd5" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="44d52e5c39aa8265e11673128799825d3c924c56" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="8fc86b96a850a5a4ed2dfcc30c51b8c70b612c57" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="1e19053ce0c1e35e26bfaa6fc160dfaea9d80b2c" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="277aa756946e032ac721b07b01e386ccfd24f7ae" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="5a10c91ce919139a5cc7ddfa7e41b76c22360f66" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="651c78da048c7e87a10688863641cf4124d47979" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="53f654f3948f5d7bc248a0e6e0457e9ee367364a" />
   <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally (since 4.1) up to that point only for the "NEW" Email app, which is included here before being replaced with the ICS MR1 one again on 3 May 2012. --> 
-  <!-- Not in use until 12 December 2012 -->
+  <!-- Not in use until 12 December 2011 -->
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="3ab7e8a31614de25fe7ec18252002be09a87fe7c" />
-  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="f040812992feed8a3ded3adb435655f699adbb5b" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="0056988878ba59444110571bddc5d1307d7b02f2" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="24de688f2f0ac01dc02312865cbabd00adaf33d0" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="8dcb2e3b0783a4acb8687bf2265647850b7733a6" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="7f589e5bfd36e4a8ca55597b4b484acc5d851018" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="2fd37c48b3b0951edc85b4be002dcbe37d95d698" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="54a6c982df304bcbd865e96d5a9b30f0f7f87067" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="5a7493236fe08b352f8b975e841de4c5357caa08" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="1ce98629f74ef97a30047b91bbc36dbf1f98d653" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="1d744930098f62eaab972f91da23fae5c4f33acb" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="e9b25242d95d6e04d58b53558943054df7c31e7d" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="c883b50491cf1403781fbb4d417040a1491c4852" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="febd5117df1018eda7edc0ba3a3c82503d251529" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="1bbada4a87f3924316e207a21e65456d720dcd2a" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="4dc73b624afd2cc96cd9a59538b33b57625c4dbb" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="9b32b99cbe494373b3d4ecd8976c9a4e385d745b" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="a3984a798d8a834021f267e8529c1df8238543d7" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="e4e9ee0d5c8ba708ed4c56393150fb6aa1184c62" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="7aa548e9a7d18414671c5cd1bbf6278f83b76d12" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="3d087cb4b97964710fc466b59ef5f9516d941da1" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="98386865c5cdffe95ff0d2d19fd41baa23085b7e" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="ddabd031eb5157506e48998bd88258b075abcfdb" />
+  <!-- Not in use until 14 May 2012 -->
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" revision="6b04cb56970c528aaf379a64c1492af01ce9ef7e" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="167566461cdaa669634e360e6e969fbd58ed16a0" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="cd27ed1aaa6d7a07bf232a821a62a43692578ec9" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="d7eb9d4b59640175877a6f53f32b6e3e3d7154e9" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="f3fee846868fe394d5e9348ae9dc69c5296318fa" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="02ea6e10a9c5775eac9df5cb3c8276b9c218f16a" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" revision="a5a0fb88861b6ada41bad777f42421cbebd193fd" />
-  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="b0339ceddc470689a993374475c11a0ba0021786" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="e4b59fb10e7d0e9d3b4d94bb3a690678bd2f695c" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="2fffdd3089ba8895f5aa2f5adc9d003f493b68d8" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="56677aba6f4e6aaa0b0fa134cb1cc45237b21cb0" />
+  <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" revision="53cafcb8d1ab1b3a4e544edf63092c090282f471" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="4dcab79a80a8d86f250b864960b1c0003f2d70c9" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="1631a44a35857bad4972892fd4f4777c669daa61" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="9e454978e896e9b03ba1a06524858dc41ca5fc9c" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="4154cea31097a003bdceb9e50f4d69e3ec50e223" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="5cc9b223bc9aa7c45bbb995ab1648286f8d04bbe" />
+  <!-- Not in use until 12 March 2012 -->
   <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
-  <project path="prebuilt" name="platform/prebuilt" revision="fc40aa3181160924e8fe51cfc8214cfab148fd55" />
+  <project path="prebuilt" name="platform/prebuilt" revision="b243768d84a8563343e43c8ed307f7ff057a0fd2" />
+  <!-- Not in use until 19 April 2012 -->
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
+  <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <!-- Not in use until 4 January 2012 -->
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="a372811b0c7cf920eabb4b9d8d079aa509cef4b2" />
+  <!-- Not in use until 16 April 2012 -->
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" revision="ab3b7cbd040e44324deb24cf68f5c4b92631d2a6" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+  <!-- Not in use until 9 January 2012 -->
   <project path="prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" revision="7332c44eba74e08c6f8a95a5de999c404248d065" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+  <!-- Not in use until 16 February 2012 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="9c70d52e35b00ae90f0a29efbe191f8ebc8f51eb" />
+  <!-- Not in use until 4 January 2012 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="bb91c1a10991c8c3245b6a578b99393fe6495af6" />
+  <!-- Not in use until 9 January 2012 -->
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="4c0f9817f605ad9f6da98b46aa1530f6af97de1b" />
+  <!-- Not in use until 10 March 2012 -->
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="6e29c6df94faed985db57a1875cbcd317698c0fd" />
+  <!-- Not in use until 10 March 2012 -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="c054f352bafcffa05812051dc16053926dc99489" />
+  <!-- Not in use until 16 April 2012 -->
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="b832c77812d4735e04acf368e0f2b7628fc4b242" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+  <!-- Not in use until 9 January 2012 -->
   <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" revision="e3fe0334bbf8c904fa5a556ceff6a3ff7aad183c" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="a35d07a4629e514c566c87757d6407fcdcd6fef0" />
+  <!-- Not in use until 9 January 2012 -->
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="426227e89248a29ab7d4ce8440fc43c95c110bf7" />
+  <!-- Not in use until 29 November 2011 -->
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" revision="01bcdfab92e34f2c2af4ab723c7f3bbf397e21f8" />
+  <!-- Not in use until 5 January 2012 -->
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="682a1b342e6b4901cf0cc102925ca7b6457d682c" />
+  <!-- Not in use until 29 November 2011 -->
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="c10b88d2365e173f0038279d981f985bb48276ee" />
+  <!-- Not in use until 6 December 2011 -->
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="88968e44f35345bdf685db43e57e067537c5ab38" />
-  <project path="sdk" name="platform/sdk" revision="56aa9b3c98a86be3ae01466d71d64dab31dd85f0" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" revision="a816b24b045ae827f8fdd75041ebc0f2fad1d160" />
-  <project path="system/core" name="platform/system/core" revision="c06301db1dbd8e0e7806134a894f01c0fb9fb570" />
-  <project path="system/extras" name="platform/system/extras" revision="a4b510ac884c061229037a5a0b08af3ce1056764" />
-  <project path="system/media" name="platform/system/media" revision="e7dd8136dc179f1ab70efc077857aca8d63b649d" />
-  <project path="system/netd" name="platform/system/netd" revision="29563474fd66b03d5bc5b11bc54cd4001e2327a7" />
+  <project path="sdk" name="platform/sdk" revision="fc6ab562778daea2db3141294cbf5f7ca3b37445" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" revision="328890869f2053131fb9df4f054e3ec6014189c4" />
+  <project path="system/core" name="platform/system/core" revision="f48311073d62068c3978650d3e3d1e367543e6c2" />
+  <project path="system/extras" name="platform/system/extras" revision="82a646669008a70924f1f558630a0e2b660c5748" />
+  <project path="system/media" name="platform/system/media" revision="5265bf10dad1d1f0e62d06dff8f0416329df8db1" />
+  <project path="system/netd" name="platform/system/netd" revision="068c39911794c8a334a4b241a06ffa9673b6a803" />
+  <!-- Not in use until 15 February 2012 -->
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
-  <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
+  <project path="system/vold" name="platform/system/vold" revision="71189e7f31dad5ef31d7f250e76034b7b0b478fb" />
 
 </manifest>
