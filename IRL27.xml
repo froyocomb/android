@@ -328,8 +328,6 @@
   <project path="prebuilt" name="platform/prebuilt" revision="b243768d84a8563343e43c8ed307f7ff057a0fd2" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
-  <!-- Not in use until 19 April 2012 -->
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
   <!-- Not in use until 4 January 2012 -->
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="a372811b0c7cf920eabb4b9d8d079aa509cef4b2" />
