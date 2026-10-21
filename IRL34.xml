@@ -206,7 +206,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" revision="f857b2fbf79b6c167d03fc7417f6f9ad9c6e2abd" />
   <project path="external/valgrind" name="platform/external/valgrind" revision="2e4fce92df8ee2501dfc5a3aec1fc5be127610c8" />
-  <project path="external/webkit" name="platform/external/webkit" revision="9f3355b57b144ac285d6bb28e39268a8e9f26fd6" />
+  <project path="external/webkit" name="platform/external/webkit" revision="092270aeda4095dfd07d579f1d2e99bcdf386c04" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" revision="4b6dc1ec58105d17dc8c2f550124cc0621dc93b7" />
   <!-- Required for compile by libhardware_legacy at this time -->
