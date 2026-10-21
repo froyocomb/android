@@ -225,12 +225,12 @@
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" revision="52b519a2d1b0a29b8e76230ee7f9625fd25dda2a" />
   <!-- Not in use until 17 March 2012 -->
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" revision="7a83dfa572a3ae9da136c30c62f6d6cdab3dd064" />
-  <!-- Slightly newer commit to adjust to LLVM r144606 -->
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="6bccf10de15053b12b323c10a03c6ef4dfbb9cdf" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="7d5b3122249097568d909339e1347f0db7854b5c" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <!-- Not in use until 9 March 2012 -->
   <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" />
+  <!-- Not in use until around March 2012 -->
   <!--<project path="frameworks/native" name="platform/frameworks/native" revision="df86d3033e6fc2f12e653a4e0dfd0d0c62adce8c" />-->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="9a91eb9d6c3c28b54223dae453c9d456b0c87355" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87" />
