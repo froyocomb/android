@@ -279,7 +279,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="20f1e1e2ed63d16fb827a3153af01cbe5caa4405" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="92b24f5b7f8273313d081abf2e6824a2fd76c001" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="7abe780f4f680c36b066ea0ca6d3ee7de0dd47bc" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="3b5e70a826cfbcbf67a261cb91046c4b0727718f" />
   <!-- Renamed to LegacyCamera in June 2012 -->
   <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="f3a22b8ec6f172831606598663dead220f76957b" />-->
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="b09180c7a166e7ba10554f6c5a90f69f28c31545" />
