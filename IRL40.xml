@@ -40,8 +40,7 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" revision="84dba73863022e2d0e24d77a6362c81ecf7fb53a" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="3ac565f528e5b20b6f1a50c1cd22694bcc6144f6" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" revision="e616fb81607d1a9fb9f7e83f4b11d96c1ce2d58f" />
-  <!-- Needs checking -->
-  <project path="device/samsung/toro" name="device/samsung/toro" revision="1d15f830e48fb29192377a86eb62ee07951985e7" />
+  <project path="device/samsung/toro" name="device/samsung/toro" revision="96a0adda8cc11341299822bd59dc57ee018e5103" />
   <!-- Not in use until 13 January 2012 -->
   <project path="device/samsung/torospr" name="device/samsung/torospr" revision="33866ce5437aeaa3570faeea568664c412a7485e" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" revision="dd734553370ff79bde9d89b2196dbdb9992ec119" />
@@ -268,7 +267,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="1c281b0f3605de971505356b5589b9ed913d1f53" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="79075566fffcc814db4763b276281808008adcc1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="c616e89562b85058d1b1307eaa453062a2ec160e" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="9a4396a855531fd4344baea72d50b1d496222326" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="9512391e6f056dae58420feae804f0a227cae71a" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="4b41c4d935a0029c8fc075f4899191413e5bffc0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="0430d98c0c85bab87d53095f838ea81a94e1348c" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="86b2f598353c8f93512df3deeb07fd5f0ff1f558" />
@@ -325,11 +324,9 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="215739d0d4cfc580ddaaedd2a60caaa363edf312" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" revision="4154cea31097a003bdceb9e50f4d69e3ec50e223" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" revision="5cc9b223bc9aa7c45bbb995ab1648286f8d04bbe" />
-
-
   <!-- Not in use until 12 March 2012 -->
   <project path="pdk" name="platform/pdk" revision="9d85bee9f1f83696a3b90f538be5634a795eae1d" />
-  <project path="prebuilt" name="platform/prebuilt" revision="f3f862c0b765050799ae156fcedab59abfade33c" />
+  <project path="prebuilt" name="platform/prebuilt" revision="8928d360a6b431286e8f61bc7d5b7a508875c4be" />
   <!-- Not in use until 19 April 2012 -->
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="293a542db733c69ef443f366ad7a6ae0c4887c40" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
@@ -367,12 +364,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" revision="c10b88d2365e173f0038279d981f985bb48276ee" />
   <!-- Not in use until 6 December 2011 -->
   <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="88968e44f35345bdf685db43e57e067537c5ab38" />
-  <project path="sdk" name="platform/sdk" revision="8c231ea2eddd034a6676cbece545def66baadb3f" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" revision="8bc0d11a2e2dd8974317c3df0ae71dbd3c520dd7" />
-  <project path="system/core" name="platform/system/core" revision="4dbc0f3f6d27f223868422e40862ed7338d7d215" />
-  <project path="system/extras" name="platform/system/extras" revision="e8d74ff5c3253403d3e5c96edc80dfc3e5f8ada8" />
-  <project path="system/media" name="platform/system/media" revision="272ad38a9354ac94dbf0a8a57e341ce091bf295b" />
-  <project path="system/netd" name="platform/system/netd" revision="47441ce12d8ac4e7f3c3fb1354a3ae50b802c2bd" />
+  <project path="sdk" name="platform/sdk" revision="85067bfc3704f96b202a8dd785b74901dd6b1a9b" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" revision="a816b24b045ae827f8fdd75041ebc0f2fad1d160" />
+  <project path="system/core" name="platform/system/core" revision="c5a63217db7f7fb62468cd890006d0d626fb6978" />
+  <project path="system/extras" name="platform/system/extras" revision="a4b510ac884c061229037a5a0b08af3ce1056764" />
+  <project path="system/media" name="platform/system/media" revision="a08db6a6a72a722e0ae25107885ade01934a3199" />
+  <project path="system/netd" name="platform/system/netd" revision="29563474fd66b03d5bc5b11bc54cd4001e2327a7" />
   <!-- Not in use until 15 February 2012 -->
   <project path="system/security" name="platform/system/security" revision="984d6fa91345087eb50af3829f6d1ff20db8c7bf" />
   <project path="system/vold" name="platform/system/vold" revision="8c4873319a77c54cc198a4e5f4429099ff9da4f7" />
