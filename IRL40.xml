@@ -267,7 +267,7 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="1c281b0f3605de971505356b5589b9ed913d1f53" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="79075566fffcc814db4763b276281808008adcc1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="c616e89562b85058d1b1307eaa453062a2ec160e" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="9512391e6f056dae58420feae804f0a227cae71a" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="9a4396a855531fd4344baea72d50b1d496222326" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="4b41c4d935a0029c8fc075f4899191413e5bffc0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="0430d98c0c85bab87d53095f838ea81a94e1348c" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="86b2f598353c8f93512df3deeb07fd5f0ff1f558" />
